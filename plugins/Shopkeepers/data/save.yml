@@ -1,0 +1,582 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyway, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|2975
+'6':
+  uniqueId: 9941d074-61ca-42ef-bf23-ea740d81512e
+  world: world
+  x: 7
+  y: 139
+  z: -9
+  yaw: 56.90435
+  type: admin
+  name: ''
+  object:
+    type: citizen
+    npcId: d6c05d29-8dc4-42b8-82af-8d35b801514a
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: ENDER_PEARL
+        amount: 16
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: PRISMARINE_CRYSTALS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+            "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+            "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+            "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được
+            15 "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"dark_gray","text":"Xương
+            Thường"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Được đánh ra từ Hiệp Sĩ Xương"}'
+          enchants:
+            LUCK: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeCuKM3PSy/JAJEMAPszmrMfAAAA
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: GOLDEN_APPLE
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: PRISMARINE_CRYSTALS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+            "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+            "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+            "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được
+            15 "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BONE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"dark_gray","text":"Xương
+            Thường"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Được đánh ra từ Hiệp Sĩ Xương"}'
+          enchants:
+            LUCK: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeCuKM3PSy/JAJEMAPszmrMfAAAA
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: END_CRYSTAL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"MAX
+            LEVEL"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+            "},{"bold":true,"italic":false,"color":"dark_gray","text":"Chuột Phải
+            "},{"bold":false,"italic":false,"color":"gray","text":"để kích hoạt"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Sẽ
+            giúp bạn nhật được max level của hệ mà bạn đang dùng ngay lập tức"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: PRISMARINE_CRYSTALS
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+            "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+            "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+            "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được
+            15 "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BONE
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"dark_aqua","text":"Xương
+            Vua"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Đây là xương của một vị vua da
+            đen"}'
+          enchants:
+            LUCK: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeCoKM3PSy8rTWQAALdJpagcAAAA
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: REDSTONE_TORCH
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Key
+            Hệ"}],"text":""}'
+          enchants:
+            LUCK: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: PRISMARINE_CRYSTALS
+        amount: 40
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+            "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+            "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+            "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được
+            15 "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BONE
+        amount: 20
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"dark_aqua","text":"Xương
+            Vua"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Đây là xương của một vị vua da
+            đen"}'
+          enchants:
+            LUCK: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeCoKM3PSy8rTWQAALdJpagcAAAA
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: NETHER_STAR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+            "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"},{"bold":true,"italic":false,"color":"yellow","text":"VIP"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+            "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin"},{"bold":true,"italic":false,"color":"yellow","text":"VIP
+            "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được
+            100 "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: PRISMARINE_CRYSTALS
+        amount: 5
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+            "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+            "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+            "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được
+            15 "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BONE
+        amount: 12
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"dark_aqua","text":"Xương
+            Vua"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Đây là xương của một vị vua da
+            đen"}'
+          enchants:
+            LUCK: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeCoKM3PSy8rTWQAALdJpagcAAAA
+    '6':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: PRISMARINE_CRYSTALS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+            "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}'
+          lore:
+          - '{"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+            "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+            "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được
+            15 "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BONE
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"dark_aqua","text":"Xương
+            Vua"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Đây là xương của một vị vua da
+            đen"}'
+          enchants:
+            LUCK: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeCoKM3PSy8rTWQAALdJpagcAAAA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: BONE
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"dark_gray","text":"Xương
+            Thường"}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Được đánh ra từ Hiệp Sĩ Xương"}'
+          enchants:
+            LUCK: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZeCuKM3PSy/JAJEMAPszmrMfAAAA
+  snapshots: []
+'8':
+  uniqueId: 189e207c-aba8-4553-8b5f-34e774b5e1b2
+  world: Spawn
+  x: -1341
+  y: 67
+  z: -448
+  yaw: 225.0
+  type: admin
+  name: SHOP
+  object:
+    type: villager
+    baby: false
+    profession: minecraft:none
+    villagerType: minecraft:plains
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: TRIPWIRE_HOOK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"KEY
+            KHU "},{"bold":true,"italic":false,"color":"yellow","text":"1"}],"text":""}'
+          enchants:
+            THORNS: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYOBg4HB01nMuSixJZWDJzig15GDgcvR11gtKLU8sSmHg8E6tBEtyMPCBhN1Kc3LQpRgAZoERL0cAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: SCUTE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Vật
+            Siêu Chế Tạo"}],"text":""}'
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: PRISMARINE_SHARD
+        amount: 32
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"bold":true,"italic":false,"color":"green","extra":[{"bold":true,"color":"yellow","text":"1"}],"text":"Mảnh
+            Nâng Cấp "}'
+          lore:
+          - '{"italic":false,"color":"gray","text":"Dùng để đổi lấy đá nâng cấp"}'
+          enchants:
+            LURE: 1
+          internal: H4sIAAAAAAAA/+NiYOBg4PaNDPHwdI4PiQxwZWDJTczLYAAAdoSl9RgAAAA=
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_green","text":"Đá
+            Nâng Cấp "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}'
+          lore:
+          - '{"extra":[{"italic":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"italic":false,"color":"gray","text":"Dùng để nâng cấp trang
+            bị"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjlY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/ublbIO7wIyE5+uGtpgUJJUSKQnfRwd7dSLAeDENxwEBkfEhngysDh6xjiGuTp6MPBIIAq7enCwBEa4B7k6OIaxMHAC5cEOsuVQe7QciO1nCMTDi9U8APb5wy2T81MLSfIMciVg4HPIzgkKDLe1c/Zw9EvJJjBq1opuCSxRMlKCSYEdLy/e3BJflGlklV0tRLcfJh8/OGNxSVFQA3RMUo5pUWpCoYxSrFKtbG1HAyCGIoZuKKhikAe5YJYDnZpCNxiEBeXpSA5uIX4/QZxAiI8wBGkCYogoqKBAQAWFvWj6AEAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Đá
+            Nâng Cấp"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Dùng
+            đổi sang mảnh nâng cấp"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              slot: HAND
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjVY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/unpqpUJwIZOc+3LU4L0Mh7/AiICf54a6lBUqxHAxCcONBZHxIZIArA4evY4hrkKejDweDAKq0pwsDe2iAe5CjiysHAy9cDuguVwbRQ8uN1HKOTDi8UMEPbIczyA4OBj6P4JCgyHhXP2cPR7+QYAavaqXgksQSJSslmBDQ0f7uwSX5RZVKVtHVSnBjYfLxhzcWlxQBNUTHKOWUFqUqGMYoxSrVxtZyMAhiKGbgioYqAnmPC2I52IHecItBXFyWguTgFmL1EsRmhO/B8aENig8iQ50BABoHlFnZAQAA
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_green","text":"Đá
+            Nâng Cấp "},{"bold":true,"italic":false,"color":"yellow","text":"EPIC"}],"text":""}'
+          lore:
+          - '{"extra":[{"italic":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"italic":false,"color":"gray","text":"Dùng để nâng cấp trang
+            bị"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjlY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/ublbIO7wIyE5+uGtpgUJJUSKQnfRwd7dSLAeDENxwEBkfEhngysDh6xjiGuTp6MPBIIAq7enCwBEa4B7k6OLqysHAC5cEOsuVQe7QciO1nCMTDi9U8APb5wy2Ty1VLcc1wNOZg4HPIzgkKDLe1c/Zw9EvJJjBq1opuCSxRMlKCSYEdLy/e3BJflGlklV0tRLcfJh8/OGNxSVFQA3RMUo5pUWpCoYxSrFKtbG1HAyCGIoZuKKhikAe5YJYDnZpCNxiEBeXpSA5uIX4/QZxAiI8wBGkCYogoqKBAQAAHSfS6AEAAA==
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Đá
+            Nâng Cấp"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Dùng
+            đổi sang mảnh nâng cấp"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              slot: HAND
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjVY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/unpqpUJwIZOc+3LU4L0Mh7/AiICf54a6lBUqxHAxCcONBZHxIZIArA4evY4hrkKejDweDAKq0pwsDe2iAe5CjiysHAy9cDuguVwbRQ8uN1HKOTDi8UMEPbIczyA4OBj6P4JCgyHhXP2cPR7+QYAavaqXgksQSJSslmBDQ0f7uwSX5RZVKVtHVSnBjYfLxhzcWlxQBNUTHKOWUFqUqGMYoxSrVxtZyMAhiKGbgioYqAnmPC2I52IHecItBXFyWguTgFmL1EsRmhO/B8aENig8iQ50BABoHlFnZAQAA
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_green","text":"Đá
+            Nâng Cấp "},{"bold":true,"italic":false,"color":"aqua","text":"LEGENDARY"}],"text":""}'
+          lore:
+          - '{"extra":[{"italic":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"italic":false,"color":"gray","text":"Dùng để nâng cấp trang
+            bị"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjlY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/ublbIO7wIyE5+uGtpgUJJUSKQnfRwd7dSLAeDENxwEBkfEhngysDh6xjiGuTp6MPBIIAq7enCwBEa4B7k6OIKlOSFSwKd5cqgfGi5kVrOkQmHFyr4ge1zBtunlqSW4+Pq7urn4hgUycHA5xEcEhQZ7+rn7OHoFxLM4FWtFFySWKJkpQQTAvrA3z24JL+oUskquloJbglMPv7wxuKSIqCG6BilnNKiVAXDGKVYpdrYWg4GQQzFDFzRUEUg33JBLAc7NxJuMYiLy1KQHNxCIjwIcQciZMBRpQmKKqIihAEAe6zFevIBAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        amount: 3
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Đá
+            Nâng Cấp"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Dùng
+            đổi sang mảnh nâng cấp"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              slot: HAND
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjVY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/unpqpUJwIZOc+3LU4L0Mh7/AiICf54a6lBUqxHAxCcONBZHxIZIArA4evY4hrkKejDweDAKq0pwsDe2iAe5CjiysHAy9cDuguVwbRQ8uN1HKOTDi8UMEPbIczyA4OBj6P4JCgyHhXP2cPR7+QYAavaqXgksQSJSslmBDQ0f7uwSX5RZVKVtHVSnBjYfLxhzcWlxQBNUTHKOWUFqUqGMYoxSrVxtZyMAhiKGbgioYqAnmPC2I52IHecItBXFyWguTgFmL1EsRmhO/B8aENig8iQ50BABoHlFnZAQAA
+    '5':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"color":"dark_green","text":"Đá
+            Nâng Cấp "},{"bold":true,"italic":false,"color":"dark_red","text":"MYTHICAL"}],"text":""}'
+          lore:
+          - '{"extra":[{"italic":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"italic":false,"color":"gray","text":"Dùng để nâng cấp trang
+            bị"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjlY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/ublbIO7wIyE5+uGtpgUJJUSKQnfRwd7dSLAeDENxwEBkfEhngysDh6xjiGuTp6MPBIIAq7enCwBEa4B7k6OLqy8HAC5cEOsuVAWivkVrOkQmHFyr4ge1zBtunZqKW4xsZ4uHpDDKQzyM4JCgy3tXP2cPRLySYwataKbgksUTJSgkmBPSAv3twSX5RpZJVdLUS3A6YfPzhjcUlRUAN0TFKOaVFqQqGMUqxSrWxtRwMghiKGbiioYpAnuWCWA52bQTcYhAXl6UgObiFhP0HcQYiXMARpQmKKKKigwEABnu93/ABAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 2975
+        type: HEART_OF_THE_SEA
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Đá
+            Nâng Cấp"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Material"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Dùng
+            đổi sang mảnh nâng cấp"}],"text":""}'
+          enchants:
+            LURE: 1
+          attribute-modifiers:
+            GENERIC_ATTACK_SPEED:
+            - ==: org.bukkit.attribute.AttributeModifier
+              amount: 0.0
+              name: mmoitems:decoy
+              slot: HAND
+              uuid: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+              operation: 0
+          ItemFlags:
+          - HIDE_ATTRIBUTES
+          internal: H4sIAAAAAAAA/+NiYOBgEPX19fcMcfUNjneJ9HP09XSO9/EPcmVwjVY6tDzt0PJk38SS1KLMxBwlHZAAhDy03Nzl8M68dIUjEx/unpqpUJwIZOc+3LU4L0Mh7/AiICf54a6lBUqxHAxCcONBZHxIZIArA4evY4hrkKejDweDAKq0pwsDe2iAe5CjiysHAy9cDuguVwbRQ8uN1HKOTDi8UMEPbIczyA4OBj6P4JCgyHhXP2cPR7+QYAavaqXgksQSJSslmBDQ0f7uwSX5RZVKVtHVSnBjYfLxhzcWlxQBNUTHKOWUFqUqGMYoxSrVxtZyMAhiKGbgioYqAnmPC2I52IHecItBXFyWguTgFmL1EsRmhO/B8aENig8iQ50BABoHlFnZAQAA
+  snapshots: []

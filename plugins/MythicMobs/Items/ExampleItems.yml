@@ -1,0 +1,61 @@
+SkeletonKingSword:
+  Id: DIAMOND_SWORD
+  Display: '&3Greatsword of the Skeleton King'
+  Lore:
+  - '&6A powerful sword used by'
+  - '&6the King of Skeletons.'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
+  Attributes:
+    MainHand:
+      Health: 10
+      MovementSpeed: 0.1
+KingsCrown:
+  Id: GOLDEN_HELMET
+  Display: '&dCrown of the King'
+  Lore:
+  - '&6A kingly crowl that grants'
+  - '&6the wearer unwavering power!'
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - PROTECTION_PROJECTILE:2
+  - PROTECTION_FIRE:2
+  - PROTECTION_EXPLOSIONS:2
+  Hide:
+  - ATTRIBUTES
+  - ENCHANTS
+  Attributes:
+    Head:
+      Health: 10
+      KnockbackResistance: 10
+BanditTunic:
+  Id: LEATHER_CHESTPLATE
+  Display: '&aBandit Tunic'
+  Lore:
+  - '&6A leather tunic taken from'
+  - '&6the corpse of a bandit.'
+  Options:
+    Color: 255,40,40
+xuongvua:
+  Id: BONE
+  Display: '&3&lXương Vua'
+  Enchantments:
+  - LUCK 1
+  Lore:
+  - '&7Đây là xương của một vị vua da đen'
+xuongthuong:
+  Id: BONE
+  Display: '&8&lXương Thường'
+  Enchantments:
+  - LUCK 1
+  Lore:
+  - '&7Được đánh ra từ Hiệp Sĩ Xương'
+manh:
+  Id: PRISMARINE_SHARD
+  Display: '&a&lMảnh Nâng Cấp &e&l1'
+  Enchantments:
+  - LURE 1
+  Lore:
+  - '&7Dùng để đổi lấy đá nâng cấp'

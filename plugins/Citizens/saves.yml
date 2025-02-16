@@ -1,0 +1,180 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 7
+npc:
+  '5':
+    metadata:
+      cached-skin-uuid: 0245dab6-9222-45ba-8501-6bf5ff9f323b
+      cached-skin-uuid-name: axolotlstk
+      nameplate-visible: 'true'
+    name: '&e&lSHOP TRADE'
+    uuid: d6c05d29-8dc4-42b8-82af-8d35b801514a
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: 108.864426
+        world: world
+        x: '7.5'
+        y: '139.0'
+        z: '-8.5'
+        yaw: '128.8644'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: Njn/sQFz6hF5senhQ3W3nDRiW2jxhh4H8c7I73DelrSt5ptgd7TYKu9qv6vketeaY8UURVj/URowsvqIOWfu0BgrCmmUxkNLKuF0wuKoGrDsu6Hb68BRNyjapJFJoigffLuUIA+PkkZWeEkwBDePhCtqfZ4/UYTuOe7v/T+A/bQWVwzh9ewdqL9l2eePEmq/T0/tzR8Avn+EefV+HbbzN/W2MLBssOG+5TVrs1AFW3oq/gmTt7MtJjyaTBVx3h8zAcY6o+EDGQNMdLnHGteuFX2RTItpQUq9OsAwf+uXV2P5zG/MGL4eamylDmk7LoMKWRP+vGCtOILKkoHeXJl4HRMz064LKDjyzflhq5BjPYaU0t9uRycdwcOrcByFbEKX5E+epDxoHNYqkWmSpBv5Oyjln4+i/B1P1yi/mb0rRbilp80FX+PU9bqiPJdZ7H1I57XUxI0Sz4vBnJBuk0dO1u+UII3YcAFaVVTmiSJnzZrB0pISYS7KlZ3Pu9NBeRPM/gRJtnculuNnOoK4CaOZYo7GZnPPHcMZwy+zcBG9wQdW1tsorjJTeJeXlTu6mIZnZISu5kmhoexLmZ8IVgrIkKAz/9VGHhxqVW9i2QXsV/QWoq6I03fZNlkr1zl/wsV9GvaBFEWlsi+ZayuVSApilvQ4Is8zWU1PI8cdRuWkTwM=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNjQyOTUwODAyMCwKICAicHJvZmlsZUlkIiA6ICIwMjQ1ZGFiNjkyMjI0NWJhODUwMTZiZjVmZjlmMzIzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJheG9sb3Rsc3RrIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzZDg2MjU2NDg5OWVkYjM3YTQyZTYzMDZmNGFmYTg4MmIyMzY1ZTMwZTBiNmQ2ZTkwMmE3ZGZkZmYwZWYxYmEiCiAgICB9CiAgfQp9
+        updateSkins: false
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+    traitnames: type,scoreboardtrait,inventory,lookclose,location,rotationtrait,mounttrait,skintrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '4':
+    metadata:
+      cached-skin-uuid: f91abb5b-1a35-41ad-90a3-8af1340dbeab
+      cached-skin-uuid-name: menu
+    name: '&e&lMENU'
+    uuid: 2db4a4bf-e339-4fa4-a57d-cdc923facb15
+    traits:
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: -139.27734
+        world: world
+        x: '-6.4672'
+        y: '139.0'
+        z: '-8.4872'
+        yaw: '-139.2773'
+        pitch: '0.0'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: FDt/4VGLAHQB/LVq8JD3YwvguYp6CmqFAEfeRql6XfHQbAXGZn5tnFVMXHNhPyQypZC+PUme6ZKFm+FQ8ZoMtVDJyhWyVmIdJY8++73FzMRNKHkWQD1451RAy9CFa0yBNIdI6WAocszwK8UV3LnSaF+ufY89nlKInErLsl685p9ubYFYMf+voLpnhpbOLbYYCVr3zuWvpHJOg4SwgBuFadZINkXdGjD3s7ZtxgDjWuUNeIzYOdAA2GH4ZgibxNKcwfKrA+pfyvjp1O/mlXw+xnPk/2Fg5YDxRQD3biPQD/zcAhrmmDwmQAY2wRjK5T5QbjT4VD54Qt6LLEXgBK6Dgc4x2qy4eHHgqGzzqUKhkfN40o4gTPbJGk2chpo6BWfu2SPYQeM+4q0mQ7/qRFNmB4IMG9O696pnJjl3dc0vSakz89ufmkRHvsMPQykDOurJi4BFg7ijUnxQG4XE+Lu3lYgScHUlkD74wP1csBqm1envKJlSz6LNtU0iSa8fAsGZaRujYGzyfjxgWoDnvQaZGGX5bCdBqKyOa7O13c/hqz61/xQON7joQFGZPLxBf3lCSKH4U/FYHasZ6FcmDoHZ6mHaL78mwNbOrHtGw7lSyNZ2olJDPOGd8n65nLjGE5wzLdnmhgJ3GIc5mlVwRpk+kEcps/u3miCCZo2WVIObBGk=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczNjMyNzAxNzg2NywKICAicHJvZmlsZUlkIiA6ICJmOTFhYmI1YjFhMzU0MWFkOTBhMzhhZjEzNDBkYmVhYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZW51IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkODg5ZGIxNDc2Mjk0MzA1NzM0MGE5ODY1ZmNjMDFiNzhlY2M3M2MwNmNjMzZkNjE0MWFkODFjNWVhNjlhZmIiCiAgICB9CiAgfQp9
+        updateSkins: false
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: b1616f7d-20ba-3499-aea3-59ab27d4941c
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '6':
+            command: cc open menu %player%
+            hand: RIGHT
+            player: false
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: type,scoreboardtrait,inventory,lookclose,location,commandtrait,rotationtrait,owner,mounttrait,skintrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '6':
+    metadata:
+      cached-skin-uuid: a05deec0-7a0e-4076-87cb-dc5dcaca8586
+      cached-skin-uuid-name: villager
+      nameplate-visible: 'false'
+    name: villager
+    uuid: 5de49d80-0208-4a01-adf9-c223614d5e99
+    traits:
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        uuid: b1616f7d-20ba-3499-aea3-59ab27d4941c
+      skintrait:
+        fetchDefaultSkin: true
+        signature: q/dxUR8X5oPcooDzi1eFU5asj4l2oc6leXkdTHPfN/nEafltJkrpLJp4pfen/pavetZuNkji/tgV1hrHmUb/excwbluEgVn20W8Pd5AdBZlJ0B8fgIrC9UHXewMkdEcftwYUZJQXGQhtHPDneUhcA0xSsCD6v3NbkHxRZFOji/xuR6GazAOJI1Nc+qGl2tStz/WS6sy/wqugpO4LIgVEYlcuEfLU7N0WCyQ8+vYJelvw5wst6uJ/QfO341vRNxkUY/igjJj98hYEC+h1qCBRQewzE4CisXyGXfG5mTX9XsGS4XGpglECELVcDnZC01woZ+lQsrNxrGPth6M6Q5Xj9BHiXdgIjNneZpF6kVjQKFgZzv10gsMitRMNc2aZiX/NvFDrRiDT8bDk2VLklEVHoI9Wp8zA0CpCnM1oVvlN1eqcj3Nc09GsZscsyJd33i9D/0pdw2y/95OBX1ZqWOPH0vuKCYQKVPeVGrQYddvHyVmxVsCSKrhXhzohlF988WhNgS5Jk3Lttl2war5QlJOW1MFIeKMRNtYak5i3Tv3THr054I+hrAJ0VXzDK3YtOIMWUOAy48zwB0unF5nffHCfSDH9hTsD78wnSZtfpydvz2eROBNcrqA3kXU2+CVWFZSQIvHGnHZCSX8Og1ONmykcGh1IcpXG1UUiIuSkhXX9sO0=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTczOTU4NzI1NzM0MSwKICAicHJvZmlsZUlkIiA6ICJhMDVkZWVjMDdhMGU0MDc2ODdjYmRjNWRjYWNhODU4NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWxsYWdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YWY3YzA3ZDFkZWQ2MWIxZDMzMTI2ODViMzJlNDU2OGZmZGRhNzYyZWM4ZDgwODg5NWNjMzI5YTkzZDYwNmUwIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      spawned: true
+      type: PLAYER
+      location:
+        bodyYaw: -130.79263
+        world: Spawn
+        x: '-1355.5363'
+        y: '68.0'
+        z: '-435.4779'
+        yaw: '-130.7926'
+        pitch: '4.8919'
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1
+        hideErrorMessages: false
+        persistSequence: false
+        commands:
+          '0':
+            command: quest
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: type,scoreboardtrait,lookclose,inventory,hologramtrait,location,commandtrait,rotationtrait,owner,mounttrait,skintrait,spawned
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

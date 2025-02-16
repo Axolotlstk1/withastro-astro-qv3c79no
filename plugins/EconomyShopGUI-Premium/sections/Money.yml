@@ -1,0 +1,6 @@
+enable: true
+item:
+  material: GOLD_NUGGET
+  displayname: '#06FF1F&lTiền Tệ'
+  name: '#06FF1F&lTiền Tệ'
+slot: 11

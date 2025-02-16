@@ -1,0 +1,182 @@
+'Thunder god': 
+  name: 'Thunder god'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '10'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '30'
+    'cooldown-scale': '0'
+    'mana-base': '18'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'TWISTING_VINES'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            sound: 'Block End Portal Spawn'
+            'volume-base': '50'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Particle Animation': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            steps: '12'
+            frequency: '0.05'
+            angle: '36000'
+            start: '0'
+            'duration-base': '5'
+            'duration-scale': '0'
+            'h-translation-base': '-3'
+            'h-translation-scale': '0'
+            'v-translation-base': '0'
+            'v-translation-scale': '0'
+            'h-cycles': '3'
+            'v-cycles': '2'
+            particle: 'Bubble pop'
+            arrangement: 'Circle'
+            direction: 'XZ'
+            'radius-base': '0'
+            'radius-scale': '0'
+            'particles-base': '1'
+            'particles-scale': '0'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            amount: '1'
+            speed: '1'
+            forward: '2'
+            upward: '1'
+            right: '0'
+            '-with-rotation': 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Potion: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            potion: 'Speed'
+            ambient: 'false'
+            'tier-base': '2'
+            'tier-scale': '0'
+            'seconds-base': '5'
+            'seconds-scale': '1'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Potion-b': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            potion: 'Damage resistance'
+            ambient: 'false'
+            'tier-base': '10'
+            'tier-scale': '1'
+            'seconds-base': '4'
+            'seconds-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Repeat: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            'repetitions-base': '3'
+            'repetitions-scale': '0'
+            period: '0.4'
+            delay: '0'
+            'stop-on-fail': 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            Area: 
+              type: 'target'
+              data: 
+                'icon-key': ''
+                'radius-base': '4'
+                'radius-scale': '0'
+                group: 'Enemy'
+                wall: 'false'
+                invulnerable: 'false'
+                caster: 'False'
+                'max-base': '3'
+                'max-scale': '0'
+                random: 'false'
+              preview: 
+                enabled: 'false'
+                'per-target': 'false'
+                circle: 'false'
+                sphere: 'false'
+              children: 
+                Lightning: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'True'
+                    'damage-base': '4'
+                    'damage-scale': '0'
+                    group: 'Ally'
+                    caster: 'false'
+                    fire: 'true'
+                    'forward-base': '0'
+                    'forward-scale': '0'
+                    'right-base': '0'
+                    'right-scale': '0'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                Launch: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    relative: 'Target'
+                    'reset-y': 'false'
+                    'forward-base': '0'
+                    'forward-scale': '0'
+                    'upward-base': '1.2'
+                    'upward-scale': '0.1'
+                    'right-base': '0'
+                    'right-scale': '0'
+                  preview: 
+                    enabled: 'false'
+                  children: {}

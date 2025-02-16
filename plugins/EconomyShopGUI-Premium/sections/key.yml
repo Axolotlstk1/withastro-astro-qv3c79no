@@ -1,0 +1,6 @@
+enable: true
+item:
+  material: TRIPWIRE_HOOK
+  displayname: '#F8FF06&lKey'
+  name: '#F8FF06&lKey'
+slot: 12

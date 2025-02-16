@@ -1,0 +1,37 @@
+JumpPads:
+  world, 24, 139, 0:
+    owners:
+    - b1616f7d-20ba-3499-aea3-59ab27d4941c
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 20.0
+    angle: 45.0
+  world, -24, 139, 0:
+    owners:
+    - b1616f7d-20ba-3499-aea3-59ab27d4941c
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 20.0
+    angle: 45.0
+  world, -14, 80, -14:
+    owners:
+    - b1616f7d-20ba-3499-aea3-59ab27d4941c
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 50.0
+  world, 14, 80, 14:
+    owners:
+    - b1616f7d-20ba-3499-aea3-59ab27d4941c
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 50.0
+  world, -14, 80, 14:
+    owners:
+    - b1616f7d-20ba-3499-aea3-59ab27d4941c
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 50.0
+  world, 14, 80, -14:
+    owners:
+    - b1616f7d-20ba-3499-aea3-59ab27d4941c
+    plate: LIGHT_WEIGHTED_PRESSURE_PLATE
+    power: 30.0
+    angle: 50.0

@@ -1,0 +1,15 @@
+destiVisible: false
+perPortalCooldowns:
+  '1': 1739608987735
+portalVisible: false
+pos1:
+  posX: -1
+  posY: 138
+  posZ: -22
+  worldName: world
+pos2:
+  posX: 1
+  posY: 147
+  posZ: -22
+  worldName: world
+selectedPortal: null

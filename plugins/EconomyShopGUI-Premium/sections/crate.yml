@@ -1,0 +1,6 @@
+enable: true
+item:
+  material: CHEST
+  displayname: '#9A00FF&lHòm Nhân Phẩm'
+  name: '#9A00FF&lHòm Nhân Phẩm'
+slot: 16

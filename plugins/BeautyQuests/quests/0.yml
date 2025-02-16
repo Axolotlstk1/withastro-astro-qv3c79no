@@ -1,0 +1,31 @@
+startableFromGUI: true
+pool: 0
+repeatable: true
+endMsg: §6<§e§lQuests§6> §aBạn đã hoàn thành nhiệm vụ §e{quest_name} §agiờ bạn có
+  thể nhận nhiệm vụ mới!
+timer: 0
+endRewards:
+- id: moneyReward
+  money: 25.0
+- id: skillAPI-exp
+  xp: 25
+startMessage: §6<§e§lQuests§6> §aBạn đã bắt đầu nhiệm vụ đánh §e{quest_name}
+name: §e§lLợn Điên
+scoreboard: false
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            61c63fd2-b8ee-474d-9216-223188ad0979:
+              amount: 25
+              object:
+                factoryName: mythicMobs
+                value: K1Q1
+          stageType: MOBS
+          rewards:
+          - id: skillAPI-exp
+            xp: 25
+      endingStages: {}
+id: 0

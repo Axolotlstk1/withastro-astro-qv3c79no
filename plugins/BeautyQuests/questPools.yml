@@ -1,0 +1,9 @@
+# This file describes configuration of the different quest pools. See "/quests pool".
+
+'0':
+  hologram: §e§l! Nhiệm Vụ Mới
+  maxQuests: 1
+  redoAllowed: true
+  timeDiff: 0
+  npcID: citizens#6
+  avoidDuplicates: true

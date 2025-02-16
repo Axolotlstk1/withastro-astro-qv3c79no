@@ -1,0 +1,42 @@
+menu-settings:
+    name: '&9&lBàn Nâng Cấp'
+    rows: 3
+    commands:
+        - 'staff'
+    auto-fresh: 5
+    
+staff1:
+    MATERIAL: allium
+    POSITION-X: 3
+    POSITION-Y: 2
+    NAME: '&#CD00FF&lVũ Khí Phép Thuật &6&lRARE'
+    ACTIONS:
+      - 'class reset confirm'
+staff2:
+    MATERIAL: allium
+    POSITION-X: 4
+    POSITION-Y: 2
+    NAME: '&#CD00FF&lVũ Khí Phép Thuật &e&lEPIC'
+    ACTIONS:
+      - 'class reset confirm'
+staff3:
+    MATERIAL: allium
+    POSITION-X: 5
+    POSITION-Y: 2
+    NAME: '&#CD00FF&lVũ Khí Phép Thuật &b&lLEGENDARY'
+    ACTIONS:
+      - 'class reset confirm'
+staff4:
+    MATERIAL: allium
+    POSITION-X: 6
+    POSITION-Y: 2
+    NAME: '&#CD00FF&lVũ Khí Phép Thuật &4&lMYTHICAL'
+    ACTIONS:
+      - 'class reset confirm'
+staff5:
+    MATERIAL: allium
+    POSITION-X: 7
+    POSITION-Y: 2
+    NAME: '&#CD00FF&lVũ Khí Phép Thuật &5&lSECRET'
+    ACTIONS:
+      - 'class reset confirm'

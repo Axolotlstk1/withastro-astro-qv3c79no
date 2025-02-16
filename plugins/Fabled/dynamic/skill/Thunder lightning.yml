@@ -1,0 +1,288 @@
+'Thunder lightning': 
+  name: 'Thunder lightning'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '5'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'ENDER_PEARL'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Linear: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'range-base': '4'
+            'range-scale': '0.4'
+            'tolerance-base': '2'
+            'tolerance-scale': '0'
+            group: 'Enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'False'
+            'max-base': '99'
+            'max-scale': '0'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+            line: 'false'
+            cylinder: 'false'
+          children: 
+            Status: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                status: 'Stun'
+                'duration-base': '1'
+                'duration-scale': '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                steps: '12'
+                frequency: '0.05'
+                angle: '3600'
+                start: '0'
+                'duration-base': '1.8'
+                'duration-scale': '0'
+                'h-translation-base': '-1'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Bubble pop'
+                arrangement: 'Sphere'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0.1'
+                forward: '1'
+                upward: '1.2'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation-b': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                steps: '12'
+                frequency: '0.05'
+                angle: '3600'
+                start: '0'
+                'duration-base': '1.8'
+                'duration-scale': '0'
+                'h-translation-base': '-1'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Bubble pop'
+                arrangement: 'Sphere'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0.1'
+                forward: '1'
+                upward: '0.3'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation-c': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                steps: '12'
+                frequency: '0.05'
+                angle: '3600'
+                start: '0'
+                'duration-base': '1.8'
+                'duration-scale': '0'
+                'h-translation-base': '-1'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Bubble pop'
+                arrangement: 'Sphere'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0.1'
+                forward: '1'
+                upward: '1.8'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Delay: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                'delay-base': '1'
+                'delay-scale': '0'
+                cleanup: 'true'
+                'single-instance': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                Repeat: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    'repetitions-base': '5'
+                    'repetitions-scale': '1'
+                    period: '0.06'
+                    delay: '0'
+                    'stop-on-fail': 'false'
+                  preview: 
+                    enabled: 'false'
+                  children: 
+                    Damage: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'true'
+                        type: 'Damage'
+                        'value-base': '1.8'
+                        'value-scale': '0.5'
+                        true: 'false'
+                        classifier: 'default'
+                        knockback: 'true'
+                        'ignore-divinity': 'false'
+                        cause: 'Custom'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+        Self: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            Particle: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                particle: 'Redstone'
+                'dust-color': '#00ffe1'
+                'dust-size': '1'
+                arrangement: 'Sphere'
+                'radius-base': '1'
+                'radius-scale': '0'
+                'particles-base': '40'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '1'
+                forward: '0'
+                upward: '1'
+                right: '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Warp: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                walls: 'false'
+                open: 'true'
+                'forward-base': '6'
+                'forward-scale': '0.4'
+                'upward-base': '0'
+                'upward-scale': '0'
+                'right-base': '0'
+                'right-scale': '0'
+                preserve: 'false'
+                setYaw: 'false'
+                setPitch: 'false'
+              preview: 
+                enabled: 'false'
+                'per-target': 'false'
+              children: {}
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            sound: 'Entity wither shoot'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}

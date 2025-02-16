@@ -1,0 +1,200 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §1§l Nước
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"dark_blue","text":" Nước"}],"text":""}''}}'
+      '2':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §a§l Cỏ
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"green","text":" Cỏ"}],"text":""}''}}'
+      '3':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §f§l Khói
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"white","text":" Khói"}],"text":""}''}}'
+      '4':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §9§l Thép
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"blue","text":" Thép"}],"text":""}''}}'
+      '5':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §d§l Tâm linh
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"light_purple","text":" Tâm
+          linh"}],"text":""}''}}'
+      '6':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §e§l Ánh sáng
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"yellow","text":" Ánh sáng"}],"text":""}''}}'
+      '7':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §0§l Bóng tối
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"black","text":" Bóng tối"}],"text":""}''}}'
+      '8':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §e§l Cát
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"yellow","text":" Cát"}],"text":""}''}}'
+      '9':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §5§l Độc
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"dark_purple","text":" Độc"}],"text":""}''}}'
+      '10':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §6§l Điện
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"gold","text":" Điện"}],"text":""}''}}'
+      '11':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §4§l Lửa
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"dark_red","text":" Lửa"}],"text":""}''}}'
+      '12':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §b§l Băng
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"aqua","text":" Băng"}],"text":""}''}}'
+      '13':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §7§l Gió
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"gray","text":" Gió"}],"text":""}''}}'
+      '14':
+        displaylore:
+        - ''
+        - '&7Nhấn &7&lChuột Phải &7để học'
+        material: BOOK
+        buy: 8000.0
+        sell: -1.0
+        displayname: §6Quyển Trục Hệ §2§l Đất
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          học"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Quyển
+          Trục Hệ "},{"bold":true,"italic":false,"color":"dark_green","text":" Đất"}],"text":""}''}}'

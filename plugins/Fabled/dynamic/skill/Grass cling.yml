@@ -1,0 +1,361 @@
+'Grass cling': 
+  name: 'Grass cling'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '5'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '12'
+    'cooldown-scale': '0'
+    'mana-base': '8'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'SUGAR_CANE'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        'Particle Projectile': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            pierce: 'false'
+            group: 'Enemy'
+            steps: '2'
+            'collision-radius-base': '1.5'
+            'collision-radius-scale': '0'
+            'gravity-base': '-0.05'
+            'gravity-scale': '0'
+            'drag-base': '0.02'
+            'drag-scale': '0'
+            period: '2'
+            homing: 'false'
+            'velocity-base': '3'
+            'velocity-scale': '0'
+            'lifespan-base': '10'
+            'lifespan-scale': '0'
+            'distance-base': '50'
+            'distance-scale': '0'
+            'on-expire': 'true'
+            spread: 'Cone'
+            'amount-base': '3'
+            'amount-scale': '0'
+            'angle-base': '15'
+            'angle-scale': '0'
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            particle: 'Item crack'
+            material: 'Bamboo'
+            arrangement: 'Sphere'
+            'radius-base': '0'
+            'radius-scale': '0'
+            'particles-base': '10'
+            'particles-scale': '0'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            amount: '1'
+            speed: '0.1'
+            'use-effect': 'false'
+          preview: 
+            enabled: 'false'
+            period: '5'
+            'per-target': 'false'
+            path: 'false'
+          children: 
+            Repeat: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                'repetitions-base': '20'
+                'repetitions-scale': '0'
+                period: '0.01'
+                delay: '0'
+                'stop-on-fail': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                Sound: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    sound: 'Block grass break'
+                    'volume-base': '100'
+                    'volume-scale': '0'
+                    'pitch-base': '1'
+                    'pitch-scale': '0'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+            'Area-c': 
+              type: 'target'
+              data: 
+                'icon-key': ''
+                'radius-base': '2'
+                'radius-scale': '0.2'
+                group: 'Enemy'
+                wall: 'False'
+                caster: 'False'
+                'max-base': '3'
+                'max-scale': '1'
+                random: 'False'
+                indicator: '2D'
+                invulnerable: 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Area: 
+              type: 'target'
+              data: 
+                'icon-key': ''
+                'radius-base': '2'
+                'radius-scale': '0'
+                group: 'Enemy'
+                wall: 'false'
+                invulnerable: 'false'
+                caster: 'False'
+                'max-base': '6'
+                'max-scale': '0'
+                random: 'false'
+              preview: 
+                enabled: 'false'
+                'per-target': 'false'
+                circle: 'false'
+                sphere: 'false'
+              children: 
+                Repeat: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    'repetitions-base': '5'
+                    'repetitions-scale': '0'
+                    period: '1'
+                    delay: '0'
+                    'stop-on-fail': 'false'
+                  preview: 
+                    enabled: 'false'
+                  children: 
+                    Damage: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'true'
+                        type: 'Damage'
+                        'value-base': '1'
+                        'value-scale': '0.5'
+                        true: 'false'
+                        classifier: 'default'
+                        knockback: 'true'
+                        'ignore-divinity': 'false'
+                        cause: 'Custom'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    Self: 
+                      type: 'target'
+                      data: 
+                        'icon-key': ''
+                        group: 'enemy'
+                        wall: 'false'
+                        invulnerable: 'false'
+                        caster: 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: 
+                        Particle: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            particle: 'Villager happy'
+                            arrangement: 'Sphere'
+                            'radius-base': '2'
+                            'radius-scale': '0'
+                            'particles-base': '2'
+                            'particles-scale': '0'
+                            'visible-radius': '25'
+                            dx: '0'
+                            dy: '0'
+                            dz: '0'
+                            amount: '1'
+                            speed: '0.1'
+                            forward: '0'
+                            upward: '1'
+                            right: '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Heal: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            type: 'Health'
+                            'value-base': '0.2'
+                            'value-scale': '0.2'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Sound: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            sound: 'Entity player levelup'
+                            'volume-base': '100'
+                            'volume-scale': '0'
+                            'pitch-base': '1'
+                            'pitch-scale': '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                'Particle Animation-e': 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'True'
+                    steps: '12'
+                    frequency: '0.05'
+                    angle: '360'
+                    start: '-60'
+                    'duration-base': '5'
+                    'duration-scale': '0'
+                    'h-translation-base': '0'
+                    'h-translation-scale': '0'
+                    'v-translation-base': '1.5'
+                    'v-translation-scale': '0'
+                    'h-cycles': '1'
+                    'v-cycles': '2'
+                    particle: 'Redstone'
+                    'dust-color': '#04ff00'
+                    type: '0'
+                    arrangement: 'Circle'
+                    'radius-base': '0'
+                    'radius-scale': '0'
+                    'particles-base': '1'
+                    'particles-scale': '0'
+                    direction: 'XZ'
+                    forward: '0.5'
+                    upward: '1'
+                    right: '0'
+                    speed: '0'
+                    indicator: '2D'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                'Particle Animation-c': 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'True'
+                    steps: '12'
+                    frequency: '0.05'
+                    angle: '360'
+                    start: '60'
+                    'duration-base': '5'
+                    'duration-scale': '0'
+                    'h-translation-base': '0'
+                    'h-translation-scale': '0'
+                    'v-translation-base': '1'
+                    'v-translation-scale': '0'
+                    'h-cycles': '1'
+                    'v-cycles': '2'
+                    particle: 'Redstone'
+                    'dust-color': '#04ff00'
+                    type: '0'
+                    arrangement: 'Circle'
+                    'radius-base': '0'
+                    'radius-scale': '0'
+                    'particles-base': '1'
+                    'particles-scale': '0'
+                    direction: 'XZ'
+                    forward: '0.5'
+                    upward: '0.5'
+                    right: '0'
+                    speed: '0'
+                    indicator: '2D'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                'Particle Animation-d': 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'True'
+                    steps: '12'
+                    frequency: '0.05'
+                    angle: '3600'
+                    start: '0'
+                    'duration-base': '5'
+                    'duration-scale': '0'
+                    'h-translation-base': '0'
+                    'h-translation-scale': '0'
+                    'v-translation-base': '0'
+                    'v-translation-scale': '0'
+                    'h-cycles': '1'
+                    'v-cycles': '1'
+                    particle: 'Redstone'
+                    'dust-color': '#04ff00'
+                    type: '0'
+                    arrangement: 'Circle'
+                    'radius-base': '0'
+                    'radius-scale': '0'
+                    'particles-base': '1'
+                    'particles-scale': '0'
+                    direction: 'XZ'
+                    forward: '1'
+                    upward: '0.1'
+                    right: '0'
+                    speed: '0.4'
+                    indicator: '2D'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                'Potion-f': 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'True'
+                    potion: 'Slow'
+                    ambient: 'True'
+                    'tier-base': '2'
+                    'tier-scale': '0'
+                    'seconds-base': '5'
+                    'seconds-scale': '0'
+                    indicator: '2D'
+                  preview: 
+                    enabled: 'false'
+                  children: {}

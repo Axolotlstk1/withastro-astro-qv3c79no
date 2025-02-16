@@ -1,0 +1,112 @@
+Health: 
+  name: 'Health'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '0'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '30'
+    'cooldown-scale': '0'
+    'mana-base': '0'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'REDSTONE'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            sound: 'Item Bottle Fill'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Self: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            Potion: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                potion: 'Night vision'
+                ambient: 'false'
+                'tier-base': '5'
+                'tier-scale': '0'
+                'seconds-base': '30'
+                'seconds-scale': '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Heal: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                type: 'Percent'
+                'value-base': '15'
+                'value-scale': '4'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Particle: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                particle: 'Heart'
+                arrangement: 'Circle'
+                direction: 'XZ'
+                'radius-base': '2'
+                'radius-scale': '0'
+                'particles-base': '10'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '0'
+                speed: '0'
+                forward: '0.5'
+                upward: '1'
+                right: '0'
+              preview: 
+                enabled: 'false'
+              children: {}

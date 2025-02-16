@@ -1,0 +1,391 @@
+menu-settings:
+    name: '&bChọn hệ'
+    rows: 6
+    commands:
+        - 'ele'
+    auto-fresh: 5
+    
+    open-actions:
+        - 'tell: &6Hãy chọn hệ mà bạn thích'
+fire:
+    MATERIAL: BLAZE_POWDER
+    POSITION-X: 2
+    POSITION-Y: 2
+    NAME: '&4FIRE'
+    LORE: 
+      - 'Hệ lửa dame to theo thời gian cực kỳ khó chịu.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Cấu rỉa'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c3'
+      - '  Hiệu ứng: &aGây cháy'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c5'
+      - '  Hiệu ứng: &aGây cháy'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c8'
+      - '  Hiệu ứng: &aGây cháy'
+    ACTIONS:
+      - 'class profess fire'
+reset:
+    MATERIAL: ender_pearl
+    POSITION-X: 7
+    POSITION-Y: 6
+    NAME: 'Bạn cần phải thoát hệ để có thể chọn hệ khác'
+    LORE: 
+      - ''
+      - '&f&lNhấn chuột phải'
+    ACTIONS:
+      - 'class reset confirm'
+thoat:
+    MATERIAL: barrier
+    POSITION-X: 9
+    POSITION-Y: 6
+    NAME: '&4Cancel'
+    ACTIONS:
+      - 'open: menu.yml'
+water:
+    MATERIAL: WATER_BUCKET
+    POSITION-X: 3
+    POSITION-Y: 2
+    NAME: '&1WATER'
+    LORE: 
+      - 'Hệ nước dame thuộc dạng to và có rất nhiều khống chế cứng.'
+      - ''
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c5'
+      - '  Hiệu ứng: &aĐẩy lùi'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aLàm chậm'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c8'
+      - '  Hiệu ứng: &aLàm chậm'
+    ACTIONS:
+      - 'class profess water'
+wind:
+    MATERIAL: string
+    POSITION-X: 4
+    POSITION-Y: 2
+    NAME: '&7WIND'
+    LORE: 
+      - 'Hệ gió sốc dame nhanh và có nhiều khống chế.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Cơ động'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aLàm chậm'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c4-7'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c6-10'
+      - '  Hiệu ứng: &aBay'
+    ACTIONS:
+      - 'class profess wind'
+earth:
+    MATERIAL: dirt
+    POSITION-X: 5
+    POSITION-Y: 2
+    NAME: '&2EARTH'
+    LORE: 
+      - 'Hệ đất nhiều khống chế và chiêu thức có thể tự vệ.'
+      - ''
+      - '&c&l▲ &7Tự vệ'
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c3'
+      - '  Hiệu ứng: &aĐẩy lùi'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &7'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c8'
+      - '  Hiệu ứng: &aKhống chế cứng'
+    ACTIONS:
+      - 'class profess earth'
+thunder:
+    MATERIAL: PRISMARINE_SHARD
+    POSITION-X: 6
+    POSITION-Y: 2
+    NAME: '&6THUNDER'
+    LORE: 
+      - 'Hệ điện sốc sát thương nhanh và cực kỳ cơ động với chiêu cuối.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Cơ động'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c5'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aĐẩy lùi'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c8'
+      - '  Hiệu ứng: &aBuff'
+    ACTIONS:
+      - 'class profess thunder'
+ice:
+    MATERIAL: SNOWBALL
+    POSITION-X: 7
+    POSITION-Y: 2
+    NAME: '&bICE'
+    LORE: 
+      - 'Hệ băng sốc sát thương nhanh và có rất nhiều khống chế.'
+      - 'Hệ lửa dame to theo thời gian cực kỳ khó chịu.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aĐẩy lùi'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c7'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c8'
+      - '  Hiệu ứng: &aBuff + Khống chế'
+    ACTIONS:
+      - 'class profess ice'
+steel:
+    MATERIAL: iron_ingot
+    POSITION-X: 8
+    POSITION-Y: 2
+    NAME: '&9STEEL'
+    LORE: 
+      - 'Hệ thép cực kỳ trâu bò với chiêu cuối và có một chút khống chế.'
+      - 'Hệ lửa dame to theo thời gian cực kỳ khó chịu.'
+      - ''
+      - '&c&l▲ &7Tự vệ'
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c8'
+      - '  Hiệu ứng: &aBuff'
+    ACTIONS:
+      - 'class profess steel'
+grass:
+    MATERIAL: lily_pad
+    POSITION-X: 2
+    POSITION-Y: 3
+    NAME: '&aGRASS'
+    LORE: 
+      - 'Hệ cỏ sát thương tầm trung và có nhiều khống chế.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aLàm chậm'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c8'
+      - '  Hiệu ứng: &aĐiều khiển'
+    ACTIONS:
+      - 'class profess grass'
+poison:
+    MATERIAL: brewing_stand
+    POSITION-X: 3
+    POSITION-Y: 3
+    NAME: '&5POISON'
+    LORE: 
+      - 'Hệ độc gây sát thương theo thời gian cực kỳ khó chịu.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Cấu rỉa'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &4'
+      - '  Hiệu ứng: &aĐộc'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aĐộc'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c0'
+      - '  Hiệu ứng: &aBuff'
+    ACTIONS:
+      - 'class profess poison'
+dark:
+    MATERIAL: flint
+    POSITION-X: 4
+    POSITION-Y: 3
+    NAME: '&0DARK'
+    LORE: 
+      - 'Hệ bóng tối cực kỳ cơ động với chiêu 1.'
+      - ''
+      - '&c&l▲ &7Cơ động'
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aDịch chuyển + mù'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aKhống chế cứng + mù'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aMù'
+    ACTIONS:
+      - 'class profess dark'
+light:
+    MATERIAL: glowstone_dust
+    POSITION-X: 5
+    POSITION-Y: 3
+    NAME: '&eLIGHT'
+    LORE: 
+      - 'Hệ ánh sáng nếu biết dùng chiêu 2 đúng cách thì rất mạnh.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Cơ động'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aNone'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aDịch chuyển + khống chế cứng'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c12'
+      - '  Hiệu ứng: &aKhống chế cứng'
+    ACTIONS:
+      - 'class profess light'
+psychic:
+    MATERIAL: chorus_fruit
+    POSITION-X: 6
+    POSITION-Y: 3
+    NAME: '&dPSYCHIC'
+    LORE: 
+      - 'Hệ tâm linh có thể làm bạn bị mất quyền kiểm soát.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aĐiều khiển'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aĐẩy lùi'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c10'
+      - '  Hiệu ứng: &aKhống chế cứng'
+    ACTIONS:
+      - 'class profess psychic'
+smoke:
+    MATERIAL: ghast_tear
+    POSITION-X: 7
+    POSITION-Y: 3
+    NAME: '&fSMOKE'
+    LORE: 
+      - 'Hệ khói sát thương nhanh và theo thời gian cực kỳ khó chịu.'
+      - ''
+      - '&c&l▲ &7Sát thương'
+      - '&c&l▲ &7Khống chế'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c4'
+      - '  Hiệu ứng: &aĐiều khiển'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c7'
+      - '  Hiệu ứng: &aNone'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c9'
+      - '  Hiệu ứng: &aĐẩy lùi'
+    ACTIONS:
+      - 'class profess smoke'
+sand:
+    MATERIAL: sand
+    POSITION-X: 8
+    POSITION-Y: 3
+    NAME: '&cSAND'
+    LORE: 
+      - 'Hệ cát sát thương tầm trung và có nhiều khống chế.'
+      - ''
+      - '&c&l▲ &7Khống chế'
+      - '&c&l▲ &7Cấu rỉa'
+      - ''
+      - '&9&lChiêu 1:'
+      - '  Sát thương: &c3'
+      - '  Hiệu ứng: &aĐộc'
+      - ''
+      - '&9&lChiêu 2:'
+      - '  Sát thương: &c6'
+      - '  Hiệu ứng: &aKhống chế cứng'
+      - ''
+      - '&9&lChiêu 3:'
+      - '  Sát thương: &c9'
+      - '  Hiệu ứng: &aĐẩy lùi'
+    ACTIONS:
+      - 'class profess sand'
+info:
+    MATERIAL: end_crystal
+    POSITION-X: 3
+    POSITION-Y: 6
+    NAME: 'Xem thông thạo hệ hiện tại của bạn'
+    LORE: 
+      - ''
+      - '&f&lNhấn chuột phải'
+    ACTIONS:
+      - 'class info'
+skill:
+    MATERIAL: lectern
+    POSITION-X: 5
+    POSITION-Y: 6
+    NAME: 'Mở bảng skill của bạn'
+    LORE: 
+      - ''
+      - '&f&lNhấn chuột phải'
+    ACTIONS:
+      - 'class skill'
+help:
+    MATERIAL: book
+    POSITION-X: 1
+    POSITION-Y: 6
+    NAME: 'Hướng Dẫn'
+    LORE: 
+      - ''
+      - '&f&lNhấn chuột phải'

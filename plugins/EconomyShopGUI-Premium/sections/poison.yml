@@ -1,0 +1,6 @@
+enable: true
+item:
+  material: REDSTONE
+  displayname: '&5&lPoison'
+  name: '&5&lPoison'
+slot: 14

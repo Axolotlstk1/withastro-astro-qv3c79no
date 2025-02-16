@@ -1,0 +1,23 @@
+identifier: dc4c5143-9721-3de3-aca5-64e33017748b
+quests:
+- questID: 0
+  questFlow: 0:0
+  timesFinished: 1
+- questID: 1
+  timer: 1739601436845
+  questFlow: 0:0
+  timesFinished: 1
+- questID: 2
+  currentStage: 0
+  datas:
+    starting_time: 1739601451579
+    stage0:
+      remaining:
+        bdebb2a3-afae-4e0d-8600-a96598e1b4d0: 11
+  currentBranch: 0
+pools:
+- completedQuests: !!set
+    0: null
+    1: null
+  poolID: 0
+  lastGive: 1739601451581

@@ -1,0 +1,77 @@
+menu-settings:
+    name: '&bMENU'
+    rows: 6
+    commands:
+        - 'menu'
+    auto-fresh: 5
+infosv:
+    MATERIAL: NETHER_STAR
+    POSITION-X: 5
+    POSITION-Y: 2
+    NAME: '&7&lThông Tin Server'
+    LORE: 
+      - '&6&lMINE&4&lAX'
+      - ''
+      - '&5Phiên Bản: &b&l1'
+      - ''
+      - '&6link discord: &bhttps://discord.gg/sbuW3XY9ne'
+      - '&6Owner: &baxolotlstk'
+infopl:
+    MATERIAL: PLAYER_HEAD
+    POSITION-X: 3
+    POSITION-Y: 4
+    NAME: '&7&lThông Tin Của Bạn'
+    LORE: 
+      - ''
+      - '&e&l┠ &7ᴇʟᴇ: &6%fabled_default_currentclassname%'
+      - '&e&l┠ &7ᴍᴀɴᴀ: &b%skillapi_mana%'
+      - '&e&l┠ &7ᴋɪʟʟꜱ: &1%pvplevels_kills%'
+      - '&e&l┠ &7ᴅᴇᴀᴛʜꜱ: &4%pvplevels_deaths%'
+      - '&e&l┠ &7ʀᴀɴᴋ: &e%luckperms_groups%'
+      - '&e&l┠ &7ʙᴏᴜɴᴛʏ: &4%deluxecombat_ranking_points%'
+      - '&e&l┠ &7ᴍɪᴀx: &2%vault_eco_balance%'
+shop:
+    MATERIAL: CHEST
+    POSITION-X: 4
+    POSITION-Y: 4
+    NAME: '&7&lChợ'
+    LORE: 
+      - '&8Chợ mua đồ bằng &6miax'
+    ACTIONS:
+      - 'shop'
+pshop:
+    MATERIAL: SHULKER_BOX
+    POSITION-X: 5
+    POSITION-Y: 4
+    NAME: '&7&lChợ Đen'
+    LORE: 
+      - '&8Chợ trao đổi hàng hóa của người chơi'
+    ACTIONS:
+      - 'pshop'
+ele:
+    MATERIAL: SLIME_BALL
+    POSITION-X: 6
+    POSITION-Y: 4
+    NAME: '&7&lHệ'
+    LORE: 
+      - '&8Bấm để chọn hệ của bạn'
+    ACTIONS:
+      - 'open: ele.yml'
+hd:
+    MATERIAL: BOOK
+    POSITION-X: 7
+    POSITION-Y: 4
+    NAME: '&7&lHướng Dẫn Chơi'
+    LORE: 
+      - ''
+      - '&cNhảy xuống dưới và đấm nhau để đạt được người mạnh nhất'
+up:
+    MATERIAL: smithing_table
+    POSITION-X: 4
+    POSITION-Y: 5
+    NAME: '&7&lBàn Nâng Cấp'
+    LORE: 
+      - '&8Thứ có thể cường hóa vũ khí của bạn'
+    ACTIONS:
+      - 'open: vk.yml'
+

@@ -1,0 +1,6 @@
+enable: true
+item:
+  material: NETHER_STAR
+  displayname: '#FF8B06&lVật Phẩm'
+  name: '#FF8B06&lVật Phẩm'
+slot: 13

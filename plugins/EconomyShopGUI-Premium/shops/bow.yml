@@ -1,0 +1,215 @@
+pages:
+  page1:
+    items:
+      '2':
+        displaylore:
+        - '&cBow'
+        - '&f'
+        - '&8| &7Right Click &8|&e|&8| &7&lBlizzard'
+        - '&f &8&l|&7 &7Duration&8: &f4 &8&l|&7 &7Cooldown&8: &f8'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Bắn Cầu'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: IRON_HOE
+        buy: 350.0
+        sell: -1.0
+        displayname: §fSúng Bắn Tuyết
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],Damage:0,HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&fSúng
+          Bắn Tuyết"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"BLIZZARD","CastMode":"RIGHT_CLICK","Modifiers":{"duration":4.0,"cooldown":8.0}}]'',MMOITEMS_DYNAMIC_LORE:''["§f§cBow","§f","§f§8|
+          §7Right Click §8|§e|§8| §7§lBlizzard","§f §8§l|§7 §7Duration§8: §f4 §8§l|§7
+          §7Cooldown§8: §f8","§f","§f§a◆ Empty GREEN Gem Socket","§f","§f§7Bắn Cầu","§f","§f§3
+          §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"SHOT",MMOITEMS_ITEM_TYPE:"BOW",MMOITEMS_LORE:''["&7Bắn
+          Cầu"]'',MMOITEMS_NAME:"&fSúng Bắn Tuyết",MMOITEMS_TIER:"RARE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Bow"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Blizzard"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"4 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Bắn
+          Cầu"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"white","text":"Súng
+          Bắn Tuyết"}],"text":""}''}}'
+      '3':
+        displaylore:
+        - '&cBow'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f7.2'
+        - '&3 &7■ Arrow Velocity: &f1'
+        - '&3 &7■ Crit Strike Chance: &f+5%'
+        - '&3 &7■ Fire Damage Reduction: &f+5%'
+        - '&f'
+        - '&8| &7Right Click &8|&e|&8| &7&lFirebolt'
+        - '&f &8&l|&7 &7Ignite&8: &f3'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: BOW
+        buy: 500.0
+        sell: -1.0
+        displayname: §6Cung Lửa
+        enchantments:
+        - flame:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],Damage:0,HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"flame
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&6Cung
+          Lửa"}]}'',HideFlags:6,MMOITEMS_ABILITY:''[{"Id":"FIREBOLT","CastMode":"RIGHT_CLICK","Modifiers":{"ignite":3.0}}]'',MMOITEMS_ARROW_VELOCITY:1.0d,MMOITEMS_ATTACK_DAMAGE:7.2d,MMOITEMS_CRITICAL_STRIKE_CHANCE:5.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cBow","§f","§f§3
+          §7➸ Attack Damage: §f7.2","§f§3 §7■ Arrow Velocity: §f1","§f§3 §7■ Crit
+          Strike Chance: §f+5%","§f§3 §7■ Fire Damage Reduction: §f+5%","§f","§f§8|
+          §7Right Click §8|§e|§8| §7§lFirebolt","§f §8§l|§7 §7Ignite§8: §f3","§f","§f§a◆
+          Empty GREEN Gem Socket","§f","§f§3 §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:''["flame
+          1"]'',MMOITEMS_FIRE_DAMAGE_REDUCTION:5.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"CUNGLUA",MMOITEMS_ITEM_TYPE:"BOW",MMOITEMS_NAME:"&6Cung
+          Lửa",MMOITEMS_TIER:"RARE",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Bow"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"7.2"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Arrow Velocity: "},{"italic":false,"color":"white","text":"1"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fire Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Firebolt"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Ignite"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"3"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"gold","text":"Cung
+          Lửa"}],"text":""}''}}'
+      '4':
+        displaylore:
+        - '&cMusket'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f2'
+        - '&3 &7■ Recoil: &f1.5%'
+        - '&3 &7➸ Attack Speed: &f10'
+        - '&3 &7■ Crit Strike Chance: &f+2%'
+        - '&3 &7■ Crit Strike Power: &f+5%'
+        - '&3 &7■ Range: &f25'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Một loại súng tiểu liên nhỏ'
+        - '&f'
+        - '&3 &7Tier: &e&lEPIC'
+        material: IRON_HORSE_ARMOR
+        buy: 700.0
+        sell: -1.0
+        displayname: §9MP5
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&9MP5"}]}'',HideFlags:6,MMOITEMS_ABILITY:"[]",MMOITEMS_ATTACK_DAMAGE:2.0d,MMOITEMS_ATTACK_SPEED:10.0d,MMOITEMS_CRITICAL_STRIKE_CHANCE:2.0d,MMOITEMS_CRITICAL_STRIKE_POWER:5.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cMusket","§f","§f§3
+          §7➸ Attack Damage: §f2","§f§3 §7■ Recoil: §f1.5%","§f§3 §7➸ Attack Speed:
+          §f10","§f§3 §7■ Crit Strike Chance: §f+2%","§f§3 §7■ Crit Strike Power:
+          §f+5%","§f§3 §7■ Range: §f25","§f","§f§a◆ Empty GREEN Gem Socket","§f§a◆
+          Empty GREEN Gem Socket","§f","§f§7Một loại súng tiểu liên nhỏ","§f","§f§3
+          §7Tier: §e§lEPIC"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"MP5",MMOITEMS_ITEM_TYPE:"MUSKET",MMOITEMS_LORE:''["&7Một
+          loại súng tiểu liên nhỏ"]'',MMOITEMS_NAME:"&9MP5",MMOITEMS_RANGE:25.0d,MMOITEMS_RECOIL:1.5d,MMOITEMS_TIER:"EPIC",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Musket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"2"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Recoil: "},{"italic":false,"color":"white","text":"1.5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"10"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+2%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Power: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Range: "},{"italic":false,"color":"white","text":"25"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Một
+          loại súng tiểu liên nhỏ"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"yellow","text":"EPIC"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"blue","text":"MP5"}],"text":""}''}}'
+      '5':
+        displaylore:
+        - '&cBow'
+        - '&f'
+        - '&3 &7■ PvE Damage: &f+5%'
+        - '&3 &7■ Fire Damage Reduction: &f+5%'
+        - '&3 &7■ Projectile Damage Reduction: &f+5%'
+        - '&f'
+        - '&8| &7Right Click &8|&e|&8| &7&lExplosive Turkey'
+        - '&f &8&l|&7 &7Duration&8: &f8 &8&l|&7 &7Damage&8: &f12'
+        - '&f'
+        - '&8| &7Attack &8|&e|&8| &7&lBurn'
+        - '&f &8&l|&7 &7Duration&8: &f3 &8&l|&7 &7Cooldown&8: &f8'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Đầu rồng ư?'
+        - '&f'
+        - '&3 &7Tier: &b&lLEGENDARY'
+        material: DRAGON_HEAD
+        buy: 2500.0
+        sell: -1.0
+        displayname: §9CANON
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&9CANON"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"EXPLOSIVE_TURKEY","CastMode":"RIGHT_CLICK","Modifiers":{"duration":8.0,"damage":12.0}},{"Id":"BURN","CastMode":"ATTACK","Modifiers":{"duration":3.0,"cooldown":8.0}}]'',MMOITEMS_DISABLE_CRAFTING:1b,MMOITEMS_DISABLE_ENCHANTING:1b,MMOITEMS_DISABLE_INTERACTION:1b,MMOITEMS_DISABLE_REPAIRING:1b,MMOITEMS_DISABLE_SMELTING:1b,MMOITEMS_DISABLE_SMITHING:1b,MMOITEMS_DYNAMIC_LORE:''["§f§cBow","§f","§f§3
+          §7■ PvE Damage: §f+5%","§f§3 §7■ Fire Damage Reduction: §f+5%","§f§3 §7■
+          Projectile Damage Reduction: §f+5%","§f","§f§8| §7Right Click §8|§e|§8|
+          §7§lExplosive Turkey","§f §8§l|§7 §7Duration§8: §f8 §8§l|§7 §7Damage§8:
+          §f12","§f","§f§8| §7Attack §8|§e|§8| §7§lBurn","§f §8§l|§7 §7Duration§8:
+          §f3 §8§l|§7 §7Cooldown§8: §f8","§f","§f§a◆ Empty GREEN Gem Socket","§f§a◆
+          Empty GREEN Gem Socket","§f","§f§7Đầu rồng ư?","§f","§f§3 §7Tier: §b§lLEGENDARY"]'',MMOITEMS_ENCHANTS:''["lure
+          1"]'',MMOITEMS_FIRE_DAMAGE_REDUCTION:5.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"CANON",MMOITEMS_ITEM_TYPE:"BOW",MMOITEMS_LORE:''["&7Đầu
+          rồng ư?"]'',MMOITEMS_NAME:"&9CANON",MMOITEMS_PROJECTILE_DAMAGE_REDUCTION:5.0d,MMOITEMS_PVE_DAMAGE:5.0d,MMOITEMS_TIER:"LEGENDARY",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Bow"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ PvE Damage: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fire Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Projectile Damage Reduction:
+          "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Explosive Turkey"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Damage"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"12"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Attack "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Burn"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"3 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Đầu
+          rồng ư?"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"aqua","text":"LEGENDARY"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"blue","text":"CANON"}],"text":""}''}}'
+      '6':
+        displaylore:
+        - '&cBow'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f4.4'
+        - '&3 &7➸ Attack Speed: &f0.6'
+        - '&3 &7■ Skill Crit Chance: &f+5%'
+        - '&f'
+        - '&8| &7Attack &8|&e|&8| &7&lShock'
+        - '&f &8&l|&7 &7Duration&8: &f2 &8&l|&7 &7Cooldown&8: &f1'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Vũ khí tầm xa :)??'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: BLUE_ORCHID
+        buy: 500.0
+        sell: -1.0
+        displayname: §3Dùi Điện
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&3Dùi
+          Điện"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"SHOCK","CastMode":"ATTACK","Modifiers":{"duration":2.0,"cooldown":1.0}}]'',MMOITEMS_ATTACK_DAMAGE:4.4d,MMOITEMS_ATTACK_SPEED:0.6d,MMOITEMS_DYNAMIC_LORE:''["§f§cBow","§f","§f§3
+          §7➸ Attack Damage: §f4.4","§f§3 §7➸ Attack Speed: §f0.6","§f§3 §7■ Skill
+          Crit Chance: §f+5%","§f","§f§8| §7Attack §8|§e|§8| §7§lShock","§f §8§l|§7
+          §7Duration§8: §f2 §8§l|§7 §7Cooldown§8: §f1","§f","§f§a◆ Empty GREEN Gem
+          Socket","§f","§f§7Vũ khí tầm xa :)??","§f","§f§3 §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"CUNGDIEN",MMOITEMS_ITEM_TYPE:"BOW",MMOITEMS_LORE:''["&7Vũ
+          khí tầm xa :)??"]'',MMOITEMS_NAME:"&3Dùi Điện",MMOITEMS_ON_LEFT_CLICK:"STAFF_MANA",MMOITEMS_SKILL_CRITICAL_STRIKE_CHANCE:5.0d,MMOITEMS_TIER:"RARE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Bow"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"4.4"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"0.6"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Skill Crit Chance: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Attack "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Shock"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"2 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"1"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Vũ
+          khí tầm xa :)??"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"dark_aqua","text":"Dùi
+          Điện"}],"text":""}''}}'

@@ -1,0 +1,22 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - '&cConsumable'
+        - '&f'
+        - '&3 &7■ Restores &f10 &7Health'
+        - '&3 &7■ &f10&3 &7s Cooldown'
+        material: REDSTONE
+        buy: 50.0
+        sell: -1.0
+        displayname: §fVật Phẩm Hồi Máu
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&fVật
+          Phẩm Hồi Máu"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cConsumable","§f","§f§3
+          §7■ Restores §f10 §7Health","§f§3 §7■ §f10§3 §7s Cooldown"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_ITEM_COOLDOWN:10.0d,MMOITEMS_ITEM_ID:"LARGE_HEALTH_POTION",MMOITEMS_ITEM_TYPE:"CONSUMABLE",MMOITEMS_NAME:"&fVật
+          Phẩm Hồi Máu",MMOITEMS_RESTORE_HEALTH:10.0d,MMOITEMS_SOUND_ON_CONSUME:"entity.generic.drink",MMOITEMS_SOUND_ON_CONSUME_PIT:1.0d,MMOITEMS_SOUND_ON_CONSUME_VOL:1.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Consumable"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Restores "},{"italic":false,"color":"white","text":"10
+          "},{"italic":false,"color":"gray","text":"Health"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ "},{"italic":false,"color":"white","text":"10"},{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"s Cooldown"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"white","text":"Vật
+          Phẩm Hồi Máu"}],"text":""}''}}'

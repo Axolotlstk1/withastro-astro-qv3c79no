@@ -1,0 +1,682 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f1'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Damage
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Damage"}]}'',HideFlags:2,MMOITEMS_ATTACK_DAMAGE:1.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7➸ Attack Damage: §f1","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"TANGDAME",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Damage",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"1"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Damage"}],"text":""}''}}'
+      '3':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Crit Strike Chance: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Tỉ Lệ Chí Mạng
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Tỉ Lệ Chí Mạng"}]}'',HideFlags:2,MMOITEMS_CRITICAL_STRIKE_CHANCE:5.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Crit Strike Chance: §f+5%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"TILECRIT",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Tỉ Lệ Chí Mạng",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Tỉ Lệ Chí Mạng"}],"text":""}''}}'
+      '4':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Crit Strike Power: &f+3%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Damage Crit
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Damage Crit"}]}'',HideFlags:2,MMOITEMS_CRITICAL_STRIKE_POWER:3.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Crit Strike Power: §f+3%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"DAMECRIT",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Damage Crit",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Power: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Damage Crit"}],"text":""}''}}'
+      '5':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Block Power: &f+4%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lBlock
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lBlock"}]}'',HideFlags:2,MMOITEMS_BLOCK_POWER:4.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Block Power: §f+4%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"BLOCK",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lBlock",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Block Power: "},{"italic":false,"color":"white","text":"+4%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Block"}],"text":""}''}}'
+      '6':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Block Rating: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lTăng Tỉ Lệ Block
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lTăng Tỉ Lệ Block"}]}'',HideFlags:2,MMOITEMS_BLOCK_RATING:5.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Block Rating: §f+5%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"TILEBLOCK",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lTăng Tỉ Lệ Block",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Block Rating: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Tăng Tỉ Lệ Block"}],"text":""}''}}'
+      '7':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Dodge Rating: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lTăng Tỉ Lệ Né Đòn
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lTăng Tỉ Lệ Né Đòn"}]}'',HideFlags:2,MMOITEMS_DODGE_RATING:5.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Dodge Rating: §f+5%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"NETRANH",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lTăng Tỉ Lệ Né Đòn",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Dodge Rating: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Tăng Tỉ Lệ Né Đòn"}],"text":""}''}}'
+      '8':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Parry Rating: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lTăng Tỉ Lệ Phản Đòn
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lTăng Tỉ Lệ Phản Đòn"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Parry Rating: §f+5%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"TILEDODON",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lTăng Tỉ Lệ Phản Đòn",MMOITEMS_PARRY_RATING:5.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Parry Rating: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Tăng Tỉ Lệ Phản Đòn"}],"text":""}''}}'
+      '9':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Range: &f5'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §d§lTăng Tầm Bắn
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &d&lTăng Tầm Bắn"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem Stone","§f","§f§3
+          §7■ Range: §f5","§f","§f§8§l[§2§l*§8§l] §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure
+          1"]'',MMOITEMS_ITEM_ID:"&A&LBÙA_&D&LTĂNG_TẦM_BẮN",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &d&lTăng Tầm Bắn",MMOITEMS_RANGE:5.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Range: "},{"italic":false,"color":"white","text":"5"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"light_purple","text":"Tăng Tầm Bắn"}],"text":""}''}}'
+      '10':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Skill Crit Chance: &f+3%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Tỉ Lệ CHí Mạng Skill
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Tỉ Lệ CHí Mạng Skill"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Skill Crit Chance: §f+3%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"SKILLCRIT",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Tỉ Lệ CHí Mạng Skill",MMOITEMS_SKILL_CRITICAL_STRIKE_CHANCE:3.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Skill Crit Chance: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Tỉ Lệ CHí Mạng
+          Skill"}],"text":""}''}}'
+      '11':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Skill Crit Power: &f+4%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Damage Chí Mạng Skill
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Damage Chí Mạng Skill"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Skill Crit Power: §f+4%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"SKILLCRITDAME",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Damage Chí Mạng Skill",MMOITEMS_SKILL_CRITICAL_STRIKE_POWER:4.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Skill Crit Power: "},{"italic":false,"color":"white","text":"+4%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Damage Chí Mạng
+          Skill"}],"text":""}''}}'
+      '12':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ PvE Damage: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Damage Lên Quái
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Damage Lên Quái"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ PvE Damage: §f+5%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"DAMEQUAI",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Damage Lên Quái",MMOITEMS_PVE_DAMAGE:5.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ PvE Damage: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Damage Lên Quái"}],"text":""}''}}'
+      '13':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Blunt Power: &f1'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng AOE
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng AOE"}]}'',HideFlags:2,MMOITEMS_BLUNT_POWER:1.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Blunt Power: §f1","§f","§f§8§l[§2§l*§8§l] §aDrag onto
+          an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"AOE",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng AOE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Blunt Power: "},{"italic":false,"color":"white","text":"1"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng AOE"}],"text":""}''}}'
+      '14':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Blunt Rating: &f10%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Damage AOE
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Damage AOE"}]}'',HideFlags:2,MMOITEMS_BLUNT_RATING:10.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Blunt Rating: §f10%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"DAMAGEAOE",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Damage AOE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Blunt Rating: "},{"italic":false,"color":"white","text":"10%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Damage AOE"}],"text":""}''}}'
+      '15':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Fall Damage Reduction: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lGiảm Damage Rơi
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lGiảm Damage Rơi"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Fall Damage Reduction: §f+5%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_FALL_DAMAGE_REDUCTION:5.0d,MMOITEMS_ITEM_ID:"DAMACANCHIEN",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lGiảm Damage Rơi",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fall Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Giảm Damage Rơi"}],"text":""}''}}'
+      '16':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Projectile Damage Reduction: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lGiảm Damage Vật Thể Bay
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lGiảm Damage Vật Thể Bay"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Projectile Damage Reduction: §f+5%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"GIAMDAMETEN",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lGiảm Damage Vật Thể Bay",MMOITEMS_PROJECTILE_DAMAGE_REDUCTION:5.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Projectile Damage Reduction:
+          "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Giảm Damage Vật Thể
+          Bay"}],"text":""}''}}'
+      '17':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Physical Damage Reduction: &f+1%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lGiảm Damage Vật Lí
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lGiảm Damage Vật Lí"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Physical Damage Reduction: §f+1%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"GIAMDAMAVATLI",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lGiảm Damage Vật Lí",MMOITEMS_PHYSICAL_DAMAGE_REDUCTION:1.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Physical Damage Reduction: "},{"italic":false,"color":"white","text":"+1%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Giảm Damage Vật Lí"}],"text":""}''}}'
+      '18':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Fire Damage Reduction: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lGiảm Damage Lửa
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lGiảm Damage Lửa"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Fire Damage Reduction: §f+5%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_FIRE_DAMAGE_REDUCTION:5.0d,MMOITEMS_ITEM_ID:"GIAMDAMALUA",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lGiảm Damage Lửa",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fire Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Giảm Damage Lửa"}],"text":""}''}}'
+      '19':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Arrow Velocity: &f0.5'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §e§lTăng Vận Tốc Mũi Tên
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &e&lTăng Vận Tốc Mũi Tên"}]}'',HideFlags:2,MMOITEMS_ARROW_VELOCITY:0.5d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Arrow Velocity: §f0.5","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"DAMETEN",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &e&lTăng Vận Tốc Mũi Tên",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Arrow Velocity: "},{"italic":false,"color":"white","text":"0.5"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"yellow","text":"Tăng Vận Tốc Mũi
+          Tên"}],"text":""}''}}'
+      '20':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Magic Damage Reduction: &f+1%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lGiảm Damage Phép
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lGiảm Damage Phép"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Magic Damage Reduction: §f+1%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"GIAMDAMAPHEP",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_MAGIC_DAMAGE_REDUCTION:1.0d,MMOITEMS_NAME:"&a&lBùa
+          &9&lGiảm Damage Phép",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Magic Damage Reduction: "},{"italic":false,"color":"white","text":"+1%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Giảm Damage Phép"}],"text":""}''}}'
+      '21':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Spell Vampirism: &c+3%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Hút Máu Skill
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Hút Máu Skill"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Spell Vampirism: §c+3%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"HUTMAUSKILL",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Hút Máu Skill",MMOITEMS_SPELL_VAMPIRISM:3.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Spell Vampirism: "},{"italic":false,"color":"red","text":"+3%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Hút Máu Skill"}],"text":""}''}}'
+      '22':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Lifesteal: &c+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Hút Máu
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Hút Máu"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem Stone","§f","§f§3
+          §7■ Lifesteal: §c+5%","§f","§f§8§l[§2§l*§8§l] §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure
+          1"]'',MMOITEMS_ITEM_ID:"HUTMAU",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_LIFESTEAL:5.0d,MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Hút Máu",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Lifesteal: "},{"italic":false,"color":"red","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Hút Máu"}],"text":""}''}}'
+      '23':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ PvE Damage Reduction: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lGiảm Damage Từ Quái
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lGiảm Damage Từ Quái"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ PvE Damage Reduction: §f+5%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"GIAMDAMEQUAI",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lGiảm Damage Từ Quái",MMOITEMS_PVE_DAMAGE_REDUCTION:5.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ PvE Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Giảm Damage Từ Quái"}],"text":""}''}}'
+      '24':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Recoil: &f0.2%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Độ Chính Xác Từ Súng
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Độ Chính Xác Từ Súng"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Recoil: §f0.2%","§f","§f§8§l[§2§l*§8§l] §aDrag onto
+          an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"TANGTAM",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Độ Chính Xác Từ Súng",MMOITEMS_RECOIL:0.2d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Recoil: "},{"italic":false,"color":"white","text":"0.2%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Độ Chính Xác
+          Từ Súng"}],"text":""}''}}'
+      '25':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Knockback: &f0.2'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng KnockBack Từ Súng
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng KnockBack Từ Súng"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Knockback: §f0.2","§f","§f§8§l[§2§l*§8§l] §aDrag onto
+          an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"&A&LBÙA_&6&LTĂNG_TỐC_ĐỘ",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_KNOCKBACK:0.2d,MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng KnockBack Từ Súng",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Knockback: "},{"italic":false,"color":"white","text":"0.2"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng KnockBack Từ
+          Súng"}],"text":""}''}}'
+      '26':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7✠ Armor: &f+0.5'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §9§lTăng Giáp
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &9&lTăng Giáp"}]}'',HideFlags:2,MMOITEMS_ARMOR:0.5d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7✠ Armor: §f+0.5","§f","§f§8§l[§2§l*§8§l] §aDrag onto
+          an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"TANGGIAP",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &9&lTăng Giáp",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"✠ Armor: "},{"italic":false,"color":"white","text":"+0.5"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"blue","text":"Tăng Giáp"}],"text":""}''}}'
+      '27':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Skill Damage: &f+5%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Damage Skill
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Damage Skill"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Skill Damage: §f+5%","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"GG",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Damage Skill",MMOITEMS_SKILL_DAMAGE:5.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Skill Damage: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Damage Skill"}],"text":""}''}}'
+      '28':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7■ Skill Cooldown Reduction: &f+10%'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §c§lHồi Chiêu
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &c&lHồi Chiêu"}]}'',HideFlags:2,MMOITEMS_COOLDOWN_REDUCTION:10.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7■ Skill Cooldown Reduction: §f+10%","§f","§f§8§l[§2§l*§8§l]
+          §aDrag onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"HOICHIEU",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &c&lHồi Chiêu",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Skill Cooldown Reduction: "},{"italic":false,"color":"white","text":"+10%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"red","text":"Hồi Chiêu"}],"text":""}''}}'
+      '29':
+        displaylore:
+        - '&cGem Stone'
+        - '&f'
+        - '&3 &7➸ Attack Speed: &f0.3'
+        - '&f'
+        - '&8&l[&2&l*&8&l] &aDrag onto an item &7to apply!'
+        material: NAME_TAG
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBùa §6§lTăng Tốc Đánh
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lBùa
+          &6&lTăng Tốc Đánh"}]}'',HideFlags:2,MMOITEMS_ATTACK_SPEED:0.3d,MMOITEMS_DYNAMIC_LORE:''["§f§cGem
+          Stone","§f","§f§3 §7➸ Attack Speed: §f0.3","§f","§f§8§l[§2§l*§8§l] §aDrag
+          onto an item §7to apply!"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"TOCDANH",MMOITEMS_ITEM_TYPE:"GEM_STONE",MMOITEMS_NAME:"&a&lBùa
+          &6&lTăng Tốc Đánh",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Gem
+          Stone"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"0.3"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"bold":true,"italic":false,"color":"dark_gray","text":"["},{"bold":true,"italic":false,"color":"dark_green","text":"*"},{"bold":true,"italic":false,"color":"dark_gray","text":"]
+          "},{"bold":false,"italic":false,"color":"green","text":"Drag onto an item
+          "},{"italic":false,"color":"gray","text":"to apply!"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Bùa
+          "},{"bold":true,"italic":false,"color":"gold","text":"Tăng Tốc Đánh"}],"text":""}''}}'

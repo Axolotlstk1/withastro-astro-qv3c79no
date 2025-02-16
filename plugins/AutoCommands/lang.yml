@@ -1,0 +1,29 @@
+onEditorIsLockedError: '&cThe editor is locked by %acmdLockingUser, you can not edit
+  the command'
+onEnablAcmd: '&6%acmdName &aenable'
+onDisableAcmd: '&6%acmdName &c&ldisable'
+onRunAcmd: '&6%acmdName &aRunning'
+onStopAcmd: '&6%acmdName &c&lStopped'
+AlertShortCycle: '&c%acmdName has a cycle of %acmdCycleSec seconds, this is short
+  and it can cause lag on your server'
+onAddingANewCommand: command %acmdName successfully added
+onDeleteAcmd: Command %acmdName successfully deleted
+CommandListTop: '&e---------[ &6%acmdcurrentlyRunning / %acmdFound running , %acmdCurrentlyEnabled
+  / %acmdFound Active &e]---------'
+CommandListBottom: ' ---Page--(%acmdCurrentPageOfList / %acmdNumberOfListPage&e)---------'
+OnReload: '&a&lreloaded %acmdFound acmds'
+OnRepetitionEnd: '&cstopping executing %acmdName'
+ConsoleExecutingMessage: '&6 %acmdName Executing fot the %acmdRepCounter time the
+  command&a->&6 %acmdCommand'
+CommandEdited: '&6command successfully modified'
+onDysplayingAcmd:
+- '   &eName : &6%acmdName '
+- '   &eID : &d%acmdID &e, Active : %acmdIsActive&e, running : %acmdIsRunning'
+- '   &eEvery : %acmdCycleSec s&e, delay : &9%acmdDelaySec s'
+- '   &eDaily execution hour : &a&l%acmdDaylyTime'
+- '   &6List of the commands : '
+- '   &6%acmdCommand'
+- ' '
+- '   &eRepeating task &8%acmdRepetition&e times'
+- '   &edisplaying message : %acmdMessage'
+- '&e--------------------------------------------------'

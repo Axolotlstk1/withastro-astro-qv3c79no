@@ -1,0 +1,282 @@
+Animation: Round2
+Material: ENDER_CHEST
+Damage: 0
+Glow: false
+Amount: 1
+Name: ele
+OnlyPlaceable: true
+RewardsDontRepeat: false
+Enchanted: false
+NBTtags: ''
+CommandOnCratePlace: []
+MessagesToPlayer: []
+RewardHologram: []
+Final_Message: []
+FinalMessageToOpener: []
+Size: 20
+PrizeSize: 1
+KeyCrate:
+  Material: CONDUIT
+  Damage: 0
+  Glow: true
+  Amount: 1
+  Name: §e§lKey §6§lHệ
+  Enchanted: true
+  ItemFlags:
+  - HIDE_ENCHANTS
+  Lores: []
+ClosedCrateText: []
+Prizes:
+  Quyển_Trục_Hệ__Tâm_linh:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &d&l Tâm linh'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Thép:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &9&l Thép'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Khói:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &f&l Khói'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Cỏ:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &a&l Cỏ'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Nước:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &1&l Nước'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Đất:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &2&l Đất'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Bóng_tối:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &0&l Bóng tối'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Cát:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &e&l Cát'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Độc:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &5&l Độc'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Điện:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &6&l Điện'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Ánh_sáng:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &e&l Ánh sáng'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Lửa:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &4&l Lửa'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Băng:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &b&l Băng'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  Quyển_Trục_Hệ__Gió:
+    Material: BOOK
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6Quyển Trục Hệ &7&l Gió'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §7§lChuột Phải §7để học
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+Lores: []

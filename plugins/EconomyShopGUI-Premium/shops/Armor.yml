@@ -1,0 +1,64 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - '&cArmor'
+        - '&f'
+        - '&3 &7■ Fire Damage Reduction: &f+20%'
+        - '&3 &7■ PvP Damage Reduction: &f+5%'
+        - '&3 &7✠ Armor: &f+5.5'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Bạn không thích bị cháy ư?'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: GOLDEN_LEGGINGS
+        buy: 250.0
+        sell: -1.0
+        displayname: §6Quần Chống Cháy
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],Damage:0,HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&6Quần
+          Chống Cháy"}]}'',HideFlags:6,MMOITEMS_ARMOR:5.5d,MMOITEMS_DYNAMIC_LORE:''["§f§cArmor","§f","§f§3
+          §7■ Fire Damage Reduction: §f+20%","§f§3 §7■ PvP Damage Reduction: §f+5%","§f§3
+          §7✠ Armor: §f+5.5","§f","§f§a◆ Empty GREEN Gem Socket","§f","§f§7Bạn không
+          thích bị cháy ư?","§f","§f§3 §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_FIRE_DAMAGE_REDUCTION:20.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"FIREPRO",MMOITEMS_ITEM_TYPE:"ARMOR",MMOITEMS_LORE:''["&7Bạn
+          không thích bị cháy ư?"]'',MMOITEMS_NAME:"&6Quần Chống Cháy",MMOITEMS_PVP_DAMAGE_REDUCTION:5.0d,MMOITEMS_TIER:"RARE",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Armor"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fire Damage Reduction: "},{"italic":false,"color":"white","text":"+20%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ PvP Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"✠ Armor: "},{"italic":false,"color":"white","text":"+5.5"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Bạn
+          không thích bị cháy ư?"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"gold","text":"Quần
+          Chống Cháy"}],"text":""}''}}'
+      '2':
+        displaylore:
+        - '&cArmor'
+        - '&f'
+        - '&3 &7■ Fall Damage Reduction: &f+15%'
+        - '&3 &7■ PvE Damage Reduction: &f+5%'
+        - '&3 &7✠ Armor: &f+2.5'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Bạn không thích sát thương rơi ư?'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: LEATHER_BOOTS
+        armorcolor: '#FFFFFF'
+        buy: 250.0
+        sell: -1.0
+        displayname: §fGiày Kháng Rơi
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],Damage:0,HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&fGiày
+          Kháng Rơi"}]}'',HideFlags:6,MMOITEMS_ARMOR:2.5d,MMOITEMS_DYNAMIC_LORE:''["§f§cArmor","§f","§f§3
+          §7■ Fall Damage Reduction: §f+15%","§f§3 §7■ PvE Damage Reduction: §f+5%","§f§3
+          §7✠ Armor: §f+2.5","§f","§f§a◆ Empty GREEN Gem Socket","§f","§f§7Bạn không
+          thích sát thương rơi ư?","§f","§f§3 §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_FALL_DAMAGE_REDUCTION:15.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"FLYRE",MMOITEMS_ITEM_PARTICLES:''{"Particle":"CRIT","Type":"AURA","Modifiers":{"y-speed":0.1,"radius":1.0,"height":0.1}}'',MMOITEMS_ITEM_TYPE:"ARMOR",MMOITEMS_LORE:''["&7Bạn
+          không thích sát thương rơi ư?"]'',MMOITEMS_NAME:"&fGiày Kháng Rơi",MMOITEMS_PVE_DAMAGE_REDUCTION:5.0d,MMOITEMS_TIER:"RARE",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Armor"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fall Damage Reduction: "},{"italic":false,"color":"white","text":"+15%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ PvE Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"✠ Armor: "},{"italic":false,"color":"white","text":"+2.5"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Bạn
+          không thích sát thương rơi ư?"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"white","text":"Giày
+          Kháng Rơi"}],"text":""}'',color:16777215}}'

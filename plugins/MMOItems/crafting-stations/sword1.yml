@@ -1,0 +1,46 @@
+
+# Name which will be displayed
+# when opening the station
+name: 'Vũ Khí Cận Chiến &6&lRARE (#page#/#max#)'
+
+# The maximum amount of items in the crafting queue ie. the
+# max number of items players are able to craft simultaneously.
+# Must be between 1 and 64.
+max-queue-size: 64
+
+# The sound that plays whenever an action is
+# completed in the crafting station.
+# GET SOUND NAMES HERE:
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# This is how the gui looks. You can define your own
+# in crafting-stations/layouts by creating a new
+# file with the name of the file as the id.
+layout: default
+
+# Configure GUI items here
+items:
+    fill:
+        material: AIR
+    no-recipe:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Recipe'
+    no-queue-item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '&aNo Item in Queue'
+
+# Station recipes
+recipes:
+    lua1:
+        item:
+            type: SWORD
+            id: LUA
+        ingredients:
+        - mmoitem{type=MATERIAL,id=UPGRADEr,amount=1,display="§2&lĐá Nâng Cấp &6&lRARE"}
+    steel-sword-upgrade:
+        item:
+            type: SWORD
+            id: LONG_SWORD
+        ingredients:
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="Steel Ingot"}

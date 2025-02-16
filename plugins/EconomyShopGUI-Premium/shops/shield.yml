@@ -1,0 +1,136 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - '&cShield'
+        - '&f'
+        - '&3 &7■ Physical Damage Reduction: &f+3%'
+        - '&3 &7■ Parry Rating: &f+5%'
+        - '&f'
+        - '&8| &7Damaged By Entity &8|&e|&8| &7&lFreezing Curse'
+        - '&f &8&l|&7 &7Duration&8: &f1.5 &8&l|&7 &7Damage&8: &f2 &8&l|&7 &7Amplifier&8:
+          &f2'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Cầm cái này lên chắc sun vòi quá?'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: SHIELD
+        buy: 450.0
+        sell: -1.0
+        displayname: §bKhiên Băng Giá
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],BlockEntityTag:{Base:0,Patterns:[{Color:3,Pattern:"flo"},{Color:3,Pattern:"gra"}],id:"minecraft:banner"},Damage:0,HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&bKhiên
+          Băng Giá"}]}'',HideFlags:6,MMOITEMS_ABILITY:''[{"Id":"FREEZING_CURSE","CastMode":"DAMAGED_BY_ENTITY","Modifiers":{"duration":1.5,"damage":2.0,"amplifier":2.0}}]'',MMOITEMS_DYNAMIC_LORE:''["§f§cShield","§f","§f§3
+          §7■ Physical Damage Reduction: §f+3%","§f§3 §7■ Parry Rating: §f+5%","§f","§f§8|
+          §7Damaged By Entity §8|§e|§8| §7§lFreezing Curse","§f §8§l|§7 §7Duration§8:
+          §f1.5 §8§l|§7 §7Damage§8: §f2 §8§l|§7 §7Amplifier§8: §f2","§f","§f§a◆ Empty
+          GREEN Gem Socket","§f","§f§7Cầm cái này lên chắc sun vòi quá?","§f","§f§3
+          §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"KHIEN",MMOITEMS_ITEM_TYPE:"SHIELD",MMOITEMS_LORE:''["&7Cầm
+          cái này lên chắc sun vòi quá?"]'',MMOITEMS_NAME:"&bKhiên Băng Giá",MMOITEMS_PARRY_RATING:5.0d,MMOITEMS_PHYSICAL_DAMAGE_REDUCTION:3.0d,MMOITEMS_TIER:"RARE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Shield"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Physical Damage Reduction: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Parry Rating: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Damaged By Entity "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Freezing Curse"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"1.5 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Damage"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"2 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Amplifier"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"2"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Cầm
+          cái này lên chắc sun vòi quá?"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"aqua","text":"Khiên
+          Băng Giá"}],"text":""}''}}'
+      '2':
+        displaylore:
+        - '&cShield'
+        - '&f'
+        - '&3 &7■ Fire Damage Reduction: &f+5%'
+        - '&3 &7■ Physical Damage Reduction: &f+3%'
+        - '&f'
+        - '&8| &7Damaged By Entity &8|&e|&8| &7&lEarthquake'
+        - '&f &8&l|&7 &7Duration&8: &f5 &8&l|&7 &7Damage&8: &f6 &8&l|&7 &7Cooldown&8:
+          &f8'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Có thể tạo ra chấn động'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: SHIELD
+        buy: 450.0
+        sell: -1.0
+        displayname: §2Khiên Đất
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],BlockEntityTag:{Base:0,Patterns:[{Color:12,Pattern:"glb"},{Color:13,Pattern:"tts"},{Color:12,Pattern:"gru"}],id:"minecraft:banner"},Damage:0,HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&2Khiên
+          Đất"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"EARTHQUAKE","CastMode":"DAMAGED_BY_ENTITY","Modifiers":{"duration":5.0,"damage":6.0,"cooldown":8.0}}]'',MMOITEMS_DYNAMIC_LORE:''["§f§cShield","§f","§f§3
+          §7■ Fire Damage Reduction: §f+5%","§f§3 §7■ Physical Damage Reduction: §f+3%","§f","§f§8|
+          §7Damaged By Entity §8|§e|§8| §7§lEarthquake","§f §8§l|§7 §7Duration§8:
+          §f5 §8§l|§7 §7Damage§8: §f6 §8§l|§7 §7Cooldown§8: §f8","§f","§f§a◆ Empty
+          GREEN Gem Socket","§f","§f§7Có thể tạo ra chấn động","§f","§f§3 §7Tier:
+          §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_FIRE_DAMAGE_REDUCTION:5.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"EARTH",MMOITEMS_ITEM_TYPE:"SHIELD",MMOITEMS_LORE:''["&7Có
+          thể tạo ra chấn động"]'',MMOITEMS_NAME:"&2Khiên Đất",MMOITEMS_PHYSICAL_DAMAGE_REDUCTION:3.0d,MMOITEMS_TIER:"RARE",RepairCost:1,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Shield"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fire Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Physical Damage Reduction: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Damaged By Entity "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Earthquake"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"5 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Damage"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"6 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Có
+          thể tạo ra chấn động"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"dark_green","text":"Khiên
+          Đất"}],"text":""}''}}'
+      '3':
+        displaylore:
+        - '&cShield'
+        - '&f'
+        - '&3 &7■ Physical Damage: &f+3%'
+        - '&3 &7■ Projectile Damage: &f+2%'
+        - '&3 &7■ Fire Damage Reduction: &f+15%'
+        - '&f'
+        - '&8| &7Damaged By Entity &8|&e|&8| &7&lBurning Hands'
+        - '&f &8&l|&7 &7Duration&8: &f3 &8&l|&7 &7Damage&8: &f3 &8&l|&7 &7Cooldown&8:
+          &f10'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Cháy như free fire'
+        - '&f'
+        - '&3 &7Tier: &e&lEPIC'
+        material: SHIELD
+        buy: 500.0
+        sell: -1.0
+        displayname: §6Khiên Lửa
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],BlockEntityTag:{Base:0,Patterns:[{Color:14,Pattern:"sku"},{Color:1,Pattern:"gru"},{Color:4,Pattern:"bts"},{Color:14,Pattern:"bo"}],id:"minecraft:banner"},Damage:0,HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&6Khiên
+          Lửa"}]}'',HideFlags:6,MMOITEMS_ABILITY:''[{"Id":"BURNING_HANDS","CastMode":"DAMAGED_BY_ENTITY","Modifiers":{"duration":3.0,"damage":3.0,"cooldown":10.0}}]'',MMOITEMS_DYNAMIC_LORE:''["§f§cShield","§f","§f§3
+          §7■ Physical Damage: §f+3%","§f§3 §7■ Projectile Damage: §f+2%","§f§3 §7■
+          Fire Damage Reduction: §f+15%","§f","§f§8| §7Damaged By Entity §8|§e|§8|
+          §7§lBurning Hands","§f §8§l|§7 §7Duration§8: §f3 §8§l|§7 §7Damage§8: §f3
+          §8§l|§7 §7Cooldown§8: §f10","§f","§f§a◆ Empty GREEN Gem Socket","§f§a◆ Empty
+          GREEN Gem Socket","§f","§f§7Cháy như free fire","§f","§f§3 §7Tier: §e§lEPIC"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_FIRE_DAMAGE_REDUCTION:15.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"LUA",MMOITEMS_ITEM_TYPE:"SHIELD",MMOITEMS_LORE:''["&7Cháy
+          như free fire"]'',MMOITEMS_NAME:"&6Khiên Lửa",MMOITEMS_PHYSICAL_DAMAGE:3.0d,MMOITEMS_PROJECTILE_DAMAGE:2.0d,MMOITEMS_TIER:"EPIC",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Shield"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Physical Damage: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Projectile Damage: "},{"italic":false,"color":"white","text":"+2%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fire Damage Reduction: "},{"italic":false,"color":"white","text":"+15%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Damaged By Entity "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Burning Hands"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"3 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Damage"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"3 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"10"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Cháy
+          như free fire"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"yellow","text":"EPIC"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"gold","text":"Khiên
+          Lửa"}],"text":""}''}}'

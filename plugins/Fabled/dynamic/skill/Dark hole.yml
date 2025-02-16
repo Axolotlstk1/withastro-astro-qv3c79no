@@ -1,0 +1,313 @@
+'Dark hole': 
+  name: 'Dark hole'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '5'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '12'
+    'cooldown-scale': '0'
+    'mana-base': '8'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'HOPPER'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Location: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'range-base': '5'
+            'range-scale': '0.4'
+            entities: 'false'
+            fluids: 'false'
+            passable: 'false'
+            center: 'false'
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+          children: 
+            Sound: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                sound: 'Ambient Cave'
+                'volume-base': '100'
+                'volume-scale': '0'
+                'pitch-base': '1'
+                'pitch-scale': '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Sound-b': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                sound: 'Entity Enderman Teleport'
+                'volume-base': '100'
+                'volume-scale': '0'
+                'pitch-base': '1'
+                'pitch-scale': '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Repeat: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                'repetitions-base': '30'
+                'repetitions-scale': '2'
+                period: '0.1'
+                delay: '0'
+                'stop-on-fail': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                Area: 
+                  type: 'target'
+                  data: 
+                    'icon-key': ''
+                    'radius-base': '3'
+                    'radius-scale': '0.4'
+                    group: 'Enemy'
+                    wall: 'false'
+                    invulnerable: 'false'
+                    caster: 'False'
+                    'max-base': '3'
+                    'max-scale': '0'
+                    random: 'false'
+                  preview: 
+                    enabled: 'false'
+                    'per-target': 'false'
+                    circle: 'false'
+                    sphere: 'false'
+                  children: 
+                    Push: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'true'
+                        type: 'Fixed'
+                        'speed-base': '-0.1'
+                        'speed-scale': '0'
+                        source: 'a'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    Delay: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        'delay-base': '0.05'
+                        'delay-scale': '0'
+                        cleanup: 'false'
+                        'single-instance': 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: 
+                        Launch: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            relative: 'Target'
+                            'reset-y': 'false'
+                            'forward-base': '0'
+                            'forward-scale': '0'
+                            'upward-base': '-2'
+                            'upward-scale': '0'
+                            'right-base': '0'
+                            'right-scale': '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                    Damage: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        type: 'Damage'
+                        'value-base': '0.3'
+                        'value-scale': '0.2'
+                        true: 'false'
+                        classifier: 'default'
+                        knockback: 'false'
+                        'ignore-divinity': 'false'
+                        cause: 'Contact'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    Potion: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        potion: 'Slow'
+                        ambient: 'false'
+                        'tier-base': '5'
+                        'tier-scale': '0'
+                        'seconds-base': '1'
+                        'seconds-scale': '0'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+            'Particle Animation': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                steps: '12'
+                frequency: '0.05'
+                angle: '3600'
+                start: '0'
+                'duration-base': '3'
+                'duration-scale': '0.2'
+                'h-translation-base': '0'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Item crack'
+                material: 'Obsidian'
+                durability: '0'
+                type: '0'
+                arrangement: 'Circle'
+                direction: 'XZ'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '0'
+                speed: '0'
+                forward: '3'
+                upward: '0.1'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation-b': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                steps: '1'
+                frequency: '0.05'
+                angle: '0'
+                start: '0'
+                'duration-base': '3'
+                'duration-scale': '0.2'
+                'h-translation-base': '0'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Town aura'
+                arrangement: 'Circle'
+                direction: 'XZ'
+                'radius-base': '3'
+                'radius-scale': '0'
+                'particles-base': '20'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation-c': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                steps: '17'
+                frequency: '0.05'
+                angle: '36000'
+                start: '0'
+                'duration-base': '3'
+                'duration-scale': '0'
+                'h-translation-base': '-6'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Item crack'
+                material: 'Obsidian'
+                durability: '0'
+                type: '0'
+                arrangement: 'Circle'
+                direction: 'XZ'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0'
+                forward: '3'
+                upward: '0.1'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Remember Targets': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                key: 'a'
+              preview: 
+                enabled: 'false'
+              children: {}

@@ -1,0 +1,102 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: APPLE
+        buy: 10
+        sell: 2.5
+      '2':
+        material: BREAD
+        buy: 15.75
+        sell: 3.94
+      '3':
+        material: CAKE
+        buy: 240.68
+        sell: 60.17
+      '4':
+        material: COOKED_SALMON
+        buy: 6.3
+        sell: 1.58
+      '5':
+        material: COOKIE
+        buy: 2.1
+        sell: 0.53
+      '6':
+        material: GLOW_BERRIES
+        buy: 1
+        sell: 0.25
+      '7':
+        material: HONEY_BOTTLE
+        buy: 7.94
+        sell: 1.99
+      '8':
+        material: BAKED_POTATO
+        buy: 5.25
+        sell: 1.32
+      '9':
+        material: COOKED_BEEF
+        buy: 6.3
+        sell: 1.58
+      '10':
+        material: COOKED_CHICKEN
+        buy: 6.3
+        sell: 1.58
+      '11':
+        material: COOKED_MUTTON
+        buy: 6.3
+        sell: 1.58
+      '12':
+        material: COOKED_PORKCHOP
+        buy: 6.3
+        sell: 1.58
+      '13':
+        material: COOKED_RABBIT
+        buy: 6.3
+        sell: 1.58
+      '14':
+        material: BEEF
+        buy: 6
+        sell: 1.5
+      '15':
+        material: CHICKEN
+        buy: 6
+        sell: 1.5
+      '16':
+        material: MUTTON
+        buy: 6
+        sell: 1.5
+      '17':
+        material: PORKCHOP
+        buy: 6
+        sell: 1.5
+      '18':
+        material: RABBIT
+        buy: 6
+        sell: 1.5
+      '19':
+        material: BEETROOT_SOUP
+        buy: 38.72
+        sell: 9.68
+      '20':
+        displaylore:
+        - '&cConsumable'
+        - '&f'
+        - '&3 &7■ Restores &f10 &7Food'
+        - '&3 &7■ &f4&3 &7s Cooldown'
+        - '&f'
+        - '&7&oMmmmh, yummy!'
+        material: COOKIE
+        buy: 10.0
+        sell: -1.0
+        displayname: §fSiêu Thức Ăn
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&fSiêu
+          Thức Ăn"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cConsumable","§f","§f§3
+          §7■ Restores §f10 §7Food","§f§3 §7■ §f4§3 §7s Cooldown","§f","§f§7§oMmmmh,
+          yummy!"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_ITEM_COOLDOWN:4.0d,MMOITEMS_ITEM_ID:"BURGER",MMOITEMS_ITEM_TYPE:"CONSUMABLE",MMOITEMS_LORE:''["&7&oMmmmh,
+          yummy!"]'',MMOITEMS_NAME:"&fSiêu Thức Ăn",MMOITEMS_RESTORE_FOOD:10.0d,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Consumable"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Restores "},{"italic":false,"color":"white","text":"10
+          "},{"italic":false,"color":"gray","text":"Food"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ "},{"italic":false,"color":"white","text":"4"},{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"s Cooldown"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":true,"color":"gray","text":"Mmmmh,
+          yummy!"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"white","text":"Siêu
+          Thức Ăn"}],"text":""}''}}'

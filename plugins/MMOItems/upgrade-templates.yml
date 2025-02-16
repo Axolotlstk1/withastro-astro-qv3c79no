@@ -1,0 +1,32 @@
+# Template ID, only used as reference. This is the
+# text you need to enter in the edition GUI in order
+# to setup item upgrading for a specific item.
+weapon-default:
+
+    # Every time the item is upgraded, its attack damage
+    # is increased by 3% (relative to the current value)
+    attack-damage: 10%
+    # Every time it is upgraded, it gets +2% aboslute 
+    # critical strike chance (independent of current val.)
+    attack-speed: 0.5
+    pve-damage: 1%
+    skill-damage: 1
+lua:
+
+    # Every time the item is upgraded, its attack damage
+    # is increased by 3% (relative to the current value)
+    attack-damage: 10%
+    # Every time it is upgraded, it gets +2% aboslute 
+    # critical strike chance (independent of current val.)
+    attack-speed: 0.5
+
+armor-template-example:
+    armor: 2%
+    block-rating: 2%
+    dodge-rating: 2%
+    parry-rating: 2%
+
+another-example:
+    attack-damage: 0.5%    
+    critical-strike-chance: 0.1%
+    critical-strike-power: 0.2%

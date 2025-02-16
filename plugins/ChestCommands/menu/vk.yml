@@ -1,0 +1,57 @@
+menu-settings:
+    name: '&9&lBàn Nâng Cấp'
+    rows: 3
+    commands:
+        - 'vk'
+    auto-fresh: 5
+    
+sword:
+    MATERIAL: iron_sword
+    POSITION-X: 1
+    POSITION-Y: 2
+    NAME: '&#FF4400&lVũ Khí Cận Chiến'
+    LORE: 
+      - ''
+      - '&8Nhấn chuột phải'
+    ACTIONS:
+      - 'open: sword.yml'
+bow:
+    MATERIAL: bow
+    POSITION-X: 3
+    POSITION-Y: 2
+    NAME: '&#FFFFCC&lVũ Khí Tầm Xa'
+    LORE: 
+      - ''
+      - '&8Nhấn chuột phải'
+    ACTIONS:
+      - 'open: bow.yml'
+staff:
+    MATERIAL: allium
+    POSITION-X: 5
+    POSITION-Y: 2
+    NAME: '&#CD00FF&lVũ Khí Phép Thuật'
+    LORE: 
+      - ''
+      - '&8Nhấn chuột phải'
+    ACTIONS:
+      - 'open: staff.yml'
+shield:
+    MATERIAL: shield
+    POSITION-X: 7
+    POSITION-Y: 2
+    NAME: '&#606060&lVũ Khí Phòng Thủ'
+    LORE: 
+      - ''
+      - '&8Nhấn chuột phải'
+    ACTIONS:
+      - 'open: shield.yml'
+support:
+    MATERIAL: shears
+    POSITION-X: 9
+    POSITION-Y: 2
+    NAME: '&#4DFF00&lVũ Khí Hỗ Trợ'
+    LORE: 
+      - ''
+      - '&8Nhấn chuột phải'
+    ACTIONS:
+      - 'open: support.yml'

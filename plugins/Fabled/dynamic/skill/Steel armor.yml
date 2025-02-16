@@ -1,0 +1,236 @@
+'Steel armor': 
+  name: 'Steel armor'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '10'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '30'
+    'cooldown-scale': '0'
+    'mana-base': '16'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'IRON_CHESTPLATE'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            sound: 'Item Armor Equip Iron'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Self: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            Potion: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                potion: 'Absorption'
+                ambient: 'false'
+                'tier-base': '2'
+                'tier-scale': '1'
+                'seconds-base': '7'
+                'seconds-scale': '1'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                steps: '12'
+                frequency: '0.05'
+                angle: '36000'
+                start: '0'
+                'duration-base': '7'
+                'duration-scale': '1'
+                'h-translation-base': '0'
+                'h-translation-scale': '0'
+                'v-translation-base': '1'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '2'
+                particle: 'Town Aura'
+                arrangement: 'Circle'
+                direction: 'XZ'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '4'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '1'
+                forward: '0.7'
+                upward: '0.4'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Particle: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                particle: 'Crit'
+                arrangement: 'Circle'
+                direction: 'XZ'
+                'radius-base': '4'
+                'radius-scale': '0'
+                'particles-base': '70'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+        Area: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'radius-base': '3'
+            'radius-scale': '0.4'
+            group: 'Enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'False'
+            'max-base': '3'
+            'max-scale': '2'
+            random: 'false'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+            circle: 'false'
+            sphere: 'false'
+          children: 
+            Damage: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                type: 'Damage'
+                'value-base': '2'
+                'value-scale': '2'
+                true: 'false'
+                classifier: 'default'
+                knockback: 'false'
+                'ignore-divinity': 'false'
+                cause: 'Contact'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Potion: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                potion: 'Blindness'
+                ambient: 'false'
+                'tier-base': '5'
+                'tier-scale': '0'
+                'seconds-base': '2'
+                'seconds-scale': '1'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Status: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                status: 'Stun'
+                'duration-base': '1'
+                'duration-scale': '0.2'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                steps: '12'
+                frequency: '0.05'
+                angle: '3600'
+                start: '0'
+                'duration-base': '1'
+                'duration-scale': '0'
+                'h-translation-base': '0'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Crit'
+                arrangement: 'Sphere'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0.1'
+                forward: '0.5'
+                upward: '2.2'
+                right: '0'
+                '-with-rotation': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}

@@ -1,0 +1,652 @@
+loaded: 'true'
+Fire: 
+  name: 'Fire'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Fire burn'
+  - 'Fire storm'
+  - 'Fire explosion'
+  - 'Health'
+  icon: 'DIRT'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Fire'
+  'exp-source': 273
+  'combo-starters': {}
+Light: 
+  name: 'Light'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Light ray'
+  - 'Light speed'
+  - 'Light rain'
+  - 'Health'
+  icon: 'NETHER_STAR'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Light'
+  'exp-source': 273
+  'combo-starters': {}
+Earth: 
+  name: 'Earth'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Earthquake'
+  - 'Earth thorn'
+  - 'Earth prison'
+  - 'Health'
+  icon: 'DIRT'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Earth'
+  'exp-source': 273
+  'combo-starters': {}
+Poison: 
+  name: 'Poison'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Poison throw'
+  - 'Poison smoke'
+  - 'Poison master'
+  - 'Health'
+  icon: 'POTION'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Poison'
+  'exp-source': 273
+  'combo-starters': {}
+Water: 
+  name: 'Water'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Water wave'
+  - 'Water gushing'
+  - 'Water spin'
+  - 'Health'
+  icon: 'FLINT'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Water'
+  'exp-source': 273
+  'combo-starters': {}
+Ice: 
+  name: 'Ice'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Ice spike'
+  - 'Ice throw'
+  - 'Ice age'
+  - 'Health'
+  icon: 'ICE'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Ice'
+  'exp-source': 273
+  'combo-starters': {}
+Grass: 
+  name: 'Grass'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Grass storm'
+  - 'Grass cling'
+  - 'Grass pull'
+  - 'Health'
+  icon: 'GRASS'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Grass'
+  'exp-source': 273
+  'combo-starters': {}
+Thunder: 
+  name: 'Thunder'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Thunder lightning'
+  - 'Thunder zone'
+  - 'Thunder god'
+  - 'Health'
+  icon: 'DIRT'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Thunder'
+  'exp-source': 273
+  'combo-starters': {}
+Psychic: 
+  name: 'Psychic'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Psychic chaos'
+  - 'Psychic zone'
+  - 'Psychic curse'
+  - 'Health'
+  icon: 'JACK_O_LANTERN'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Psychic'
+  'exp-source': 273
+  'combo-starters': {}
+Dark: 
+  name: 'Dark'
+  'action-bar': ''
+  prefix: '&0&lDARK'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Dark slash'
+  - 'Dark hole'
+  - 'Dark void'
+  - 'Health'
+  icon: 'HOPPER'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Dark'
+  'exp-source': 273
+  'combo-starters': {}
+Wind: 
+  name: 'Wind'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Wind slash'
+  - 'Wind storm'
+  - 'Wind suft'
+  - 'Health'
+  icon: 'JACK_O_LANTERN'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Wind'
+  'exp-source': 273
+  'combo-starters': {}
+Sand: 
+  name: 'Sand'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Sand wither'
+  - 'Sand coffin'
+  - 'Sand storm'
+  - 'Health'
+  icon: 'JACK_O_LANTERN'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Sand'
+  'exp-source': 273
+  'combo-starters': {}
+Steel: 
+  name: 'Steel'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Steel crack'
+  - 'Steel punch'
+  - 'Steel armor'
+  - 'Health'
+  icon: 'IRON_BLOCK'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Steel'
+  'exp-source': 273
+  'combo-starters': {}
+Smoke: 
+  name: 'Smoke'
+  'action-bar': ''
+  prefix: ''
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: 
+  - 'Smoke push'
+  - 'Smoke kick'
+  - 'Smoke chain'
+  - 'Health'
+  icon: 'JACK_O_LANTERN'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - 'Smoke'
+  'exp-source': 273
+  'combo-starters': {}
+Blizzard: 
+  name: 'Blizzard'
+  'action-bar': ''
+  prefix: '&b&lBlizzard'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: []
+  icon: 'ACACIA_BOAT'
+  'icon-data': 2
+  'icon-durability': 0
+  'icon-lore': 
+  - '&dClass 3'
+  'exp-source': 273
+  'combo-starters': {}
+Gravity: 
+  name: 'Gravity'
+  'action-bar': ''
+  prefix: '&5Gravity'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: []
+  icon: 'ACACIA_BOAT'
+  'icon-data': 2
+  'icon-durability': 0
+  'icon-lore': 
+  - '&dClass 3'
+  'exp-source': 337
+  'combo-starters': {}
+Magma: 
+  name: 'Magma'
+  'action-bar': ''
+  prefix: '&6Magma'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: []
+  icon: 'ACACIA_BOAT'
+  'icon-data': 2
+  'icon-durability': 0
+  'icon-lore': 
+  - '&dClass 3'
+  'exp-source': 273
+  'combo-starters': {}

@@ -1,0 +1,3 @@
+locations:
+- world=Spawn,x=-1345.0,y=68.0,z=-442.0,crate=khu1,direction=SOUTH
+- world=world,x=0.0,y=140.0,z=11.0,crate=ele,direction=NORTH
