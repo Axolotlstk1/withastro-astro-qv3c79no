@@ -1,0 +1,36 @@
+RandomSkeletonKing:
+  Type: SkeletonKing
+  Worlds: world
+  Chance: 0.005
+  Priority: 1
+  Action: REPLACE
+RandomSkeK:
+  Type: SkeK
+  Worlds: world
+  Chance: 0.07
+  Priority: 1
+  Action: REPLACE
+RSke:
+  Type: Ske
+  Worlds: world
+  Chance: 0.09
+  Priority: 1
+  Action: REPLACE
+RZom:
+  Type: Zom
+  Worlds: world
+  Chance: 0.09
+  Priority: 1
+  Action: REPLACE
+RCre:
+  Type: Cre
+  Worlds: world
+  Chance: 0.09
+  Priority: 1
+  Action: REPLACE
+RSpi:
+  Type: Spi
+  Worlds: world
+  Chance: 0.09
+  Priority: 1
+  Action: REPLACE

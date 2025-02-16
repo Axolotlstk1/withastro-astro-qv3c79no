@@ -1,0 +1,19 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: ARROW
+        buy: 50.0
+        sell: -1.0
+        stack-size: 64
+      '2':
+        material: SPECTRAL_ARROW
+        buy: 75.0
+        sell: -1.0
+        stack-size: 64
+      '3':
+        material: TIPPED_ARROW
+        buy: 200.0
+        sell: -1.0
+        stack-size: 64
+        NBTData: '{Potion:"minecraft:poison"}'

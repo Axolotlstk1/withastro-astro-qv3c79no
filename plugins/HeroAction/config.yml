@@ -1,0 +1,95 @@
+# =====================================================================================================
+
+# PLUGIN VARIABLES:
+# CUSTOM VARIABLES AVAILABLE WITHOUT ANY DEPENDENCIES
+
+# %player% - Get player name
+# %world% - Get name of the world where player is located
+# %online% - Get count of online players on the server
+# %max_players% - Get maximum slots of the server
+# %date% - Get current date
+# %time% - Get current time
+# %total_memory% - Get total memory
+# %free_memory% - Get free memory
+# %used_memory% - Get used memory
+# %health% - Get health of player
+# %food% - Get food level of player
+# %rainbow% - Get random color
+
+# For more placeholders you can use PlaceHolderAPI.
+# PlaceholderAPI placeholders you can get at https://www.spigotmc.org/wiki/placeholderapi-placeholders/
+
+# =====================================================================================================
+
+# Configuration of messages
+Messages:
+  # Show messages randomly
+  random: false
+
+  # Number in seconds how long the message will be displayed
+  show_time: 5
+
+  # Number in seconds how long wait between messages
+  time_between_messages: 0
+
+  # Change to 'true' if you want to send action messages only in specific world
+  only_in_custom_worlds: false
+
+  # Sound of message change
+  # NONE - disabled
+  # Server version: 1.8 sound list - https://pastebin.com/0cyN6riL
+  # Server version: 1.13.2 sound list - https://pastebin.com/FGgtULr9
+  sound: NONE
+
+  # Change to 'true' if you want to disable messages for players with permissions: HeroAction.bypass
+  # Example for usage: Disable annoying messages for VIP players
+  bypass: false
+
+  # Change to 'true' if you want to allow enable or disable showing messages using: /HeroAction toggle
+  toggleable_messages: false
+
+  # List of messages
+  list:
+    - '&c❤ %fabled_default_scurrenthealth%.0 &f| &b🔥 %fabled_default_currentmana% &f| &d✪ %fabled_default_currentavailableskillpoints%'
+
+# List of worlds where messages will be displayed
+Custom_Worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+# Configuration of variables
+Variables:
+  # Variable: %date%
+  Date: 'dd.MM.yyyy'
+
+  # Variable: %time%
+  Time: 'HH:mm'
+
+  # Variable: %health%
+  Health:
+    healthy: '&4❤'
+    half_heart: '&c❤'
+    unhealthy: '&7❤'
+
+  # Variable: %food%
+  Food:
+    full: '&c☕'
+    hunger: '&7☕'
+
+  # Variable: %rainbow%
+  # List of colors  that will change
+  Rainbow:
+    - '&d'
+    - '&c'
+    - '&4'
+    - '&6'
+    - '&e'
+    - '&a'
+    - '&2'
+    - '&b'
+    - '&9'
+    - '&1'
+    - '&5'
+
+check_for_updates: true

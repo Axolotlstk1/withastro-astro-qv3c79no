@@ -1,0 +1,6 @@
+enable: true
+item:
+  material: SLIME_BALL
+  displayname: '&6&lHệ'
+  name: '&6&lHệ'
+slot: 32

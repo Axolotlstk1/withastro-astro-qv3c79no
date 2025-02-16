@@ -1,0 +1,35 @@
+scoreboard: false
+timer: 0
+endMsg: §6<§e§lQuests§6> §aBạn đã hoàn thành nhiệm vụ §e{quest_name} §agiờ bạn có
+  thể nhận nhiệm vụ mới!
+pool: 0
+endRewards:
+- id: skillAPI-exp
+  xp: 33
+- id: moneyReward
+  money: 25.0
+hideNoRequirements: true
+startMessage: §6<§e§lQuests§6> §aBạn đã bắt đầu nhiệm vụ đánh §e{quest_name}
+repeatable: true
+name: §e§lXác Sống
+startableFromGUI: true
+requirements:
+- id: questRequired
+  questID: 0
+- id: skillAPILevelRequired
+  comparison: GREATER_OR_EQUAL
+  target: 2.0
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            7bbc67af-3499-4b04-bf38-cf7a898a2f7d:
+              amount: 20
+              object:
+                factoryName: mythicMobs
+                value: K1Q2
+          stageType: MOBS
+      endingStages: {}
+id: 1

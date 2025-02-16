@@ -1,0 +1,17 @@
+CLOCK:
+  base:
+    material: COMPASS
+    name: '&3Đồng Hồ Của Thời Gian'
+    lore:
+    - '&7Cái này có thể về quá khứ không?'
+    block-rating: 5.0
+    tier: EPIC
+    unbreakable: true
+    magic-damage: 2.0
+    gem-sockets:
+    - GREEN
+    ability:
+      ability1:
+        type: STUN
+        mode: RIGHT_CLICK
+        duration: 3.0

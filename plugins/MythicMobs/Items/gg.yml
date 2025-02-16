@@ -1,0 +1,20 @@
+gg:
+  ItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PRISMARINE_CRYSTALS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+        "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+        "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+        "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được 15
+        "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS

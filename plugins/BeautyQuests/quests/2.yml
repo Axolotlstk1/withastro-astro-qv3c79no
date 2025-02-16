@@ -1,0 +1,35 @@
+scoreboard: false
+timer: 0
+endMsg: §6<§e§lQuests§6> §aBạn đã hoàn thành nhiệm vụ §e{quest_name} §agiờ bạn có
+  thể nhận nhiệm vụ mới!
+pool: 0
+endRewards:
+- id: skillAPI-exp
+  xp: 45
+- id: moneyReward
+  money: 30.0
+hideNoRequirements: true
+startMessage: §6<§e§lQuests§6> §aBạn đã bắt đầu nhiệm vụ đánh §e{quest_name}
+repeatable: true
+name: §e§lCừu Điện
+startableFromGUI: true
+requirements:
+- id: skillAPILevelRequired
+  comparison: GREATER_OR_EQUAL
+  target: 3.0
+- id: questRequired
+  questID: 1
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            bdebb2a3-afae-4e0d-8600-a96598e1b4d0:
+              amount: 18
+              object:
+                factoryName: mythicMobs
+                value: K1Q3
+          stageType: MOBS
+      endingStages: {}
+id: 2

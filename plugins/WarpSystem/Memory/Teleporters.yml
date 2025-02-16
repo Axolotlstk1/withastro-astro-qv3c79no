@@ -1,0 +1,23 @@
+PortalsV2: []
+RandomTeleporter:
+  InteractBlocks: []
+WarpSigns: []
+Spawn:
+  actions:
+  - value:
+      destination:
+        id:
+          X: 0.4963
+          Pitch: -2.3499
+          Y: 139.0
+          Z: -15.535
+          World: world
+          Yaw: -0.0688
+        type: 6
+  usage: LOCAL_EVERY_JOIN
+  respawn: LOCAL
+  displayname: Spawn
+  performed: 11
+  fireworks: true
+  broadcast:
+  - '&eWELCOME'

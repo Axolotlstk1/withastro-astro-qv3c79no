@@ -1,0 +1,210 @@
+'Earth thorn': 
+  name: 'Earth thorn'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '5'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '12'
+    'cooldown-scale': '0'
+    'mana-base': '9'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2 Đã dùng &6{skill}'
+  icon: 'CACTUS'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        'Value Set': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            key: 'rankyaku'
+            'value-base': '1'
+            'value-scale': '0'
+            save: 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Offset: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+          children: 
+            Repeat: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                'repetitions-base': '5'
+                'repetitions-scale': '0'
+                period: '0.05'
+                delay: '0'
+                'stop-on-fail': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                Offset: 
+                  type: 'target'
+                  data: 
+                    'icon-key': ''
+                    'forward-base': 'rankyaku'
+                    'forward-scale': '0'
+                    'upward-base': '0'
+                    'upward-scale': '0'
+                    'right-base': '0'
+                    'right-scale': '0'
+                    group: 'enemy'
+                    wall: 'false'
+                    invulnerable: 'false'
+                    caster: 'false'
+                  preview: 
+                    enabled: 'false'
+                    'per-target': 'false'
+                  children: 
+                    'Value Add': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        key: 'rankyaku'
+                        'amount-base': '0.4'
+                        'amount-scale': '0'
+                        save: 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    Block: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        shape: 'Sphere'
+                        type: 'Any'
+                        block: 'Dirt'
+                        data: '0'
+                        'reset-yaw': 'false'
+                        permanent: 'false'
+                        'seconds-base': '2'
+                        'seconds-scale': '0.4'
+                        'radius-base': '3'
+                        'radius-scale': '0'
+                        'forward-base': '4'
+                        'forward-scale': '0'
+                        'upward-base': '1'
+                        'upward-scale': '0'
+                        'right-base': '0'
+                        'right-scale': '0'
+                      preview: 
+                        enabled: 'false'
+                        'per-target': 'false'
+                      children: {}
+        Linear: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'range-base': '6'
+            'range-scale': '0'
+            'tolerance-base': '5'
+            'tolerance-scale': '0'
+            group: 'Enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'False'
+            'max-base': '3'
+            'max-scale': '0'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+            line: 'false'
+            cylinder: 'false'
+          children: 
+            Damage: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                type: 'Damage'
+                'value-base': '6'
+                'value-scale': '2'
+                true: 'false'
+                classifier: 'default'
+                knockback: 'false'
+                'ignore-divinity': 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Potion: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                potion: 'Blindness'
+                ambient: 'false'
+                'tier-base': '3'
+                'tier-scale': '0'
+                'seconds-base': '3'
+                'seconds-scale': '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+        Self: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            sound: 'Block slime block place'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}

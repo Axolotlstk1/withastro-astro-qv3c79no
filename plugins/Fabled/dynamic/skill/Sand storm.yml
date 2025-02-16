@@ -1,0 +1,236 @@
+'Sand storm': 
+  name: 'Sand storm'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '10'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '30'
+    'cooldown-scale': '0'
+    'mana-base': '16'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'EGG'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Offset: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+          children: 
+            'Value Set': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                key: 'a'
+                'value-base': '5'
+                'value-scale': '0'
+                save: 'false'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Repeat: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                'repetitions-base': '6'
+                'repetitions-scale': '0'
+                period: '0.1'
+                delay: '0'
+                'stop-on-fail': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                Offset: 
+                  type: 'target'
+                  data: 
+                    'icon-key': ''
+                    'forward-base': '5'
+                    'forward-scale': '0'
+                    'upward-base': '0'
+                    'upward-scale': '0'
+                    'right-base': '0'
+                    'right-scale': '0'
+                    group: 'enemy'
+                    wall: 'false'
+                    invulnerable: 'false'
+                    caster: 'false'
+                  preview: 
+                    enabled: 'false'
+                    'per-target': 'false'
+                  children: 
+                    Block: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'true'
+                        shape: 'Sphere'
+                        type: 'Air'
+                        block: 'Sand'
+                        data: '0'
+                        'reset-yaw': 'false'
+                        permanent: 'false'
+                        'seconds-base': '0.2'
+                        'seconds-scale': '0'
+                        'radius-base': '3'
+                        'radius-scale': '0'
+                        'forward-base': '0'
+                        'forward-scale': '0'
+                        'upward-base': 'a'
+                        'upward-scale': '0'
+                        'right-base': '0'
+                        'right-scale': '0'
+                      preview: 
+                        enabled: 'false'
+                        'per-target': 'false'
+                      children: {}
+                    Area: 
+                      type: 'target'
+                      data: 
+                        'icon-key': ''
+                        'radius-base': '4'
+                        'radius-scale': '0'
+                        group: 'Enemy'
+                        wall: 'false'
+                        invulnerable: 'false'
+                        caster: 'False'
+                        'max-base': '99'
+                        'max-scale': '0'
+                        random: 'false'
+                      preview: 
+                        enabled: 'false'
+                        'per-target': 'false'
+                        circle: 'false'
+                        sphere: 'false'
+                      children: 
+                        Damage: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            type: 'Damage'
+                            'value-base': '7'
+                            'value-scale': '0.4'
+                            true: 'false'
+                            classifier: 'default'
+                            knockback: 'true'
+                            'ignore-divinity': 'false'
+                            cause: 'Custom'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Delay: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            'delay-base': '0.6'
+                            'delay-scale': '0'
+                            cleanup: 'true'
+                            'single-instance': 'false'
+                          preview: 
+                            enabled: 'false'
+                          children: 
+                            Block: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                shape: 'Sphere'
+                                type: 'Air'
+                                block: 'Sand'
+                                data: '0'
+                                'reset-yaw': 'false'
+                                permanent: 'false'
+                                'seconds-base': '3'
+                                'seconds-scale': '0.2'
+                                'radius-base': '3'
+                                'radius-scale': '0'
+                                'forward-base': '0'
+                                'forward-scale': '0'
+                                'upward-base': '0'
+                                'upward-scale': '0'
+                                'right-base': '0'
+                                'right-scale': '0'
+                              preview: 
+                                enabled: 'false'
+                                'per-target': 'false'
+                              children: {}
+                        Potion: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            potion: 'Slow'
+                            ambient: 'true'
+                            'tier-base': '2'
+                            'tier-scale': '0'
+                            'seconds-base': '4'
+                            'seconds-scale': '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                'Value Add': 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    key: 'a'
+                    'amount-base': '-1'
+                    'amount-scale': '0'
+                    save: 'false'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                Sound: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    sound: 'Block sand break'
+                    'volume-base': '100'
+                    'volume-scale': '0'
+                    'pitch-base': '1'
+                    'pitch-scale': '0'
+                  preview: 
+                    enabled: 'false'
+                  children: {}

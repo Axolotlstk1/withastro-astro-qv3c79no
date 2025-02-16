@@ -1,0 +1,364 @@
+'Wind suft': 
+  name: 'Wind suft'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '10'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '30'
+    'cooldown-scale': '0'
+    'mana-base': '16'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2 Đã dùng &6{skill}'
+  icon: 'FEATHER'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: 
+        'icon-key': ''
+        indicator: '2D'
+      preview: 
+        enabled: 'false'
+      children: 
+        'Sound-c': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            sound: 'Entity Player Attack Sweep'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Particle Animation-p': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            steps: '12'
+            frequency: '0.05'
+            angle: '3600'
+            start: '0'
+            'duration-base': '5'
+            'duration-scale': '0'
+            'h-translation-base': '0'
+            'h-translation-scale': '0'
+            'v-translation-base': '0'
+            'v-translation-scale': '0'
+            'h-cycles': '1'
+            'v-cycles': '1'
+            particle: 'Town Aura'
+            arrangement: 'Circle'
+            'radius-base': '0'
+            'radius-scale': '0'
+            'particles-base': '5'
+            'particles-scale': '0'
+            direction: 'XZ'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            speed: '1'
+            amount: '1'
+            forward: '2'
+            upward: '0'
+            right: '0'
+            indicator: '2D'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Value Set-b': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            key: 'rankyaku'
+            'value-base': '1'
+            'value-scale': '0'
+            indicator: '2D'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Offset-c': 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+            invulnerable: 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            'Repeat-d': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                'repetitions-base': '30'
+                'repetitions-scale': '0'
+                period: '0.05'
+                delay: '0'
+                'stop-on-fail': 'False'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: 
+                'Offset-e': 
+                  type: 'target'
+                  data: 
+                    'icon-key': ''
+                    'forward-base': 'rankyaku'
+                    'forward-scale': '0'
+                    'upward-base': '0'
+                    'upward-scale': '0'
+                    'right-base': '0'
+                    'right-scale': '0'
+                    indicator: '2D'
+                    group: 'enemy'
+                    wall: 'false'
+                    caster: 'false'
+                    invulnerable: 'false'
+                  preview: 
+                    enabled: 'false'
+                  children: 
+                    'Sound-b': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        sound: 'Block note block bell'
+                        'volume-base': '100'
+                        'volume-scale': '0'
+                        'pitch-base': '1'
+                        'pitch-scale': '0'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    'Particle Animation-f': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        steps: '12'
+                        frequency: '0.06'
+                        angle: '360'
+                        start: '0'
+                        'duration-base': '0.05'
+                        'duration-scale': '0'
+                        'h-translation-base': '0'
+                        'h-translation-scale': '0'
+                        'v-translation-base': '0'
+                        'v-translation-scale': '0'
+                        'h-cycles': '1'
+                        'v-cycles': '1'
+                        particle: 'Cloud'
+                        arrangement: 'Circle'
+                        'radius-base': '0'
+                        'radius-scale': '0'
+                        'particles-base': '1'
+                        'particles-scale': '0'
+                        'visible-radius': '25'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        speed: '0'
+                        amount: '1'
+                        forward: '1.3'
+                        upward: '1.5'
+                        right: '0'
+                        indicator: '2D'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    'Value Add-g': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        key: 'rankyaku'
+                        'amount-base': '0.4'
+                        'amount-scale': '0'
+                        indicator: '2D'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    'Area-h': 
+                      type: 'target'
+                      data: 
+                        'icon-key': ''
+                        'radius-base': '3'
+                        'radius-scale': '0'
+                        group: 'Enemy'
+                        wall: 'False'
+                        caster: 'False'
+                        'max-base': '3'
+                        'max-scale': '0'
+                        random: 'False'
+                        indicator: '2D'
+                        invulnerable: 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: 
+                        Launch: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            relative: 'Target'
+                            'reset-y': 'false'
+                            'forward-base': '0'
+                            'forward-scale': '0'
+                            'upward-base': '1.5'
+                            'upward-scale': '0.2'
+                            'right-base': '0'
+                            'right-scale': '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        'Particle Animation-k': 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'True'
+                            steps: '12'
+                            frequency: '0.05'
+                            angle: '3600'
+                            start: '0'
+                            'duration-base': '1'
+                            'duration-scale': '0'
+                            'h-translation-base': '0.2'
+                            'h-translation-scale': '0'
+                            'v-translation-base': '0'
+                            'v-translation-scale': '0'
+                            'h-cycles': '1'
+                            'v-cycles': '1'
+                            particle: 'Town Aura'
+                            arrangement: 'Circle'
+                            'radius-base': '0'
+                            'radius-scale': '0'
+                            'particles-base': '1'
+                            'particles-scale': '0'
+                            direction: 'XZ'
+                            'visible-radius': '25'
+                            dx: '0'
+                            dy: '0'
+                            dz: '0'
+                            speed: '1'
+                            amount: '1'
+                            forward: '0.1'
+                            upward: '2.1'
+                            right: '0'
+                            indicator: '2D'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+        'Self-l': 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            indicator: '2D'
+            group: 'enemy'
+            wall: 'false'
+            caster: 'false'
+            invulnerable: 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            'Potion-m': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                potion: 'Levitation'
+                ambient: 'True'
+                'tier-base': '13'
+                'tier-scale': '0'
+                'seconds-base': '1'
+                'seconds-scale': '0'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Delay-n': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                'delay-base': '1.5'
+                'delay-scale': '0'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: 
+                'Potion-o': 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'True'
+                    potion: 'Damage resistance'
+                    ambient: 'True'
+                    'tier-base': '10'
+                    'tier-scale': '0'
+                    'seconds-base': '2'
+                    'seconds-scale': '0'
+                    indicator: '2D'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+            'Particle-p': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                particle: 'Cloud'
+                arrangement: 'Circle'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '20'
+                'particles-scale': '0'
+                direction: 'XZ'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '1'
+                amount: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: {}

@@ -1,0 +1,33 @@
+limit: 5
+active: 1
+health: 22.0
+mana: 161.0
+accounts: 
+  acc1: 
+    classes: 
+      Wind: 
+        level: 2
+        points: 0
+        exp: 25.0
+    skills: 
+      'Wind slash': 
+        level: 1
+      Health: 
+        level: 1
+        cd: 23
+      'Wind storm': 
+        level: 0
+      'Wind suft': 
+        level: 0
+    binds: {}
+    bar: 
+      enabled: 'true'
+      slots: 
+      - 1
+      - 2
+      - 3
+      - 4
+      Health: 1
+      'Wind slash': 2
+    hunger: 1.0
+    persistent: {}

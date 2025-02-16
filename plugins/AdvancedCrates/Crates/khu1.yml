@@ -1,0 +1,179 @@
+Animation: Round2
+Material: ENDER_CHEST
+Damage: 0
+Glow: false
+Amount: 1
+Name: ccc
+OnlyPlaceable: false
+RewardsDontRepeat: false
+Enchanted: false
+NBTtags: ''
+CommandOnCratePlace: []
+MessagesToPlayer: []
+RewardHologram: []
+Final_Message: []
+FinalMessageToOpener: []
+Size: 20
+PrizeSize: 1
+KeyCrate:
+  Material: TRIPWIRE_HOOK
+  Damage: 0
+  Glow: true
+  Amount: 1
+  Name: §a§lKEY KHU §e§l1
+  Enchanted: true
+  ItemFlags:
+  - HIDE_ENCHANTS
+  Lores: []
+ClosedCrateText: []
+Prizes:
+  Đá_Nâng_Cấp:
+    Material: HEART_OF_THE_SEA
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&2&lĐá Nâng Cấp'
+    Enchantments:
+    - LURE;1
+    Lores:
+    - §cMaterial
+    - §f
+    - §7Dùng đổi sang mảnh nâng cấp
+    NBTtags: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,Slot:"mainhand",UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],Enchantments:[{id:"minecraft:lure",lvl:1s}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+      1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"§2&lĐá
+      Nâng Cấp"}]}'',HideFlags:2,MMOITEMS_DYNAMIC_LORE:''["§f§cMaterial","§f","§f§7Dùng
+      đổi sang mảnh nâng cấp"]'',MMOITEMS_ENCHANTS:''["lure 1"]'',MMOITEMS_ITEM_ID:"UPGRADE",MMOITEMS_ITEM_TYPE:"MATERIAL",MMOITEMS_LORE:''["§7Dùng
+      đổi sang mảnh nâng cấp"]'',MMOITEMS_NAME:"§2&lĐá Nâng Cấp"}'
+    ItemFlags:
+    - HIDE_ATTRIBUTES
+    Attributes:
+      GENERIC_ATTACK_SPEED:
+        Id: 5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+        Name: mmoitems:decoy
+        Amount: 0.0
+        Operation: ADD_NUMBER
+        Slot: HAND
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 2.0
+  Vật_Siêu_Chế_Tạo:
+    Material: SCUTE
+    Damage: 0
+    Glow: false
+    Amount: 1
+    Name: '&e&lVật Siêu Chế Tạo'
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 10.0
+  miax_COINVIP:
+    Material: NETHER_STAR
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6miax &b&lCOIN&e&lVIP'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Một §6miax §b§lCoin§e§lVIP §7có thể đổi được 100 §6$miax
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 20.0
+  miax_COIN:
+    Material: PRISMARINE_CRYSTALS
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&6miax &b&lCOIN'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Một §6miax §b§lCoin §7có thể đổi được 15 §6$miax
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 60.0
+  cooked_beef:
+    Material: COOKED_BEEF
+    Damage: 0
+    Glow: false
+    Amount: 1
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 40.0
+  cooked_porkchop:
+    Material: COOKED_PORKCHOP
+    Damage: 0
+    Glow: false
+    Amount: 1
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 40.0
+  cooked_chicken:
+    Material: COOKED_CHICKEN
+    Damage: 0
+    Glow: false
+    Amount: 1
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 40.0
+  cooked_rabbit:
+    Material: COOKED_RABBIT
+    Damage: 0
+    Glow: false
+    Amount: 1
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 40.0
+  cooked_mutton:
+    Material: COOKED_MUTTON
+    Damage: 0
+    Glow: false
+    Amount: 1
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 40.0
+  golden_apple:
+    Material: GOLDEN_APPLE
+    Damage: 0
+    Glow: false
+    Amount: 1
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 40.0
+  MAX_LEVEL:
+    Material: END_CRYSTAL
+    Damage: 0
+    Glow: true
+    Amount: 1
+    Name: '&e&lMAX LEVEL'
+    Enchantments:
+    - DURABILITY;1
+    Lores:
+    - ''
+    - §7Nhấn §8§lChuột Phải §7để kích hoạt
+    - §2Sẽ giúp bạn nhật được max level của hệ mà bạn đang dùng ngay lập tức
+    NBTtags: '{Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],HideFlags:1}'
+    ItemFlags:
+    - HIDE_ENCHANTS
+    GiveConfiguratedItem: true
+    LinkedRewards: []
+    Commands: []
+    Chance: 8.0
+Lores: []

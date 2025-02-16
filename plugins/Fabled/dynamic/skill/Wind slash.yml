@@ -1,0 +1,362 @@
+'Wind slash': 
+  name: 'Wind slash'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '7'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'SHEARS'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            sound: 'Entity Player Attack Sweep'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Value Set': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            key: 'rankyaku'
+            'value-base': '0'
+            'value-scale': '0'
+            save: 'false'
+          preview: 
+            enabled: 'false'
+          children: {}
+        Offset: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            group: 'enemy'
+            wall: 'true'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+            'per-target': 'false'
+          children: 
+            Repeat: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                'repetitions-base': '120'
+                'repetitions-scale': '0'
+                period: '0.05'
+                delay: '0'
+                'stop-on-fail': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                Offset: 
+                  type: 'target'
+                  data: 
+                    'icon-key': ''
+                    'forward-base': 'rankyaku'
+                    'forward-scale': '0'
+                    'upward-base': '0'
+                    'upward-scale': '0'
+                    'right-base': '0'
+                    'right-scale': '0'
+                    group: 'enemy'
+                    wall: 'true'
+                    invulnerable: 'false'
+                    caster: 'false'
+                  preview: 
+                    enabled: 'false'
+                    'per-target': 'false'
+                  children: 
+                    'Particle Animation': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        steps: '20'
+                        frequency: '0.05'
+                        angle: '120'
+                        start: '-60'
+                        'duration-base': '0.05'
+                        'duration-scale': '0'
+                        'h-translation-base': '0'
+                        'h-translation-scale': '0'
+                        'v-translation-base': '1.5'
+                        'v-translation-scale': '0'
+                        'h-cycles': '1'
+                        'v-cycles': '1'
+                        particle: 'Crit'
+                        arrangement: 'Sphere'
+                        'radius-base': '0'
+                        'radius-scale': '0'
+                        'particles-base': '1'
+                        'particles-scale': '0'
+                        'visible-radius': '25'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        amount: '1'
+                        speed: '0'
+                        forward: '1'
+                        upward: '1'
+                        right: '0'
+                        '-with-rotation': 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    'Particle Animation-b': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        steps: '20'
+                        frequency: '0.05'
+                        angle: '120'
+                        start: '60'
+                        'duration-base': '0.05'
+                        'duration-scale': '0'
+                        'h-translation-base': '0'
+                        'h-translation-scale': '0'
+                        'v-translation-base': '1.5'
+                        'v-translation-scale': '0'
+                        'h-cycles': '1'
+                        'v-cycles': '1'
+                        particle: 'Crit'
+                        arrangement: 'Sphere'
+                        'radius-base': '0'
+                        'radius-scale': '0'
+                        'particles-base': '1'
+                        'particles-scale': '0'
+                        'visible-radius': '25'
+                        dx: '0'
+                        dy: '0'
+                        dz: '0'
+                        amount: '1'
+                        speed: '0'
+                        forward: '1'
+                        upward: '1'
+                        right: '0'
+                        '-with-rotation': 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    'Value Add': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'True'
+                        key: 'rankyaku'
+                        'amount-base': '0.4'
+                        'amount-scale': '0'
+                        save: 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    Area: 
+                      type: 'target'
+                      data: 
+                        'icon-key': ''
+                        'radius-base': '2.5'
+                        'radius-scale': '0'
+                        group: 'Enemy'
+                        wall: 'false'
+                        invulnerable: 'false'
+                        caster: 'False'
+                        'max-base': '1'
+                        'max-scale': '0'
+                        random: 'false'
+                      preview: 
+                        enabled: 'false'
+                        'per-target': 'false'
+                        circle: 'false'
+                        sphere: 'false'
+                      children: 
+                        'Warp Target': 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            type: 'Caster to Target'
+                            preserve: 'false'
+                            setYaw: 'false'
+                            setPitch: 'false'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Cancel: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Status: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            status: 'Stun'
+                            'duration-base': '1'
+                            'duration-scale': '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Repeat: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            'repetitions-base': '4'
+                            'repetitions-scale': '1'
+                            period: '0.1'
+                            delay: '0'
+                            'stop-on-fail': 'false'
+                          preview: 
+                            enabled: 'false'
+                          children: 
+                            'Sound-c': 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                sound: 'Entity player attack sweep'
+                                'volume-base': '100'
+                                'volume-scale': '0'
+                                'pitch-base': '1'
+                                'pitch-scale': '0'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                            Damage: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                type: 'Damage'
+                                'value-base': '4'
+                                'value-scale': '0.5'
+                                true: 'false'
+                                classifier: 'default'
+                                knockback: 'false'
+                                'ignore-divinity': 'false'
+                                cause: 'Custom'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                            Particle: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                particle: 'Sweep attack'
+                                arrangement: 'Sphere'
+                                'radius-base': '1'
+                                'radius-scale': '0'
+                                'particles-base': '5'
+                                'particles-scale': '0'
+                                'visible-radius': '25'
+                                dx: '0'
+                                dy: '0'
+                                dz: '0'
+                                amount: '3'
+                                speed: '0.1'
+                                forward: '0.5'
+                                upward: '1'
+                                right: '0'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                            'Warp Target': 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                type: 'Caster to Target'
+                                preserve: 'false'
+                                setYaw: 'false'
+                                setPitch: 'false'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                        Self: 
+                          type: 'target'
+                          data: 
+                            'icon-key': ''
+                            group: 'enemy'
+                            wall: 'false'
+                            invulnerable: 'false'
+                            caster: 'false'
+                          preview: 
+                            enabled: 'false'
+                          children: 
+                            Channel: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                still: 'true'
+                                'time-base': '0.5'
+                                'time-scale': '0'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                            Launch: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                relative: 'Target'
+                                'reset-y': 'false'
+                                'forward-base': '-0.5'
+                                'forward-scale': '0'
+                                'upward-base': '0'
+                                'upward-scale': '0.5'
+                                'right-base': '0'
+                                'right-scale': '0'
+                              preview: 
+                                enabled: 'false'
+                              children: {}

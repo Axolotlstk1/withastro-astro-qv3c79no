@@ -1,0 +1,6 @@
+enable: true
+item:
+  material: IRON_CHESTPLATE
+  displayname: '&9&lGiáp'
+  name: '&9&lGiáp'
+slot: 15

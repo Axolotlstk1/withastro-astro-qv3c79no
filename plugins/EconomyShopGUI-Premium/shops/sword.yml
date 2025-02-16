@@ -1,0 +1,352 @@
+pages:
+  page1:
+    items:
+      '3':
+        displaylore:
+        - '&cHammer'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f9'
+        - '&3 &7➸ Attack Speed: &f0.4'
+        - '&3 &7■ Crit Strike Chance: &f+10%'
+        - '&3 &7■ Blunt Power: &f3'
+        - '&3 &7■ Blunt Rating: &f50%'
+        - '&f'
+        - '&8| &7Shift Right Click &8|&e|&8| &7&lSmite'
+        - '&f &8&l|&7 &7Damage&8: &f8 &8&l|&7 &7Cooldown&8: &f15'
+        - '&f'
+        - '&8| &7Right Click &8|&e|&8| &7&lLightning Beam'
+        - '&f &8&l|&7 &7Damage&8: &f4 &8&l|&7 &7Cooldown&8: &f4'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&bUse the power of the storm!'
+        - '&ePlays a custom sound when attacking!'
+        - '&aWill not drop on death!'
+        - '&f'
+        - '&3 &7Tier: &b&lLEGENDARY'
+        material: IRON_AXE
+        buy: 3750.0
+        sell: -1.0
+        displayname: §bBúa Thor
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],Damage:0,HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&bBúa
+          Thor"}]}'',HideFlags:6,MMOITEMS_ABILITY:''[{"Id":"SMITE","CastMode":"SHIFT_RIGHT_CLICK","Modifiers":{"damage":8.0,"cooldown":15.0}},{"Id":"LIGHTNING_BEAM","CastMode":"RIGHT_CLICK","Modifiers":{"damage":4.0,"cooldown":4.0}}]'',MMOITEMS_ATTACK_DAMAGE:9.0d,MMOITEMS_ATTACK_SPEED:0.4d,MMOITEMS_BLUNT_POWER:3.0d,MMOITEMS_BLUNT_RATING:50.0d,MMOITEMS_CRITICAL_STRIKE_CHANCE:10.0d,MMOITEMS_DISABLE_DEATH_DROP:1b,MMOITEMS_DYNAMIC_LORE:''["§f§cHammer","§f","§f§3
+          §7➸ Attack Damage: §f9","§f§3 §7➸ Attack Speed: §f0.4","§f§3 §7■ Crit Strike
+          Chance: §f+10%","§f§3 §7■ Blunt Power: §f3","§f§3 §7■ Blunt Rating: §f50%","§f","§f§8|
+          §7Shift Right Click §8|§e|§8| §7§lSmite","§f §8§l|§7 §7Damage§8: §f8 §8§l|§7
+          §7Cooldown§8: §f15","§f","§f§8| §7Right Click §8|§e|§8| §7§lLightning Beam","§f
+          §8§l|§7 §7Damage§8: §f4 §8§l|§7 §7Cooldown§8: §f4","§f","§f§a◆ Empty GREEN
+          Gem Socket","§f§a◆ Empty GREEN Gem Socket","§f","§f§bUse the power of the
+          storm!","§f§ePlays a custom sound when attacking!","§f§aWill not drop on
+          death!","§f","§f§3 §7Tier: §b§lLEGENDARY"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"THOR_HAMMER",MMOITEMS_ITEM_TYPE:"HAMMER",MMOITEMS_LORE:''["§bUse
+          the power of the storm!","§ePlays a custom sound when attacking!","§aWill
+          not drop on death!"]'',MMOITEMS_NAME:"&bBúa Thor",MMOITEMS_SOUND_ON_ATTACK:"entity.lightning_bolt.thunder",MMOITEMS_SOUND_ON_ATTACK_PIT:0.2d,MMOITEMS_SOUND_ON_ATTACK_VOL:2.0d,MMOITEMS_TIER:"LEGENDARY",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Hammer"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"9"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"0.4"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+10%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Blunt Power: "},{"italic":false,"color":"white","text":"3"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Blunt Rating: "},{"italic":false,"color":"white","text":"50%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Shift Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Smite"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Damage"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"15"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Lightning Beam"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Damage"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"4 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"4"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"aqua","text":"Use
+          the power of the storm!"}],"text":""}'',''{"extra":[{"italic":false,"color":"yellow","text":"Plays
+          a custom sound when attacking!"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"Will
+          not drop on death!"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"aqua","text":"LEGENDARY"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"aqua","text":"Búa
+          Thor"}],"text":""}''}}'
+      '4':
+        displaylore:
+        - '&cSword'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f7'
+        - '&3 &7➸ Attack Speed: &f0.6'
+        - '&3 &7■ Fall Damage Reduction: &f+7%'
+        - '&3 &7■ Magic Damage Reduction: &f+5%'
+        - '&f'
+        - '&8| &7Right Click &8|&e|&8| &7&lShulker Missile'
+        - '&f &8&l|&7 &7Duration&8: &f2 &8&l|&7 &7Damage&8: &f4 &8&l|&7 &7Cooldown&8:
+          &f10'
+        - '&7Effect Duration&8: &f2'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Thử thách 1 ngày làm shulker'
+        - '&f'
+        - '&3 &7Tier: &e&lEPIC'
+        material: END_ROD
+        buy: 550.0
+        sell: -1.0
+        displayname: §dKiếm Shulker
+        enchantments:
+        - lure:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"lure
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&dKiếm
+          Shulker"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"SHULKER_MISSILE","CastMode":"RIGHT_CLICK","Modifiers":{"duration":2.0,"damage":4.0,"cooldown":10.0,"effect-duration":2.0}}]'',MMOITEMS_ATTACK_DAMAGE:7.0d,MMOITEMS_ATTACK_SPEED:0.6d,MMOITEMS_DYNAMIC_LORE:''["§f§cSword","§f","§f§3
+          §7➸ Attack Damage: §f7","§f§3 §7➸ Attack Speed: §f0.6","§f§3 §7■ Fall Damage
+          Reduction: §f+7%","§f§3 §7■ Magic Damage Reduction: §f+5%","§f","§f§8| §7Right
+          Click §8|§e|§8| §7§lShulker Missile","§f §8§l|§7 §7Duration§8: §f2 §8§l|§7
+          §7Damage§8: §f4 §8§l|§7 §7Cooldown§8: §f10","§f§7Effect Duration§8: §f2","§f","§f§a◆
+          Empty GREEN Gem Socket","§f§a◆ Empty GREEN Gem Socket","§f","§f§7Thử thách
+          1 ngày làm shulker","§f","§f§3 §7Tier: §e§lEPIC"]'',MMOITEMS_ENCHANTS:''["lure
+          1"]'',MMOITEMS_FALL_DAMAGE_REDUCTION:7.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"SHUKER",MMOITEMS_ITEM_TYPE:"SWORD",MMOITEMS_LORE:''["&7Thử
+          thách 1 ngày làm shulker"]'',MMOITEMS_MAGIC_DAMAGE_REDUCTION:5.0d,MMOITEMS_NAME:"&dKiếm
+          Shulker",MMOITEMS_TIER:"EPIC",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"7"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"0.6"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fall Damage Reduction: "},{"italic":false,"color":"white","text":"+7%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Magic Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Shulker Missile"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"2 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Damage"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"4 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"10"}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Effect
+          Duration"},{"italic":false,"color":"dark_gray","text":": "},{"italic":false,"color":"white","text":"2"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Thử
+          thách 1 ngày làm shulker"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"yellow","text":"EPIC"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"light_purple","text":"Kiếm
+          Shulker"}],"text":""}''}}'
+      '5':
+        displaylore:
+        - '&cDagger'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f5'
+        - '&3 &7➸ Attack Speed: &f2'
+        - '&3 &7■ Magic Damage Reduction: &f+3%'
+        - '&f'
+        - '&8| &7Left Click &8|&e|&8| &7&lPoison'
+        - '&f &8&l|&7 &7Duration&8: &f4 &8&l|&7 &7Cooldown&8: &f2 &8&l|&7 &7Amplifier&8:
+          &f2'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Mỗi lần đánh là một lần ăn độc'
+        - '&f'
+        - '&3 &7Tier: &e&lEPIC'
+        material: GHAST_TEAR
+        buy: 850.0
+        sell: -1.0
+        displayname: §aDao Găm Độc Tố
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&aDao
+          Găm Độc Tố"}]}'',HideFlags:6,MMOITEMS_ABILITY:''[{"Id":"POISON","CastMode":"LEFT_CLICK","Modifiers":{"duration":4.0,"cooldown":2.0,"amplifier":2.0}}]'',MMOITEMS_ATTACK_DAMAGE:5.0d,MMOITEMS_ATTACK_SPEED:2.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cDagger","§f","§f§3
+          §7➸ Attack Damage: §f5","§f§3 §7➸ Attack Speed: §f2","§f§3 §7■ Magic Damage
+          Reduction: §f+3%","§f","§f§8| §7Left Click §8|§e|§8| §7§lPoison","§f §8§l|§7
+          §7Duration§8: §f4 §8§l|§7 §7Cooldown§8: §f2 §8§l|§7 §7Amplifier§8: §f2","§f","§f§a◆
+          Empty GREEN Gem Socket","§f§a◆ Empty GREEN Gem Socket","§f","§f§7Mỗi lần
+          đánh là một lần ăn độc","§f","§f§3 §7Tier: §e§lEPIC"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"POIDAGER",MMOITEMS_ITEM_TYPE:"DAGGER",MMOITEMS_LORE:''["&7Mỗi
+          lần đánh là một lần ăn độc"]'',MMOITEMS_MAGIC_DAMAGE_REDUCTION:3.0d,MMOITEMS_NAME:"&aDao
+          Găm Độc Tố",MMOITEMS_TIER:"EPIC",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Dagger"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"5"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"2"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Magic Damage Reduction: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Left Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Poison"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"4 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"2 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Amplifier"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"2"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Mỗi
+          lần đánh là một lần ăn độc"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"yellow","text":"EPIC"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"green","text":"Dao
+          Găm Độc Tố"}],"text":""}''}}'
+      '6':
+        displaylore:
+        - '&cSword'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f5.5'
+        - '&3 &7➸ Attack Speed: &f2'
+        - '&3 &7■ Fall Damage Reduction: &f+7%'
+        - '&3 &7■ Projectile Damage Reduction: &f+3%'
+        - '&3 &7■ Dodge Rating: &f+5%'
+        - '&f'
+        - '&8| &7Right Click &8|&e|&8| &7&lBlink'
+        - '&f &8&l|&7 &7Cooldown&8: &f5 &8&l|&7 &7Range&8: &f8'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Nhẹ như lông gà:))'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: FEATHER
+        buy: 600.0
+        sell: -1.0
+        displayname: §fThanh Đao Của Gió
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&fThanh
+          Đao Của Gió"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"BLINK","CastMode":"RIGHT_CLICK","Modifiers":{"cooldown":5.0,"range":8.0}}]'',MMOITEMS_ATTACK_DAMAGE:5.5d,MMOITEMS_ATTACK_SPEED:2.0d,MMOITEMS_DODGE_RATING:5.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cSword","§f","§f§3
+          §7➸ Attack Damage: §f5.5","§f§3 §7➸ Attack Speed: §f2","§f§3 §7■ Fall Damage
+          Reduction: §f+7%","§f§3 §7■ Projectile Damage Reduction: §f+3%","§f§3 §7■
+          Dodge Rating: §f+5%","§f","§f§8| §7Right Click §8|§e|§8| §7§lBlink","§f
+          §8§l|§7 §7Cooldown§8: §f5 §8§l|§7 §7Range§8: §f8","§f","§f§a◆ Empty GREEN
+          Gem Socket","§f§a◆ Empty GREEN Gem Socket","§f","§f§7Nhẹ như lông gà:))","§f","§f§3
+          §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_FALL_DAMAGE_REDUCTION:7.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"DAO_GIO",MMOITEMS_ITEM_TYPE:"SWORD",MMOITEMS_LORE:''["&7Nhẹ
+          như lông gà:))"]'',MMOITEMS_NAME:"&fThanh Đao Của Gió",MMOITEMS_PROJECTILE_DAMAGE_REDUCTION:3.0d,MMOITEMS_TIER:"RARE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"5.5"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"2"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fall Damage Reduction: "},{"italic":false,"color":"white","text":"+7%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Projectile Damage Reduction:
+          "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Dodge Rating: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Blink"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"5 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Range"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Nhẹ
+          như lông gà:))"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"white","text":"Thanh
+          Đao Của Gió"}],"text":""}''}}'
+      '7':
+        displaylore:
+        - '&cSword'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f6.2'
+        - '&3 &7➸ Attack Speed: &f0.9'
+        - '&3 &7■ Crit Strike Chance: &f+3%'
+        - '&3 &7■ Fire Damage Reduction: &f+10%'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Đèm đi đánh nhau thì cháy như ff'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: IRON_SWORD
+        buy: 550.0
+        sell: -1.0
+        displayname: §6Kiếm Lửa
+        enchantments:
+        - fire_aspect:1
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],Damage:0,HSTRY_ENCHANTS:''{"Stat":"ENCHANTS","OGStory":[{"MMOITEMS_ENCHANTS_ñstr":"[\\"fire_aspect
+          1\\"]"}]}'',HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&6Kiếm
+          Lửa"}]}'',HideFlags:6,MMOITEMS_ABILITY:"[]",MMOITEMS_ATTACK_DAMAGE:6.2d,MMOITEMS_ATTACK_SPEED:0.9d,MMOITEMS_CRITICAL_STRIKE_CHANCE:3.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cSword","§f","§f§3
+          §7➸ Attack Damage: §f6.2","§f§3 §7➸ Attack Speed: §f0.9","§f§3 §7■ Crit
+          Strike Chance: §f+3%","§f§3 §7■ Fire Damage Reduction: §f+10%","§f","§f§a◆
+          Empty GREEN Gem Socket","§f","§f§7Đèm đi đánh nhau thì cháy như ff","§f","§f§3
+          §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:''["fire_aspect 1"]'',MMOITEMS_FIRE_DAMAGE_REDUCTION:10.0d,MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"LUA",MMOITEMS_ITEM_TYPE:"SWORD",MMOITEMS_LORE:''["&7Đèm
+          đi đánh nhau thì cháy như ff"]'',MMOITEMS_NAME:"&6Kiếm Lửa",MMOITEMS_TIER:"RARE",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"6.2"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"0.9"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Fire Damage Reduction: "},{"italic":false,"color":"white","text":"+10%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Đèm
+          đi đánh nhau thì cháy như ff"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"gold","text":"Kiếm
+          Lửa"}],"text":""}''}}'
+      '8':
+        displaylore:
+        - '&cSword'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f8'
+        - '&3 &7➸ Attack Speed: &f0.5'
+        - '&3 &7■ Crit Strike Chance: &f+8%'
+        - '&3 &7■ Skill Crit Chance: &f+4%'
+        - '&3 &7■ PvE Damage Reduction: &f+10%'
+        - '&f'
+        - '&8| &7Left Click &8|&e|&8| &7&lCorrupted Fangs'
+        - '&f &8&l|&7 &7Cooldown&8: &f8'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7CDD+'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: BLACK_DYE
+        buy: 650.0
+        sell: -1.0
+        displayname: §8Đao Quái Thú
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&8Đao
+          Quái Thú"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"CORRUPTED_FANGS","CastMode":"LEFT_CLICK","Modifiers":{"cooldown":8.0}}]'',MMOITEMS_ATTACK_DAMAGE:8.0d,MMOITEMS_ATTACK_SPEED:0.5d,MMOITEMS_CRITICAL_STRIKE_CHANCE:8.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cSword","§f","§f§3
+          §7➸ Attack Damage: §f8","§f§3 §7➸ Attack Speed: §f0.5","§f§3 §7■ Crit Strike
+          Chance: §f+8%","§f§3 §7■ Skill Crit Chance: §f+4%","§f§3 §7■ PvE Damage
+          Reduction: §f+10%","§f","§f§8| §7Left Click §8|§e|§8| §7§lCorrupted Fangs","§f
+          §8§l|§7 §7Cooldown§8: §f8","§f","§f§a◆ Empty GREEN Gem Socket","§f","§f§7CDD+","§f","§f§3
+          §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"CRAP",MMOITEMS_ITEM_TYPE:"SWORD",MMOITEMS_LORE:''["&7CDD+"]'',MMOITEMS_NAME:"&8Đao
+          Quái Thú",MMOITEMS_PVE_DAMAGE_REDUCTION:10.0d,MMOITEMS_SKILL_CRITICAL_STRIKE_CHANCE:4.0d,MMOITEMS_TIER:"RARE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Sword"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"8"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"0.5"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+8%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Skill Crit Chance: "},{"italic":false,"color":"white","text":"+4%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ PvE Damage Reduction: "},{"italic":false,"color":"white","text":"+10%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Left Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Corrupted Fangs"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"CDD+"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"dark_gray","text":"Đao
+          Quái Thú"}],"text":""}''}}'
+      '9':
+        displaylore:
+        - '&cDagger'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f7'
+        - '&3 &7➸ Attack Speed: &f1.2'
+        - '&3 &7■ Crit Strike Chance: &f+8%'
+        - '&3 &7■ Crit Strike Power: &f+2%'
+        - '&3 &7■ Lifesteal: &c+50%'
+        - '&f'
+        - '&8| &7Right Click &8|&e|&8| &7&lSwiftness'
+        - '&f &8&l|&7 &7Duration&8: &f1 &8&l|&7 &7Cooldown&8: &f8 &8&l|&7 &7Amplifier&8:
+          &f4'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Á đù'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: RABBIT_FOOT
+        buy: 475.0
+        sell: -1.0
+        displayname: §4Dao Sát Thủ
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&4Dao
+          Sát Thủ"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"SWIFTNESS","CastMode":"RIGHT_CLICK","Modifiers":{"duration":1.0,"cooldown":8.0,"amplifier":4.0}}]'',MMOITEMS_ATTACK_DAMAGE:7.0d,MMOITEMS_ATTACK_SPEED:1.2d,MMOITEMS_CRITICAL_STRIKE_CHANCE:8.0d,MMOITEMS_CRITICAL_STRIKE_POWER:2.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cDagger","§f","§f§3
+          §7➸ Attack Damage: §f7","§f§3 §7➸ Attack Speed: §f1.2","§f§3 §7■ Crit Strike
+          Chance: §f+8%","§f§3 §7■ Crit Strike Power: §f+2%","§f§3 §7■ Lifesteal:
+          §c+50%","§f","§f§8| §7Right Click §8|§e|§8| §7§lSwiftness","§f §8§l|§7 §7Duration§8:
+          §f1 §8§l|§7 §7Cooldown§8: §f8 §8§l|§7 §7Amplifier§8: §f4","§f","§f§a◆ Empty
+          GREEN Gem Socket","§f","§f§7Á đù","§f","§f§3 §7Tier: §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"ASSAIN",MMOITEMS_ITEM_TYPE:"DAGGER",MMOITEMS_LIFESTEAL:50.0d,MMOITEMS_LORE:''["&7Á
+          đù"]'',MMOITEMS_NAME:"&4Dao Sát Thủ",MMOITEMS_TIER:"RARE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Dagger"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Damage: "},{"italic":false,"color":"white","text":"7"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"➸ Attack Speed: "},{"italic":false,"color":"white","text":"1.2"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+8%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Power: "},{"italic":false,"color":"white","text":"+2%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Lifesteal: "},{"italic":false,"color":"red","text":"+50%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Right Click "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Swiftness"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"1 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"8 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Amplifier"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"4"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Á
+          đù"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"dark_red","text":"Dao
+          Sát Thủ"}],"text":""}''}}'

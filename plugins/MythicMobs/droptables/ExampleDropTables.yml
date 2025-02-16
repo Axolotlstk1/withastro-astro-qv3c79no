@@ -1,0 +1,21 @@
+SkeletonKingDrops:
+  Conditions:
+  - playerwithin{d=40}
+  Drops:
+  - SkeletonKingItemDrops 1
+  - money 20
+SkeletonKingItemDrops:
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  - xuongvua 1-4 1
+SkekDrops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - xuongthuong 1 0.3
+CC:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - xuongthuong 1 0.3

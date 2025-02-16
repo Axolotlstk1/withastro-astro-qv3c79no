@@ -1,0 +1,405 @@
+'Fire explosion': 
+  name: 'Fire explosion'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '10'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '30'
+    'cooldown-scale': '0'
+    'mana-base': '16'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'TNT'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        Self: 
+          type: 'target'
+          data: 
+            'icon-key': ''
+            group: 'enemy'
+            wall: 'false'
+            invulnerable: 'false'
+            caster: 'false'
+          preview: 
+            enabled: 'false'
+          children: 
+            Launch: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                relative: 'Target'
+                'reset-y': 'false'
+                'forward-base': '1.5'
+                'forward-scale': '0'
+                'upward-base': '0'
+                'upward-scale': '0'
+                'right-base': '0'
+                'right-scale': '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            Delay: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                'delay-base': '0.3'
+                'delay-scale': '0'
+                cleanup: 'true'
+                'single-instance': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                Linear: 
+                  type: 'target'
+                  data: 
+                    'icon-key': ''
+                    'range-base': '5'
+                    'range-scale': '0'
+                    'tolerance-base': '3'
+                    'tolerance-scale': '0'
+                    group: 'Enemy'
+                    wall: 'false'
+                    invulnerable: 'false'
+                    caster: 'False'
+                    'max-base': '3'
+                    'max-scale': '0'
+                  preview: 
+                    enabled: 'false'
+                    'per-target': 'false'
+                    line: 'false'
+                    cylinder: 'false'
+                  children: 
+                    'Warp Target': 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'true'
+                        type: 'Caster to Target'
+                        preserve: 'false'
+                        setYaw: 'false'
+                        setPitch: 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+                    Delay: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'true'
+                        'delay-base': '1.2'
+                        'delay-scale': '0'
+                        cleanup: 'true'
+                        'single-instance': 'false'
+                      preview: 
+                        enabled: 'false'
+                      children: 
+                        Self: 
+                          type: 'target'
+                          data: 
+                            'icon-key': ''
+                            group: 'enemy'
+                            wall: 'false'
+                            invulnerable: 'false'
+                            caster: 'false'
+                          preview: 
+                            enabled: 'false'
+                          children: 
+                            Potion: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                potion: 'Fire resistance'
+                                ambient: 'true'
+                                'tier-base': '3'
+                                'tier-scale': '0'
+                                'seconds-base': '1000'
+                                'seconds-scale': '1'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                            Push: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                type: 'Fixed'
+                                'speed-base': '-0.4'
+                                'speed-scale': '1'
+                                source: 'none'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                        Particle: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            particle: 'Explosion large'
+                            arrangement: 'Sphere'
+                            'radius-base': '1'
+                            'radius-scale': '0'
+                            'particles-base': '8'
+                            'particles-scale': '0'
+                            'visible-radius': '25'
+                            dx: '0'
+                            dy: '0'
+                            dz: '0'
+                            amount: '1'
+                            speed: '0.1'
+                            forward: '0'
+                            upward: '0'
+                            right: '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Sound: 
+                          type: 'mechanic'
+                          data: 
+                            'icon-key': ''
+                            counts: 'true'
+                            sound: 'Block end gateway spawn'
+                            'volume-base': '100'
+                            'volume-scale': '0'
+                            'pitch-base': '1'
+                            'pitch-scale': '0'
+                          preview: 
+                            enabled: 'false'
+                          children: {}
+                        Area: 
+                          type: 'target'
+                          data: 
+                            'icon-key': ''
+                            'radius-base': '3'
+                            'radius-scale': '0'
+                            group: 'Enemy'
+                            wall: 'false'
+                            invulnerable: 'false'
+                            caster: 'False'
+                            'max-base': '99'
+                            'max-scale': '0'
+                            random: 'false'
+                          preview: 
+                            enabled: 'false'
+                            'per-target': 'false'
+                            circle: 'false'
+                            sphere: 'false'
+                          children: 
+                            Damage: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                type: 'Damage'
+                                'value-base': '8'
+                                'value-scale': '3'
+                                true: 'false'
+                                classifier: 'default'
+                                knockback: 'true'
+                                'ignore-divinity': 'false'
+                                cause: 'Custom'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                            Fire: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                'damage-base': '1'
+                                'damage-scale': '0'
+                                'seconds-base': '9'
+                                'seconds-scale': '1'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                            Block: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                shape: 'Cuboid'
+                                type: 'Air'
+                                block: 'Fire'
+                                data: '0'
+                                'reset-yaw': 'false'
+                                permanent: 'false'
+                                'seconds-base': '3'
+                                'seconds-scale': '0'
+                                'width-base': '3'
+                                'width-scale': '0'
+                                'height-base': '1'
+                                'height-scale': '0'
+                                'depth-base': '3'
+                                'depth-scale': '0'
+                                'forward-base': '0'
+                                'forward-scale': '0'
+                                'upward-base': '0'
+                                'upward-scale': '0'
+                                'right-base': '0'
+                                'right-scale': '0'
+                              preview: 
+                                enabled: 'false'
+                                'per-target': 'false'
+                              children: {}
+                            Push: 
+                              type: 'mechanic'
+                              data: 
+                                'icon-key': ''
+                                counts: 'true'
+                                type: 'Fixed'
+                                'speed-base': '1'
+                                'speed-scale': '1'
+                                source: 'none'
+                              preview: 
+                                enabled: 'false'
+                              children: {}
+                    Status: 
+                      type: 'mechanic'
+                      data: 
+                        'icon-key': ''
+                        counts: 'true'
+                        status: 'Stun'
+                        'duration-base': '1.2'
+                        'duration-scale': '0'
+                      preview: 
+                        enabled: 'false'
+                      children: {}
+            Particle: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                particle: 'Villager angry'
+                arrangement: 'Sphere'
+                'radius-base': '1'
+                'radius-scale': '0'
+                'particles-base': '20'
+                'particles-scale': '0'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                amount: '1'
+                speed: '0.1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Delay-b': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                'delay-base': '0.6'
+                'delay-scale': '0'
+                cleanup: 'true'
+                'single-instance': 'false'
+              preview: 
+                enabled: 'false'
+              children: 
+                'Particle Animation': 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    steps: '12'
+                    frequency: '0.05'
+                    angle: '3600'
+                    start: '0'
+                    'duration-base': '2'
+                    'duration-scale': '0'
+                    'h-translation-base': '0'
+                    'h-translation-scale': '0'
+                    'v-translation-base': '0'
+                    'v-translation-scale': '0'
+                    'h-cycles': '1'
+                    'v-cycles': '1'
+                    particle: 'Flame'
+                    arrangement: 'Sphere'
+                    'radius-base': '1'
+                    'radius-scale': '0'
+                    'particles-base': '1.5'
+                    'particles-scale': '0'
+                    'visible-radius': '25'
+                    dx: '0'
+                    dy: '0'
+                    dz: '0'
+                    amount: '1'
+                    speed: '0.1'
+                    forward: '0'
+                    upward: '0'
+                    right: '0'
+                    '-with-rotation': 'false'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                Channel: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    still: 'true'
+                    'time-base': '1.2'
+                    'time-scale': '0'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+            Potion: 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'true'
+                potion: 'Damage resistance'
+                ambient: 'true'
+                'tier-base': '5'
+                'tier-scale': '0'
+                'seconds-base': '1.5'
+                'seconds-scale': '1'
+              preview: 
+                enabled: 'false'
+              children: {}
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            sound: 'Entity wither shoot'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}

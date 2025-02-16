@@ -1,0 +1,34 @@
+limit: 5
+active: 1
+health: 30.259998321533203
+mana: 172.0
+accounts: 
+  acc1: 
+    classes: 
+      Fire: 
+        level: 12
+        points: 1
+        exp: 85.0
+    skills: 
+      'Fire burn': 
+        level: 2
+      'Fire storm': 
+        level: 1
+      Health: 
+        level: 3
+      'Fire explosion': 
+        level: 1
+    binds: {}
+    bar: 
+      enabled: 'true'
+      slots: 
+      - 1
+      - 2
+      - 3
+      - 4
+      Health: 1
+      'Fire burn': 2
+      'Fire storm': 3
+      'Fire explosion': 4
+    hunger: 1.0
+    persistent: {}

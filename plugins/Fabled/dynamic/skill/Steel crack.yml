@@ -1,0 +1,164 @@
+'Steel crack': 
+  name: 'Steel crack'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '4'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'IRON_NUGGET'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: 
+        'icon-key': ''
+        indicator: '2D'
+      preview: 
+        enabled: 'false'
+      children: 
+        'Sound-b': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            sound: 'Entity Player Attack Crit'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+            indicator: '2D'
+          preview: 
+            enabled: 'false'
+          children: {}
+        'Item Projectile-b': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'True'
+            item: 'Iron Block'
+            'item-data': '0'
+            group: 'Enemy'
+            spread: 'Cone'
+            'amount-base': '2'
+            'amount-scale': '1'
+            'velocity-base': '1'
+            'velocity-scale': '0.2'
+            'angle-base': '15'
+            'angle-scale': '0.4'
+            position: '0'
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            'use-effect': 'False'
+            indicator: '2D'
+          preview: 
+            enabled: 'false'
+          children: 
+            'Sound-b': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                sound: 'Entity Player Attack Crit'
+                'volume-base': '100'
+                'volume-scale': '0'
+                'pitch-base': '1'
+                'pitch-scale': '0'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Damage-c': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                type: 'Damage'
+                'value-base': '4'
+                'value-scale': '0.2'
+                true: 'False'
+                classifier: 'default'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Potion-d': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                potion: 'Slow'
+                ambient: 'True'
+                'tier-base': '3'
+                'tier-scale': '1'
+                'seconds-base': '1'
+                'seconds-scale': '0'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: {}
+            'Particle Animation-e': 
+              type: 'mechanic'
+              data: 
+                'icon-key': ''
+                counts: 'True'
+                steps: '12'
+                frequency: '0.05'
+                angle: '360'
+                start: '0'
+                'duration-base': '1'
+                'duration-scale': '0'
+                'h-translation-base': '0'
+                'h-translation-scale': '0'
+                'v-translation-base': '0'
+                'v-translation-scale': '0'
+                'h-cycles': '1'
+                'v-cycles': '1'
+                particle: 'Crit'
+                arrangement: 'Circle'
+                'radius-base': '0'
+                'radius-scale': '0'
+                'particles-base': '1'
+                'particles-scale': '0'
+                direction: 'XZ'
+                'visible-radius': '25'
+                dx: '0'
+                dy: '0'
+                dz: '0'
+                speed: '1'
+                amount: '1'
+                forward: '0'
+                upward: '0'
+                right: '0'
+                indicator: '2D'
+              preview: 
+                enabled: 'false'
+              children: {}

@@ -1,0 +1,313 @@
+COMPOSITE_BOW:
+  base:
+    material: BOW
+    name: '&fComposite Bow'
+    attack-damage: 7.2
+    required-level:
+      base: 0
+      scale: 1
+    arrow-velocity: 1.0
+    gem-sockets:
+    - GREEN
+  modifiers:
+    swiftness:
+      weight: 3
+    heavy:
+      chance: 0.05
+      weight: 3
+    impending-doom:
+      weight: 5
+HELL_BOW:
+  base:
+    material: BOW
+    enchants:
+      unbreaking: 10
+      infinity: 1
+    hide-enchants: true
+    unbreakable: true
+    tier: RARE
+    attack-damage:
+      base: 11.5
+      spread: 0.038
+      max-spread: 0.12
+    critical-strike-chance:
+      base: 35.0
+      spread: 0.14
+      max-spread: 0.42
+    critical-strike-power:
+      base: 12.5
+      spread: 0.06
+      max-spread: 0.17
+    element:
+      fire:
+        damage: 14.0
+    ability:
+      right-click:
+        type: FIREBOLT
+        mode: SHIFT_LEFT_CLICK
+        cooldown: 20.0
+        damage: 4.0
+        ignite: 6.0
+    gem-sockets:
+    - Red
+    - Red
+    - Green
+    name: '&cHell Bow'
+    pve-damage:
+      base: 25.0
+      spread: 0.06
+      max-spread: 0.17
+    arrow-particles:
+      amount: 5
+      offset: 0.05
+      particle: FLAME
+      speed: 0.08
+MARKING_BOW:
+  base:
+    material: BOW
+    enchants:
+      unbreaking: 3
+    name: '&8Marking Bow'
+    attack-damage: 7.0
+    arrow-particles:
+      particle: SMOKE_NORMAL
+      amount: 3
+      speed: 0.05
+    ability:
+      ability1:
+        type: WEAKEN_TARGET
+        mode: ATTACK
+        extra-damage: 60.0
+    dodge-rating: 10.0
+    damage-reduction: -5.0
+    required-level: 10.0
+    lore:
+    - '&7Shoot an entity to &cmark &7it. The'
+    - '&7next attack against this entity'
+    - '&7will deal &c60%&7 extra damage.'
+NETHERITE_BOW:
+  base:
+    material: BOW
+    max-durability: 8500.0
+    name: §c§lDark Netherite Bow
+    lore:
+    - §6§o"Bows made of metal can't work."
+    - §8§oBut it's a video game!
+    attack-damage: 25.0
+    arrow-velocity: 1.5
+    pvp-damage:
+      base: 25.0
+      scale: 0.1
+      spread: 0.2
+    projectile-damage:
+      base: 10.0
+      scale: 0.08
+      spread: 0.14
+    tier: RARE
+    ability:
+      ability1:
+        type: WITHER
+        mode: ATTACK
+        duration: 6.0
+        cooldown: 5.0
+        amplifier: 1.0
+    element:
+      darkness:
+        damage:
+          base: 60.0
+          scale: 0.2
+          spread: 0.35
+          max-spread: 0.0
+      fire:
+        damage:
+          base: 20.0
+          scale: 0.05
+          spread: 0.1
+          max-spread: 0.0
+    gem-sockets:
+    - Nether
+    - Nether
+    crafting:
+      smithing:
+        '1':
+          input: v bow - 1.0..|m material dark_netherite 1.0..
+    required-level: 14.0
+PRECISION_BOW:
+  base:
+    material: BOW
+    name: §7§lPrecision Bow
+    lore:
+    - §7The precision bow shoots much farther.
+    critical-strike-chance:
+      base: 15.0
+      scale: 0.05
+      spread: 0.1
+      max-spread: 0.2
+    critical-strike-power:
+      base: 40.0
+      scale: 0.05
+      spread: 0.1
+      max-spread: 0.2
+    required-level: 5.0
+    arrow-velocity: 2.0
+    attack-damage:
+      base: 16.0
+      scale: 0.1
+      spread: 0.1
+      max-spread: 0.2
+    projectile-damage:
+      base: 5.0
+      scale: 0.2
+      spread: 0.2
+      max-spread: 0.4
+    tier: RARE
+    max-durability: 2400.0
+    required-class:
+    - Archer
+SHOT:
+  base:
+    material: IRON_HOE
+    name: '&fSúng Bắn Tuyết'
+    lore:
+    - '&7Bắn Cầu'
+    ability:
+      ability1:
+        type: TARGETED_FIREBALL
+        mode: RIGHT_CLICK
+        damage: 12.0
+        cooldown: 2.0
+    tier: RARE
+    gem-sockets:
+    - GREEN
+HOLI:
+  base:
+    material: WHITE_TULIP
+    name: '&fNhất Dương Chỉ'
+    lore:
+    - '&7Bắn thấm vl'
+    ability:
+      ability1:
+        type: HOLY_MISSILE
+        mode: LEFT_CLICK
+        damage: 14.0
+        cooldown: 10.0
+    tier: EPIC
+    gem-sockets:
+    - GREEN
+    - GREEN
+CUNGLUA:
+  base:
+    material: BOW
+    name: '&6Cung Lửa'
+    attack-damage: 7.2
+    critical-strike-chance: 5.0
+    arrow-velocity: 1.0
+    fire-damage-reduction: 5.0
+    tier: RARE
+    gem-sockets:
+    - GREEN
+    unbreakable: true
+    ability:
+      ability1:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        ignite: 3.0
+    enchants:
+      flame: 1.0
+CANON:
+  base:
+    material: DRAGON_HEAD
+    name: '&9CANON'
+    lore:
+    - '&7Đầu rồng ư?'
+    ability:
+      ability1:
+        type: EXPLOSIVE_TURKEY
+        mode: RIGHT_CLICK
+        damage: 12.0
+        duration: 8.0
+      ability2:
+        type: BURN
+        mode: ATTACK
+        duration: 3.0
+        cooldown: 8.0
+    enchants:
+      lure: 1.0
+    pve-damage: 5.0
+    fire-damage-reduction: 5.0
+    projectile-damage-reduction: 5.0
+    tier: LEGENDARY
+    gem-sockets:
+    - GREEN
+    - GREEN
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+TUYET:
+  base:
+    material: OXEYE_DAISY
+    name: '&fTrượng Tuyết'
+    lore:
+    - '&7ALISABETH ELSA'
+    fall-damage-reduction: 4.0
+    magic-damage-reduction: 2.0
+    tier: RARE
+    gem-sockets:
+    - GREEN
+    ability:
+      ability1:
+        type: SNOWMAN_TURRET
+        mode: RIGHT_CLICK
+        cooldown: 15.0
+        damage: 3.0
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    skill-damage: 200.0
+CUNGDIEN:
+  base:
+    material: BLUE_ORCHID
+    name: '&3Dùi Điện'
+    lore:
+    - '&7Vũ khí tầm xa :)??'
+    on-left-click: STAFF_MANA
+    attack-damage: 4.4
+    attack-speed: 0.6
+    skill-critical-strike-chance: 5.0
+    tier: RARE
+    gem-sockets:
+    - GREEN
+    ability:
+      ability1:
+        type: SHOCK
+        mode: ATTACK
+        cooldown: 1.0
+        duration: 2.0
+GG:
+  base:
+    material: LIGHTNING_ROD
+    enchants:
+      lure: 1.0
+    name: '&5Đũa Phép'
+    lore:
+    - '&7Skibidi'
+    unbreakable: true
+    tier: EPIC
+    magic-damage-reduction: 5.0
+    fire-damage-reduction: 5.0
+    pve-damage: 5.0
+    gem-sockets:
+    - GREEN
+    - GREEN
+    ability:
+      ability1:
+        type: ARCANE_HAIL
+        mode: RIGHT_CLICK
+        cooldown: 8.0
+    disable-interaction: true

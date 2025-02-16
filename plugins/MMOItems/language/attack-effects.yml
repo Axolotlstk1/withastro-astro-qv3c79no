@@ -1,0 +1,6 @@
+lute-attack:
+  wave: Wave
+  circular: Circular
+  simple: Simple
+  brute: Brute
+  slash: Slash

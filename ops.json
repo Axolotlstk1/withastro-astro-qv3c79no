@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "b1616f7d-20ba-3499-aea3-59ab27d4941c",
+    "name": "axolotlstk",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b4ba338b-12d6-3b50-b853-26029a096997",
+    "name": "axololstk",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "83d13815-7be9-34e5-8506-8e318b6cac81",
+    "name": "STAFF",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

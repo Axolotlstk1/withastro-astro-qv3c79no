@@ -1,0 +1,32 @@
+limit: 5
+active: 1
+health: 23.0
+mana: 163.0
+accounts: 
+  acc1: 
+    classes: 
+      Water: 
+        level: 3
+        points: 1
+        exp: 22.0
+    skills: 
+      'Water wave': 
+        level: 1
+      'Water gushing': 
+        level: 0
+      Health: 
+        level: 1
+      'Water spin': 
+        level: 0
+    binds: {}
+    bar: 
+      enabled: 'true'
+      slots: 
+      - 1
+      - 2
+      - 3
+      - 4
+      Health: 1
+      'Water wave': 2
+    hunger: 1.0
+    persistent: {}

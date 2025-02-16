@@ -1,0 +1,35 @@
+Magma: 
+  name: 'Magma'
+  'action-bar': ''
+  prefix: '&6Magma'
+  group: 'class'
+  mana: '&2Mana'
+  'max-level': 60
+  parent: ''
+  'needs-permission': 'true'
+  attributes: 
+    'health-base': '21'
+    'health-scale': '1'
+    'mana-base': '161'
+    'mana-scale': '1'
+    'vitality-base': '0'
+    'vitality-scale': '0'
+    'spirit-base': '0'
+    'spirit-scale': '0'
+    'intelligence-base': '0'
+    'intelligence-scale': '0'
+    'dexterity-base': '0'
+    'dexterity-scale': '0'
+    'strength-base': '5'
+    'strength-scale': 'NaN'
+  'mana-regen': 1.0
+  'skill-tree': 'BASIC_HORIZONTAL'
+  blacklist: []
+  skills: []
+  icon: 'ACACIA_BOAT'
+  'icon-data': 2
+  'icon-durability': 0
+  'icon-lore': 
+  - '&dClass 3'
+  'exp-source': 273
+  'combo-starters': {}

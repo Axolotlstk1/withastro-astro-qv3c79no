@@ -1,0 +1,18 @@
+limit: 5
+active: 1
+health: 27.0
+mana: 161.0
+accounts: 
+  acc1: 
+    classes: {}
+    skills: {}
+    binds: {}
+    bar: 
+      enabled: 'true'
+      slots: 
+      - 1
+      - 2
+      - 3
+      - 4
+    hunger: 1.0
+    persistent: {}

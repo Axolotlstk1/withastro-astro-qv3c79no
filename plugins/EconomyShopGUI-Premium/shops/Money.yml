@@ -1,0 +1,18 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - ''
+        - '&7Một &6miax &b&lCoin &7có thể đổi được 15 &6$miax'
+        material: PRISMARINE_CRYSTALS
+        buy: 100.0
+        sell: -1.0
+        displayname: §6miax §b§lCOIN
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Một
+          "},{"italic":false,"color":"gold","text":"miax "},{"bold":true,"italic":false,"color":"aqua","text":"Coin
+          "},{"bold":false,"italic":false,"color":"gray","text":"có thể đổi được 15
+          "},{"italic":false,"color":"gold","text":"$miax"}],"text":""}''],Name:''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"miax
+          "},{"bold":true,"italic":false,"color":"aqua","text":"COIN"}],"text":""}''}}'

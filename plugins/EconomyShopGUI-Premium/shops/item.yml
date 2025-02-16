@@ -1,0 +1,72 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - ''
+        - '&7Nhấn &8&lChuột Phải &7để kích hoạt'
+        - '&2Sẽ giúp bạn nhật được max level của hệ mà bạn đang dùng ngay lập tức'
+        material: END_CRYSTAL
+        buy: 500.0
+        sell: -1.0
+        displayname: §e§lMAX LEVEL
+        enchantments:
+        - unbreaking:1
+        NBTData: '{HideFlags:1,display:{Lore:[''{"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Nhấn
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"Chuột Phải "},{"bold":false,"italic":false,"color":"gray","text":"để
+          kích hoạt"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"dark_green","text":"Sẽ
+          giúp bạn nhật được max level của hệ mà bạn đang dùng ngay lập tức"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"MAX
+          LEVEL"}],"text":""}''}}'
+      '2':
+        displaylore:
+        - '&8&m                                      '
+        - ' &7Click me to open this &dBackPack'
+        - '&8&m                                      '
+        material: PLAYER_HEAD
+        skull-texture: e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM1MWU1MDU5ODk4MzhlMjcyODdlN2FmYmM3Zjk3ZTc5NmNhYjVmMzU5OGE3NjE2MGMxMzFjOTQwZDBjNSJ9fX0=
+        buy: 250.0
+        sell: -1.0
+        displayname: §a§lBalo Thường
+        enchantments:
+        - unbreaking:1
+        NBTData: |-
+          {Damage:3,HideFlags:63,PublicBukkitValues:{"backpacksplus:content":"rO0ABXcEAAAAEnBwcHBwcHBwcHBwcHBwcHBwcA==
+          ","backpacksplus:name":"Basic","backpacksplus:uuid":"2028d7dc-10fe-46ac-9c28-e2a02bc1940f"},display:{Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"                                      "}],"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click me to open this "},{"italic":false,"color":"light_purple","text":"BackPack"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"                                      "}],"text":""}'],Name:'{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"Balo Thường"}],"text":""}'}}
+      '3':
+        displaylore:
+        - '&8&m                                      '
+        - ' &7Click me to open this &dBackPack'
+        - '&8&m                                      '
+        material: PLAYER_HEAD
+        skull-texture: e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNjMTUzYzM5MWMzNGUyZDMyOGE2MDgzOWU2ODNhOWY4MmFkMzA0ODI5OWQ4YmM2YTM5ZTZmOTE1Y2M1YSJ9fX0=
+        buy: 500.0
+        sell: -1.0
+        displayname: §c§lBalo Lớn
+        enchantments:
+        - unbreaking:1
+        NBTData: |-
+          {Damage:3,HideFlags:63,PublicBukkitValues:{"backpacksplus:content":"rO0ABXcEAAAAG3BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcA==
+          ","backpacksplus:name":"Advanced","backpacksplus:uuid":"8f3935ca-c95f-443e-86a3-0e903c755d83"},display:{Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"                                      "}],"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click me to open this "},{"italic":false,"color":"light_purple","text":"BackPack"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"                                      "}],"text":""}'],Name:'{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Balo Lớn"}],"text":""}'}}
+      '4':
+        displaylore:
+        - '&8&m                                      '
+        - ' &7Click me to open this &dBackPack'
+        - '&8&m                                      '
+        material: PLAYER_HEAD
+        skull-texture: e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3MGZhYjMyNDZmZTAyN2NlMGJiYTg4NWE3M2M2ZTgyZDhmZjhmMzU4MjMxZTg0NjFmOTU2NTYwY2ZhNThmIn19fQ==
+        buy: 850.0
+        sell: -1.0
+        displayname: §b§lSiêu Balo
+        enchantments:
+        - unbreaking:1
+        NBTData: |-
+          {Damage:3,HideFlags:63,PublicBukkitValues:{"backpacksplus:content":"rO0ABXcEAAAANnBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBw
+          cHBwcHBwcA==
+          ","backpacksplus:name":"Mega","backpacksplus:uuid":"062f1352-23e0-472d-b673-fccfeee55a46"},display:{Lore:['{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"                                      "}],"text":""}','{"extra":[{"text":" "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"Click me to open this "},{"italic":false,"color":"light_purple","text":"BackPack"}],"text":""}','{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":true,"obfuscated":false,"color":"dark_gray","text":"                                      "}],"text":""}'],Name:'{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Siêu Balo"}],"text":""}'}}
+      '5':
+        material: SCUTE
+        buy: 500.0
+        sell: -1.0
+        displayname: §e§lVật Siêu Chế Tạo
+        NBTData: '{display:{Name:''{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Vật
+          Siêu Chế Tạo"}],"text":""}''}}'

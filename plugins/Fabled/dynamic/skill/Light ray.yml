@@ -1,0 +1,157 @@
+'Light ray': 
+  name: 'Light ray'
+  type: 'Active'
+  'max-level': 5
+  'skill-req-lvl': 1
+  'needs-permission': 'false'
+  'cooldown-message': 'true'
+  attributes: 
+    'level-base': '1'
+    'level-scale': '0'
+    'cost-base': '1'
+    'cost-scale': '1'
+    'cooldown-base': '5'
+    'cooldown-scale': '0'
+    'mana-base': '4'
+    'mana-scale': '0'
+    'points-spent-req-base': '0'
+    'points-spent-req-scale': '0'
+    incompatible: 
+    - ''
+  msg: '&6{player} &2Đã dùng &6{skill}'
+  icon: 'GOLDEN_CARROT'
+  'icon-data': 0
+  'icon-durability': 0
+  'icon-lore': 
+  - '&d{name} &7(&a+{level}&7)'
+  - '&2Type: &6{type}'
+  - ''
+  - '{req:level}Level: {attr:level}'
+  - '{req:cost}Cost: {attr:cost}'
+  - ''
+  - '&2Mana: {attr:mana}'
+  - '&2Cooldown: {attr:cooldown}'
+  desc: []
+  components: 
+    'Cast-0': 
+      type: 'trigger'
+      data: {}
+      preview: 
+        enabled: 'false'
+      children: 
+        'Particle Projectile': 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            pierce: 'false'
+            group: 'Enemy'
+            steps: '3'
+            'collision-radius-base': '1.5'
+            'collision-radius-scale': '0'
+            'gravity-base': '0'
+            'gravity-scale': '0'
+            'drag-base': '0.02'
+            'drag-scale': '0'
+            period: '2'
+            homing: 'false'
+            'velocity-base': '3'
+            'velocity-scale': '0'
+            'lifespan-base': '8'
+            'lifespan-scale': '0'
+            'distance-base': '70'
+            'distance-scale': '0'
+            'on-expire': 'false'
+            spread: 'Cone'
+            'amount-base': '3'
+            'amount-scale': '1'
+            'angle-base': '15'
+            'angle-scale': '3'
+            'forward-base': '0'
+            'forward-scale': '0'
+            'upward-base': '0'
+            'upward-scale': '0'
+            'right-base': '0'
+            'right-scale': '0'
+            particle: 'Item crack'
+            material: 'Gold block'
+            arrangement: 'Sphere'
+            'radius-base': '0'
+            'radius-scale': '0'
+            'particles-base': '3'
+            'particles-scale': '0'
+            'visible-radius': '25'
+            dx: '0'
+            dy: '0'
+            dz: '0'
+            amount: '1'
+            speed: '0.01'
+            'use-effect': 'false'
+          preview: 
+            enabled: 'false'
+            period: '5'
+            'per-target': 'false'
+            path: 'false'
+          children: 
+            Area: 
+              type: 'target'
+              data: 
+                'icon-key': ''
+                'radius-base': '1'
+                'radius-scale': '0'
+                group: 'Enemy'
+                wall: 'false'
+                invulnerable: 'false'
+                caster: 'False'
+                'max-base': '99'
+                'max-scale': '0'
+                random: 'false'
+              preview: 
+                enabled: 'false'
+                'per-target': 'false'
+                circle: 'false'
+                sphere: 'false'
+              children: 
+                Potion: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    potion: 'Glowing'
+                    ambient: 'true'
+                    'tier-base': '1'
+                    'tier-scale': '0'
+                    'seconds-base': '5'
+                    'seconds-scale': '0'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+                Damage: 
+                  type: 'mechanic'
+                  data: 
+                    'icon-key': ''
+                    counts: 'true'
+                    type: 'Damage'
+                    'value-base': '3'
+                    'value-scale': '0.2'
+                    true: 'false'
+                    classifier: 'default'
+                    knockback: 'true'
+                    'ignore-divinity': 'false'
+                    cause: 'Custom'
+                  preview: 
+                    enabled: 'false'
+                  children: {}
+        Sound: 
+          type: 'mechanic'
+          data: 
+            'icon-key': ''
+            counts: 'true'
+            sound: 'Entity firework rocket launch'
+            'volume-base': '100'
+            'volume-scale': '0'
+            'pitch-base': '1'
+            'pitch-scale': '0'
+          preview: 
+            enabled: 'false'
+          children: {}

@@ -1,0 +1,281 @@
+Kits:
+  NEWBIE:
+    slot: 1
+    display_item: COAL
+    display_name: '&6&lNEWBIE &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&6&lNEWBIE &aKit'
+      display_lore:
+      - '&cYou don''t have permissions to claim'
+      - '&cthis kit.'
+    first_join: true
+    one_time: true
+    one_time_buy: false
+    auto_armor: true
+    Items:
+      '1':
+        attributes:
+          GENERIC_ATTACK_SPEED:
+            modifiers:
+            - mmoitems:decoy;0.0;ADD_NUMBER;5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+        nbt:
+        - MMOITEMS_ATTACK_DAMAGE;6.0;double
+        - MMOITEMS_ITEM_ID;LONG_SWORD
+        - MMOITEMS_ATTACK_SPEED;1.2;double
+        - MMOITEMS_NAME;&7Kiếm Tân Thủ
+        - MMOITEMS_PVE_DAMAGE;25.0;double
+        - MMOITEMS_UNSTACKABLE_UUID;f0886ff9-e31a-49e1-96cd-bf4ac751b337
+        - MMOITEMS_ENCHANTS;[]
+        - MMOITEMS_DISABLE_ENCHANTING;true;boolean
+        - HSTRY_NAME;{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&7Kiếm Tân Thủ"}]}
+        - MMOITEMS_REQUIRED_LEVEL;0;int
+        - MMOITEMS_UNSTACKABLE;true;boolean
+        - MMOITEMS_ITEM_TYPE;SWORD
+        - Unbreakable;true;boolean
+        - 'MMOITEMS_DYNAMIC_LORE;["§f§cSword","§f","§f§eRequires Lvl 0","§f","§f§3
+          §7➸ Attack Damage: §f6","§f§3 §7➸ Attack Speed: §f1.2","§f§3 §7■ PvE Damage:
+          §f+25%","§f","§f§3 §7Tier: §7§lCOMMON"]'
+        - MMOITEMS_TIER;COMMON
+        id: IRON_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&7Kiếm Tân Thủ'
+        lore:
+        - '&cSword'
+        - '&f'
+        - '&eRequires Lvl 0'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f6'
+        - '&3 &7➸ Attack Speed: &f1.2'
+        - '&3 &7■ PvE Damage: &f+25%'
+        - '&f'
+        - '&3 &7Tier: &7&lCOMMON'
+        hide-flags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 0
+      '2':
+        attributes:
+          GENERIC_ATTACK_SPEED:
+            modifiers:
+            - mmoitems:decoy;0.0;ADD_NUMBER;5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+        nbt:
+        - MMOITEMS_ATTACK_DAMAGE;7.196956628987911;double
+        - MMOITEMS_ITEM_ID;COMPOSITE_BOW
+        - MMOITEMS_NAME;&7Cung Tân Thủ
+        - MMOITEMS_ARROW_VELOCITY;1.0;double
+        - MMOITEMS_ENCHANTS;[]
+        - HSTRY_NAME;{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&7Cung Tân Thủ"}]}
+        - MMOITEMS_REQUIRED_LEVEL;0;int
+        - MMOITEMS_ITEM_TYPE;BOW
+        - Unbreakable;true;boolean
+        - 'MMOITEMS_DYNAMIC_LORE;["§f§cBow","§f","§f§eRequires Lvl 0","§f","§f§3 §7➸
+          Attack Damage: §f7.2","§f§3 §7■ Arrow Velocity: §f1","§f","§f§3 §7Tier:
+          §7§lCOMMON"]'
+        - MMOITEMS_TIER;COMMON
+        id: BOW
+        amount: '1'
+        durability: '0'
+        name: '&7Cung Tân Thủ'
+        lore:
+        - '&cBow'
+        - '&f'
+        - '&eRequires Lvl 0'
+        - '&f'
+        - '&3 &7➸ Attack Damage: &f7.2'
+        - '&3 &7■ Arrow Velocity: &f1'
+        - '&f'
+        - '&3 &7Tier: &7&lCOMMON'
+        hide-flags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 1
+      '3':
+        id: ARROW
+        amount: '64'
+        durability: '0'
+        preview_slot: 2
+      '4':
+        id: COOKED_BEEF
+        amount: '64'
+        durability: '0'
+        preview_slot: 3
+      '5':
+        id: GOLDEN_APPLE
+        amount: '2'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        attributes:
+          GENERIC_ATTACK_SPEED:
+            modifiers:
+            - mmoitems:decoy;0.0;ADD_NUMBER;5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+        nbt:
+        - 'MMOITEMS_DYNAMIC_LORE;["§f§cArmor","§f","§f§3 §7✠ Armor: §f+2.5","§f","§f§a◆
+          Empty Green Gem Socket","§f","§f§7Slightly better than an iron helmet.","§f","§f§3
+          §7Tier: §7§lCOMMON"]'
+        - MMOITEMS_GEM_STONES;{"EmptySlots":["Green"],"Gemstones":[]}
+        - MMOITEMS_ITEM_ID;STEEL_HELMET
+        - MMOITEMS_NAME;&7Mũ Tân Thủ
+        - MMOITEMS_ARMOR;2.5;double
+        - MMOITEMS_ENCHANTS;[]
+        - HSTRY_NAME;{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&7Mũ Tân Thủ"}]}
+        - MMOITEMS_ITEM_TYPE;ARMOR
+        - Unbreakable;true;boolean
+        - MMOITEMS_LORE;["&7Slightly better than an iron helmet."]
+        - MMOITEMS_TIER;COMMON
+        id: IRON_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&7Mũ Tân Thủ'
+        lore:
+        - '&cArmor'
+        - '&f'
+        - '&3 &7✠ Armor: &f+2.5'
+        - '&f'
+        - '&a◆ Empty Green Gem Socket'
+        - '&f'
+        - '&7Slightly better than an iron helmet.'
+        - '&f'
+        - '&3 &7Tier: &7&lCOMMON'
+        hide-flags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 5
+      '7':
+        attributes:
+          GENERIC_ATTACK_SPEED:
+            modifiers:
+            - mmoitems:decoy;0.0;ADD_NUMBER;5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+        nbt:
+        - 'MMOITEMS_DYNAMIC_LORE;["§f§cArmor","§f","§f§3 §7✠ Armor: §f+6.5","§f","§f§a◆
+          Empty Green Gem Socket","§f","§f§7Slightly better than an iron chestplate.","§f","§f§3
+          §7Tier: §7§lCOMMON"]'
+        - MMOITEMS_GEM_STONES;{"EmptySlots":["Green"],"Gemstones":[]}
+        - MMOITEMS_ITEM_ID;STEEL_CHESTPLATE
+        - MMOITEMS_NAME;&7Áo Tân Thủ
+        - MMOITEMS_ARMOR;6.5;double
+        - MMOITEMS_ENCHANTS;[]
+        - HSTRY_NAME;{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&7Áo Tân Thủ"}]}
+        - MMOITEMS_ITEM_TYPE;ARMOR
+        - Unbreakable;true;boolean
+        - MMOITEMS_LORE;["&7Slightly better than an iron chestplate."]
+        - MMOITEMS_TIER;COMMON
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&7Áo Tân Thủ'
+        lore:
+        - '&cArmor'
+        - '&f'
+        - '&3 &7✠ Armor: &f+6.5'
+        - '&f'
+        - '&a◆ Empty Green Gem Socket'
+        - '&f'
+        - '&7Slightly better than an iron chestplate.'
+        - '&f'
+        - '&3 &7Tier: &7&lCOMMON'
+        hide-flags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 6
+      '8':
+        attributes:
+          GENERIC_ATTACK_SPEED:
+            modifiers:
+            - mmoitems:decoy;0.0;ADD_NUMBER;5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+        nbt:
+        - 'MMOITEMS_DYNAMIC_LORE;["§f§cArmor","§f","§f§3 §7✠ Armor: §f+5.5","§f","§f§a◆
+          Empty Green Gem Socket","§f","§f§7Slightly better than iron leggings.","§f","§f§3
+          §7Tier: §7§lCOMMON"]'
+        - MMOITEMS_GEM_STONES;{"EmptySlots":["Green"],"Gemstones":[]}
+        - MMOITEMS_ITEM_ID;STEEL_LEGGINGS
+        - MMOITEMS_NAME;&7Quân Tân Thủ
+        - MMOITEMS_ARMOR;5.5;double
+        - MMOITEMS_ENCHANTS;[]
+        - HSTRY_NAME;{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&7Quân Tân Thủ"}]}
+        - MMOITEMS_ITEM_TYPE;ARMOR
+        - Unbreakable;true;boolean
+        - MMOITEMS_LORE;["&7Slightly better than iron leggings."]
+        - MMOITEMS_TIER;COMMON
+        id: IRON_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&7Quân Tân Thủ'
+        lore:
+        - '&cArmor'
+        - '&f'
+        - '&3 &7✠ Armor: &f+5.5'
+        - '&f'
+        - '&a◆ Empty Green Gem Socket'
+        - '&f'
+        - '&7Slightly better than iron leggings.'
+        - '&f'
+        - '&3 &7Tier: &7&lCOMMON'
+        hide-flags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 7
+      '9':
+        attributes:
+          GENERIC_ATTACK_SPEED:
+            modifiers:
+            - mmoitems:decoy;0.0;ADD_NUMBER;5c0c3fc8-796d-3bd0-8b79-245f4b1cdd53
+        nbt:
+        - 'MMOITEMS_DYNAMIC_LORE;["§f§cArmor","§f","§f§3 §7✠ Armor: §f+2.5","§f","§f§a◆
+          Empty Green Gem Socket","§f","§f§7Slightly better than iron boots.","§f","§f§3
+          §7Tier: §7§lCOMMON"]'
+        - MMOITEMS_GEM_STONES;{"EmptySlots":["Green"],"Gemstones":[]}
+        - MMOITEMS_ITEM_ID;STEEL_BOOTS
+        - MMOITEMS_NAME;&7Giày Tân Thủ
+        - MMOITEMS_ARMOR;2.5;double
+        - MMOITEMS_ENCHANTS;[]
+        - HSTRY_NAME;{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&7Giày Tân Thủ"}]}
+        - MMOITEMS_ITEM_TYPE;ARMOR
+        - Unbreakable;true;boolean
+        - MMOITEMS_LORE;["&7Slightly better than iron boots."]
+        - MMOITEMS_TIER;COMMON
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&7Giày Tân Thủ'
+        lore:
+        - '&cArmor'
+        - '&f'
+        - '&3 &7✠ Armor: &f+2.5'
+        - '&f'
+        - '&a◆ Empty Green Gem Socket'
+        - '&f'
+        - '&7Slightly better than iron boots.'
+        - '&f'
+        - '&3 &7Tier: &7&lCOMMON'
+        hide-flags:
+        - HIDE_ATTRIBUTES
+        - HIDE_UNBREAKABLE
+        unbreakable: 'true'
+        preview_slot: 8
+      '10':
+        nbt:
+        - AC.Crate;ele
+        - AMC.Reward;KeyCrate
+        - AMC.FullReward;KeyCrate
+        id: CONDUIT
+        amount: '1'
+        durability: '0'
+        name: '&e&lKey &6&lHệ'
+        enchants:
+        - THORNS;1
+        hide-flags:
+        - HIDE_ENCHANTS
+        unbreakable: 'false'
+        preview_slot: 9

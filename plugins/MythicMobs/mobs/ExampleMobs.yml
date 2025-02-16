@@ -1,0 +1,176 @@
+SkeK:
+  Type: WITHER_SKELETON
+  Display: '&8Hiệp Sĩ Xương &f[&c<caster.hp>&f]'
+  Health: 45
+  Damage: 8
+  Equipment:
+  - IRON_HELMET HEAD
+  - IRON_CHESTPLATE CHEST
+  - IRON_LEGGINGS LEGS
+  - IRON_BOOTS FEET
+  - IRON_SWORD HAND
+  - SHIELD OFFHAND
+  Drops:
+  - money 4
+  - SkekDrops
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+SkeletonKing:
+  Type: WITHER_SKELETON
+  Display: '&3Vua Xương &f[&c<caster.hp>&f]'
+  Health: 700
+  Damage: 13
+  Skills:
+  - skill{s=SummonSkeletons} @self 0.1
+  - skill{s=SmashAttack} @target 0.4
+  Equipment:
+  - KingsCrown HEAD
+  - SkeletonKingSword HAND
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 15
+    PreventOtherDrops: true
+    Despawn: true
+    FollowRange: 40
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+Ske:
+  Type: SKELETON
+  Display: '&8Xương Khô &f[&c<caster.hp>&f]'
+  Health: 20
+  Damage: 3
+  Drops:
+  - money 2
+  Options:
+    MovementSpeed: 0.1
+    PreventOtherDrops: true
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+Zom:
+  Type: ZOMBIE
+  Display: '&8Xác Sống &f[&c<caster.hp>&f]'
+  Health: 20
+  Damage: 5
+  Drops:
+  - money 2
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+Cre:
+  Type: CREEPER
+  Display: '&8Quái Nổ &f[&c<caster.hp>&f]'
+  Health: 20
+  Drops:
+  - money 3
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+Spi:
+  Type: SPIDER
+  Display: '&8Nhện &f[&c<caster.hp>&f]'
+  Health: 18
+  Damage: 3
+  Drops:
+  - money 2
+  Options:
+    MovementSpeed: 0.5
+    PreventOtherDrops: true
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+DUMMY:
+  Type: HUSK
+  Display: '&fDUMMY &f[&c<caster.hp>&f]'
+  Health: 35
+  Options:
+    MovementSpeed: 0.1
+    PreventOtherDrops: true
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+Skem:
+  Type: SKELETON
+  Display: '&8Xương Nhỏ &f[&c<caster.hp>&f]'
+  Health: 10
+  Damage: 4
+  Options:
+    MovementSpeed: 0.1
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+K1Q1:
+  Type: PIG
+  Display: '&f[&d1&f] &f[&c<caster.hp>&f] &eLợn Điên'
+  Health: 20
+  Damage: 2
+  Drops:
+  - money 1
+  - manh 0.1
+  Options:
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    FollowRange: 15
+    MaxCombatDistance: 20
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - movetowardstarget
+  - lookatplayers
+  - randomlookaround
+  AITargetSelectors:
+  - clear
+  - players
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+K1Q2:
+  Type: ZOMBIE
+  Display: '&f[&d2&f] &f[&c<caster.hp>&f] &eXác Sống'
+  Health: 21
+  Damage: 13
+  Drops:
+  - money 1
+  - manh 0.2
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    FollowRange: 15
+    MaxCombatDistance: 5
+    PreventSunburn: true
+  Skills:
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+K1Q3:
+  Type: SHEEP
+  Display: '&f[&d3&f] &f[&c<caster.hp>&f] &eCừu Điện'
+  Health: 22
+  Damage: 5
+  Drops:
+  - money 1
+  - manh 0.3
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    FollowRange: 15
+    MaxCombatDistance: 20
+  AIGoalSelectors:
+  - clear
+  - meleeattack
+  - movetowardstarget
+  - lookatplayers
+  - randomlookaround
+  AITargetSelectors:
+  - clear
+  - players
+  Skills:
+  - lightning{d=4} @Target ~onAttack
+  - setname{n=<caster.name>;delay=2} @self ~onDamaged
+

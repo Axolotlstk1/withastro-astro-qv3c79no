@@ -1,0 +1,12 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: REDSTONE_TORCH
+        buy: 4000.0
+        sell: -1.0
+        displayname: §6§lKey Hệ
+        enchantments:
+        - luck_of_the_sea:1
+        NBTData: '{display:{Name:''{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Key
+          Hệ"}],"text":""}''}}'

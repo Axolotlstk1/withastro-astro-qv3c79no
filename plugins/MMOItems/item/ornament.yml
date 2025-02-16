@@ -1,0 +1,37 @@
+BOOK_OF_STRENGTH:
+  base:
+    material: BOOK
+    name: §cBook of Strength
+    lore:
+    - §7Will give you stats even when
+    - §7in §9inventory§7!
+    tier: RARE
+    projectile-damage: 15.0
+    physical-damage: 10.0
+    magic-damage: 10.0
+    weapon-damage: 10.0
+    damage-reduction: 5.0
+    required-class:
+    - Warrior
+    required-level: 15.0
+TIME:
+  base:
+    material: COMPASS
+    name: '&3Đồng hồ của thời gian'
+    lore:
+    - '&7Cái này có thể cho ta về quá khứ không?'
+    critical-strike-chance: 1.0
+    block-power: 2.0
+    dodge-rating: 2.0
+    magic-damage-reduction: 2.0
+    undead-damage: 2.0
+    tier: EPIC
+    gem-sockets:
+    - GREEN
+    unbreakable: true
+    ability:
+      ability1:
+        type: SLOW
+        mode: DAMAGED_BY_ENTITY
+        amplifier: 3.0
+        cooldown: 10.0

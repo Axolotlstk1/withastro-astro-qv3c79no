@@ -1,0 +1,15 @@
+acmd0:
+  active: true
+  TaskParameters:
+    name: myNewAcmd
+    cycle: 2000
+    delay: 0
+    repetition: -1
+    running: true
+    commands:
+    - kill @e[type=minecraft:armor_stand]
+    message: ''
+  DailySchedulerParameters:
+    time: ''
+  TriggerParameters:
+    trigger: onServerEnable

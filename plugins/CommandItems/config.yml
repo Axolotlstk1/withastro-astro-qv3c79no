@@ -1,0 +1,409 @@
+items:
+  fire:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &4&l Lửa"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed    
+      byconsole:
+        - "lp user %player% permission set fabled.class.fire"
+  water:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &1&l Nước"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed      
+      byconsole:
+        - "lp user %player% permission set fabled.class.water"
+  wind:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &7&l Gió"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed       
+      byconsole:
+        - "lp user %player% permission set fabled.class.wind"
+  earth:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &2&l Đất"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed      
+      byconsole:
+        - "lp user %player% permission set fabled.class.earth"
+  thunder:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &6&l Điện"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed     
+      byconsole:
+        - "lp user %player% permission set fabled.class.thunder"
+  ice:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &b&l Băng"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed      
+      byconsole:
+        - "lp user %player% permission set fabled.class.ice"
+  steel:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &9&l Thép"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:      
+      byconsole:
+        - "lp user %player% permission set fabled.class.steel"
+  grass:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &a&l Cỏ"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed      
+      byconsole:
+        - "lp user %player% permission set fabled.class.grass"
+  poison:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &5&l Độc"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed      
+      byconsole:
+        - "lp user %player% permission set fabled.class.poison"
+  dark:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &0&l Bóng tối"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed       
+      byconsole:
+        - "lp user %player% permission set fabled.class.dark"
+  light:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &e&l Ánh sáng"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed      
+      byconsole:
+        - "lp user %player% permission set fabled.class.light"
+  psychic:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &d&l Tâm linh"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed      
+      byconsole:
+        - "lp user %player% permission set fabled.class.psychic"
+  smoke:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &f&l Khói"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed    
+      byconsole:
+        - "lp user %player% permission set fabled.class.smoke"
+  sand:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: BOOK
+      name: "&6Quyển Trục Hệ &e&l Cát"
+      lore: 
+        - ""
+        - "&7Nhấn &7&lChuột Phải &7để học"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed    
+      byconsole:
+        - "lp user %player% permission set fabled.class.sand"
+  coin:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: PRISMARINE_CRYSTALS
+      name: "&6miax &b&lCOIN"
+      lore: 
+        - ""
+        - "&7Một &6miax &b&lCoin &7có thể đổi được 15 &6$miax"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed    
+      byconsole:
+        - "eco give %player% 15"
+  ele:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: END_CRYSTAL
+      name: "&e&lMAX LEVEL"
+      lore: 
+        - ""
+        - "&7Nhấn &8&lChuột Phải &7để kích hoạt"
+        - "&2Sẽ giúp bạn nhật được max level của hệ mà bạn đang dùng ngay lập tức"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed    
+      byconsole:
+        - "class exp %player% 1000"
+  coinvip:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: NETHER_STAR
+      name: "&6miax &b&lCOIN&e&lVIP"
+      lore: 
+        - ""
+        - "&7Một &6miax &b&lCoin&e&lVIP &7có thể đổi được 100 &6$miax"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed    
+      byconsole:
+        - "eco give %player% 100"

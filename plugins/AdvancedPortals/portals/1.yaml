@@ -1,0 +1,19 @@
+args:
+  name:
+  - '1'
+  cooldown:
+  - '3'
+  destination:
+  - test
+  triggerblock:
+  - WATER
+maxLoc:
+  posX: 1
+  posY: 147
+  posZ: -22
+  worldName: world
+minLoc:
+  posX: -1
+  posY: 138
+  posZ: -22
+  worldName: world

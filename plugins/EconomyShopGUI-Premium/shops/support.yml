@@ -1,0 +1,97 @@
+pages:
+  page1:
+    items:
+      '1':
+        displaylore:
+        - '&cCatalyst (Offhand)'
+        - '&f'
+        - '&3 &7■ Crit Strike Chance: &f+2%'
+        - '&3 &7■ Magic Damage Reduction: &f+1%'
+        - '&3 &7■ Block Power: &f+2%'
+        - '&3 &7■ Dodge Rating: &f+2%'
+        - '&f'
+        - '&8| &7Damaged By Entity &8|&e|&8| &7&lSlow'
+        - '&f &8&l|&7 &7Duration&8: &f3 &8&l|&7 &7Cooldown&8: &f7 &8&l|&7 &7Amplifier&8:
+          &f3'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Cái này có thể cho ta về quá khứ không?'
+        - '&f'
+        - '&3 &7Tier: &e&lEPIC'
+        material: CLOCK
+        buy: 550.0
+        sell: -1.0
+        displayname: §eĐồng Hồ Của Thời Gian
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&eĐồng
+          Hồ Của Thời Gian"}]}'',HideFlags:6,MMOITEMS_ABILITY:''[{"Id":"SLOW","CastMode":"DAMAGED_BY_ENTITY","Modifiers":{"duration":3.0,"cooldown":7.0,"amplifier":3.0}}]'',MMOITEMS_BLOCK_POWER:2.0d,MMOITEMS_CRITICAL_STRIKE_CHANCE:2.0d,MMOITEMS_DODGE_RATING:2.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cCatalyst
+          (Offhand)","§f","§f§3 §7■ Crit Strike Chance: §f+2%","§f§3 §7■ Magic Damage
+          Reduction: §f+1%","§f§3 §7■ Block Power: §f+2%","§f§3 §7■ Dodge Rating:
+          §f+2%","§f","§f§8| §7Damaged By Entity §8|§e|§8| §7§lSlow","§f §8§l|§7 §7Duration§8:
+          §f3 §8§l|§7 §7Cooldown§8: §f7 §8§l|§7 §7Amplifier§8: §f3","§f","§f§a◆ Empty
+          GREEN Gem Socket","§f§a◆ Empty GREEN Gem Socket","§f","§f§7Cái này có thể
+          cho ta về quá khứ không?","§f","§f§3 §7Tier: §e§lEPIC"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN","GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"CLOCK",MMOITEMS_ITEM_TYPE:"OFF_CATALYST",MMOITEMS_LORE:''["&7Cái
+          này có thể cho ta về quá khứ không?"]'',MMOITEMS_MAGIC_DAMAGE_REDUCTION:1.0d,MMOITEMS_NAME:"&eĐồng
+          Hồ Của Thời Gian",MMOITEMS_TIER:"EPIC",Unbreakable:1b,display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Catalyst
+          (Offhand)"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Crit Strike Chance: "},{"italic":false,"color":"white","text":"+2%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Magic Damage Reduction: "},{"italic":false,"color":"white","text":"+1%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Block Power: "},{"italic":false,"color":"white","text":"+2%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Dodge Rating: "},{"italic":false,"color":"white","text":"+2%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Damaged By Entity "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Slow"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Duration"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"3 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"7 "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Amplifier"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"3"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Cái
+          này có thể cho ta về quá khứ không?"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"yellow","text":"EPIC"}],"text":""}''],Name:''{"extra":[{"italic":false,"color":"yellow","text":"Đồng
+          Hồ Của Thời Gian"}],"text":""}''}}'
+      '2':
+        displaylore:
+        - '&cCatalyst (Offhand)'
+        - '&f'
+        - '&3 &7■ Magic Damage Reduction: &f+5%'
+        - '&3 &7■ Physical Damage Reduction: &f+3%'
+        - '&3 &7■ Dodge Rating: &f+4%'
+        - '&f'
+        - '&8| &7Damaged By Entity &8|&e|&8| &7&lHeal'
+        - '&f &8&l|&7 &7Cooldown&8: &f15'
+        - '&f'
+        - '&a◆ Empty GREEN Gem Socket'
+        - '&f'
+        - '&7Game này có hút máu ko?'
+        - '&f'
+        - '&3 &7Tier: &6&lRARE'
+        material: GOLD_NUGGET
+        buy: 450.0
+        sell: -1.0
+        displayname: §a§lThánh Vật
+        NBTData: '{AttributeModifiers:[{Amount:0.0d,AttributeName:"minecraft:generic.attack_speed",Name:"mmoitems:decoy",Operation:0,UUID:[I;1544306632,2037201872,-1954995105,1260182867]}],HSTRY_NAME:''{"Stat":"NAME","OGStory":[{"MMOITEMS_NAME_ñstr":"&a&lThánh
+          Vật"}]}'',HideFlags:2,MMOITEMS_ABILITY:''[{"Id":"HEAL","CastMode":"DAMAGED_BY_ENTITY","Modifiers":{"cooldown":15.0}}]'',MMOITEMS_DODGE_RATING:4.0d,MMOITEMS_DYNAMIC_LORE:''["§f§cCatalyst
+          (Offhand)","§f","§f§3 §7■ Magic Damage Reduction: §f+5%","§f§3 §7■ Physical
+          Damage Reduction: §f+3%","§f§3 §7■ Dodge Rating: §f+4%","§f","§f§8| §7Damaged
+          By Entity §8|§e|§8| §7§lHeal","§f §8§l|§7 §7Cooldown§8: §f15","§f","§f§a◆
+          Empty GREEN Gem Socket","§f","§f§7Game này có hút máu ko?","§f","§f§3 §7Tier:
+          §6§lRARE"]'',MMOITEMS_ENCHANTS:"[]",MMOITEMS_GEM_STONES:''{"EmptySlots":["GREEN"],"Gemstones":[]}'',MMOITEMS_ITEM_ID:"HUTMAU",MMOITEMS_ITEM_TYPE:"OFF_CATALYST",MMOITEMS_LORE:''["&7Game
+          này có hút máu ko?"]'',MMOITEMS_MAGIC_DAMAGE_REDUCTION:5.0d,MMOITEMS_NAME:"&a&lThánh
+          Vật",MMOITEMS_PHYSICAL_DAMAGE_REDUCTION:3.0d,MMOITEMS_TIER:"RARE",display:{Lore:[''{"extra":[{"italic":false,"color":"red","text":"Catalyst
+          (Offhand)"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Magic Damage Reduction: "},{"italic":false,"color":"white","text":"+5%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Physical Damage Reduction: "},{"italic":false,"color":"white","text":"+3%"}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"■ Dodge Rating: "},{"italic":false,"color":"white","text":"+4%"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_gray","text":"|
+          "},{"italic":false,"color":"gray","text":"Damaged By Entity "},{"italic":false,"color":"dark_gray","text":"|"},{"italic":false,"color":"yellow","text":"|"},{"italic":false,"color":"dark_gray","text":"|
+          "},{"bold":true,"italic":false,"color":"gray","text":"Heal"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"
+          "},{"bold":true,"italic":false,"color":"dark_gray","text":"|"},{"bold":false,"italic":false,"color":"gray","text":"
+          "},{"italic":false,"color":"gray","text":"Cooldown"},{"italic":false,"color":"dark_gray","text":":
+          "},{"italic":false,"color":"white","text":"15"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"green","text":"◆
+          Empty GREEN Gem Socket"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"gray","text":"Game
+          này có hút máu ko?"}],"text":""}'',''{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":""}],"text":""}'',''{"extra":[{"italic":false,"color":"dark_aqua","text":"
+          "},{"italic":false,"color":"gray","text":"Tier: "},{"bold":true,"italic":false,"color":"gold","text":"RARE"}],"text":""}''],Name:''{"extra":[{"bold":true,"italic":false,"color":"green","text":"Thánh
+          Vật"}],"text":""}''}}'

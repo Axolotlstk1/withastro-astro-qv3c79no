@@ -1,0 +1,139 @@
+ATTRIBUTES: 
+  rows: 1
+  pages: 1
+  slots: 
+    1: 
+      dexterity: 3
+      strength: 4
+      vitality: 0
+      spirit: 1
+      intelligence: 2
+stIce: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'ice age': 27
+      'ice throw': 18
+      health: 0
+      'ice spike': 9
+stWater: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'water wave': 9
+      health: 0
+      'water gushing': 18
+      'water spin': 27
+stWind: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'wind slash': 9
+      health: 0
+      'wind storm': 18
+      'wind suft': 27
+stPoison: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'poison throw': 9
+      'poison smoke': 18
+      health: 0
+      'poison master': 27
+stSand: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      health: 0
+      'sand wither': 9
+      'sand coffin': 18
+      'sand storm': 27
+stGrass: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'grass cling': 18
+      'grass pull': 27
+      health: 0
+      'grass storm': 9
+stLight: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'light ray': 9
+      'light rain': 27
+      health: 0
+      'light speed': 18
+stSteel: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'steel armor': 27
+      health: 0
+      'steel crack': 9
+      'steel punch': 18
+stSmoke: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'smoke push': 9
+      health: 0
+      'smoke kick': 18
+      'smoke chain': 27
+stThunder: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'thunder zone': 18
+      health: 0
+      'thunder lightning': 9
+      'thunder god': 27
+stEarth: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'earth thorn': 18
+      health: 0
+      earthquake: 9
+      'earth prison': 27
+stFire: 
+  rows: 1
+  pages: 4
+  slots: 
+    1: 
+      health: 0
+    2: 
+      'fire burn': 0
+    3: 
+      'fire storm': 0
+    4: 
+      'fire explosion': 0
+stDark: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'dark slash': 9
+      'dark hole': 18
+      health: 0
+      'dark void': 27
+stPsychic: 
+  rows: 4
+  pages: 1
+  slots: 
+    1: 
+      'psychic zone': 18
+      'psychic curse': 27
+      health: 0
+      'psychic chaos': 9

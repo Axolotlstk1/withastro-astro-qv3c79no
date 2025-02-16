@@ -1,0 +1,42 @@
+menu-settings:
+    name: '&9&lBàn Nâng Cấp'
+    rows: 3
+    commands:
+        - 'sword'
+    auto-fresh: 5
+    
+sword1:
+    MATERIAL: iron_sword
+    POSITION-X: 3
+    POSITION-Y: 2
+    NAME: '&#FF4400&lVũ Khí Cận Chiến &6&lRARE'
+    ACTIONS:
+      - 'class reset confirm'
+sword2:
+    MATERIAL: iron_sword
+    POSITION-X: 4
+    POSITION-Y: 2
+    NAME: '&#FF4400&lVũ Khí Cận Chiến &e&lEPIC'
+    ACTIONS:
+      - 'class reset confirm'
+sword3:
+    MATERIAL: iron_sword
+    POSITION-X: 5
+    POSITION-Y: 2
+    NAME: '&#FF4400&lVũ Khí Cận Chiến &b&lLEGENDARY'
+    ACTIONS:
+      - 'class reset confirm'
+sword4:
+    MATERIAL: iron_sword
+    POSITION-X: 6
+    POSITION-Y: 2
+    NAME: '&#FF4400&lVũ Khí Cận Chiến &4&lMYTHICAL'
+    ACTIONS:
+      - 'class reset confirm'
+sword5:
+    MATERIAL: iron_sword
+    POSITION-X: 7
+    POSITION-Y: 2
+    NAME: '&#FF4400&lVũ Khí Cận Chiến &5&lSECRET'
+    ACTIONS:
+      - 'class reset confirm'
